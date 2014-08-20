@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select cod_categoria as codCategoria, cod_sub_categoria as
+		codSubCategoria, nombre as nombre from
+		inventario.inv_sub_categoria where cod_categoria = ?;
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codigoCat" position="1" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codCategoria" title="Código Categoría"
+			select="codCategoria" script="no" />
+		<column id="codSubCategoria" title="Código Sub Categoría"
+			select="codSubCategoria" script="yes" />
+		<column id="nombreSubCategoria" title="Nombre" select="nombre"
+			script="yes" />
+	</columns>
+	<messages>Sub Categorías</messages>
+</lov>

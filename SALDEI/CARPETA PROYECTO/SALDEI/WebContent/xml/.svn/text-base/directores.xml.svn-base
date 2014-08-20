@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select distinct au.cod_responsable as codDirector, su.primer_nom
+		|| ' ' || su.primer_ape as nombreDirector from seguridad.usuario
+		su, activos.act_unidad au where au.cod_responsable =
+		su.id_usuario union select '%','Todos los Solicitantes';
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+
+		<column id="codDirector" title="Código Solicitante"
+			select="codDirector" script="yes" />
+		<column id="nombreDirector" title="Solicitante"
+			select="nombreDirector" script="yes" />
+
+	</columns>
+	<messages>Solicitantes</messages>
+</lov>

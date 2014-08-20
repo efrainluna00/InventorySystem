@@ -1,0 +1,55 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/.metadata
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+.plugins
+dir
+
+version.ini
+file
+
+
+
+
+2009-09-09T04:54:40.311866Z
+e77ad89cbe32c2d793ebbf2c743574f4
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+.lock
+file
+
+
+
+
+2009-09-09T04:54:40.316866Z
+d41d8cd98f00b204e9800998ecf8427e
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+

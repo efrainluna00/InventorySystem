@@ -1,0 +1,103 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-09-16T04:08:10.371623Z
+391
+boris.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+build
+dir
+
+.myhibernatedata
+file
+
+
+
+
+2009-09-10T04:16:37.439259Z
+bb6dd118aeaa0e4e301217d47f8b46b4
+2009-09-09T23:35:14.153700Z
+357
+dario.saldei
+
+.classpath
+file
+
+
+
+
+2009-09-09T04:54:41.236866Z
+9078d2489ed00ee4568c4e8aecfa2668
+2009-08-24T00:39:26.978170Z
+282
+dario.saldei
+
+.mystrutsdata
+file
+
+
+
+
+2009-09-09T04:54:41.244866Z
+cd503b72577b525708a0b9095334aff3
+2009-05-18T23:22:37.424214Z
+17
+dario.saldei
+
+.mymetadata
+file
+
+
+
+
+2009-09-10T07:38:28.496259Z
+842f3f75ac881b1271de6694e5b04639
+2009-08-24T00:39:26.978170Z
+282
+dario.saldei
+
+.project
+file
+
+
+
+
+2009-09-09T04:54:41.256866Z
+3dbaabbd94fb16c3bca6673f7b32ee21
+2009-05-18T23:22:37.424214Z
+17
+dario.saldei
+
+src
+dir
+
+WebContent
+dir
+
+.metadata
+dir
+
+.settings
+dir
+

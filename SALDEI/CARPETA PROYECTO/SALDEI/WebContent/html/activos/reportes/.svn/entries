@@ -1,0 +1,52 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/WebContent/html/activos/reportes
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-09-15T10:07:30.115737Z
+378
+dario.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+repSolicitudCompra.jsp
+file
+
+
+
+
+2009-09-15T10:25:19.854469Z
+6dfce486a9fdd507e59cc49e1e931391
+2009-09-15T10:07:30.115737Z
+378
+dario.saldei
+
+repHisAsig.jsp
+file
+
+
+
+
+2009-09-15T10:25:19.861469Z
+4c22a5df725b2fa3dcf4e2b169246b66
+2009-09-15T10:07:30.115737Z
+378
+dario.saldei
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select cod_tipo_mov as codTipoMov, descripcion , case when
+		operacion = 'S' then 'Aumento' else 'Disminucion' end as
+		operacionDesc, operacion from inventario.inv_tipo_mov as tm
+		where tm.cod_tipo_mov >= 6;
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codTipoMov" title="Código Unidad"
+			select="codTipoMov" script="yes" />
+		<column id="descripcion" title="Descripción"
+			select="descripcion" script="yes" />
+		<column id="operacion" title="Operación" select="operacion"
+			script="yes" />
+		<column id="operacionDesc" title="Operación"
+			select="operacionDesc" script="yes" />
+	</columns>
+	<messages>Tipos de Movimientos</messages>
+</lov>

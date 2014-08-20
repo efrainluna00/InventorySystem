@@ -1,0 +1,136 @@
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #01111d;
+ font-size: 13px;
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 1100px;
+}
+
+#header {
+ position:relative; 
+ font-size: 36px;
+ color: #ffffff;
+ width: 1100px;
+ padding: 0px;
+ background-color: #000000;
+}
+#menu{
+	 position:absolute; 
+	width: 1100px;
+    background-color: #000000;
+    vertical-align: sub;
+}
+
+#container {
+
+ text-align: center;
+ vertical-align:  middle;
+ font-size: 14px;
+ color: #000000;
+ width: 1100px;
+ padding: 0px;
+ margin: 0px 0px 0px 0px;
+ background-color: #FFFFFF;
+}
+
+table {margin: auto;}
+#titule{
+	postion:absolute;
+	text-align: center;
+	vertical-align: top;
+	color: #439FD7;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#leftcolumn { 	
+ float: left;
+ text-align: center;
+ background-color: #01111d;
+ color:#FFFFFF;
+ width: 50%;
+ top:10%;
+}
+#rightcolumn {
+ text-align: center;
+ color:#FFFFFF;
+ float: right;
+ top:10%;
+ background-color: #01111d;
+ width: 50%;
+ }
+#footer { 
+ width: 1100px;
+ clear: both;
+ color: #333;
+ 
+ text-align: center; 
+ background: url(../images/login/Plateado.gif);
+ margin: 0px 0px 0px 0px;
+ padding: 0px;
+}
+
+fieldset {
+	border: 2px solid #439FD7;
+	text-align: center;
+	vertical-align: top;
+}
+#page {
+		text-align: center;
+		color: black;
+	}
+	#page a {
+		color: white;
+	}
+	#page .panorama-viewport {
+		border: 10px solid #414141;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#page p {
+		margin-bottom: 1em;
+	}
+.kwicks {
+	/* recommended styles for kwicks ul container */
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.kwicks li{
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 125px;
+	height: 100px;
+
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-right: 5px; /*Set to same as spacing option. */
+	
+	/*do not change these */
+	display: block;
+	float: left;
+	overflow: hidden;
+	padding: 0;  /*if you need padding, do so with an inner div */
+}
+
+/* background images are entirely optional */
+#kwick_meet { 
+	background-color: #53b388;
+	background-image: url('../images/meet.gif');
+}
+#kwick_kwicks {
+	background-color: #5a69a9;
+	background-image: url('../images/kwicks.gif');
+}
+#kwick_for {
+	background-color: #c26468;
+	background-image: url('../images/for.gif');
+}
+#kwick_jquery { 
+	background-color: #bf7cc7;
+	background-image: url('../images/jquery.gif');
+	margin-right: none; /* cancel margin on last kiwck (if you set a margin above) */
+}

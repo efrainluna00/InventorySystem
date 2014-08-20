@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/SALDEI/!svn/ver/314/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad
+END
+RecordarPwdServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/RecordarPwdServices.java
+END
+RptPerfilUsuarioService.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/RptPerfilUsuarioService.java
+END
+RptUsuarios.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/RptUsuarios.java
+END
+Services.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/Services.java
+END
+OpcionesPerfilServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SALDEI/!svn/ver/203/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/OpcionesPerfilServices.java
+END
+PerfilServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/PerfilServices.java
+END
+RptAuditoriaService.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/RptAuditoriaService.java
+END
+OrganizacionDEIServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/OrganizacionDEIServices.java
+END
+AsignarPerfilServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/AsignarPerfilServices.java
+END
+OpcionServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/OpcionServices.java
+END
+UsuarioServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/314/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/UsuarioServices.java
+END
+LoginServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/LoginServices.java
+END
+CambiarPwdServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/seguridad/CambiarPwdServices.java
+END

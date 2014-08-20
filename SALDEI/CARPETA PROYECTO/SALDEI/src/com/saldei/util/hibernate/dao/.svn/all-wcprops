@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/hibernate/dao
+END
+HibDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/hibernate/dao/HibDAO.java
+END
+HibDAOImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/hibernate/dao/HibDAOImpl.java
+END
+HibernateSessionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/hibernate/dao/HibernateSessionFactory.java
+END

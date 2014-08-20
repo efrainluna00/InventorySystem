@@ -1,0 +1,1493 @@
+##Archivo de Propiedades para Trabajo de Graduacion (Módulo Seguridad - Registro de Estudiantes)
+# lbl= label  btn= button  txt= text  rb= radioButton  chk= checkBox  alt= alert  error= Errrores  sel= select  msg = Mensajes   
+
+
+# ---------- Comunes ------------- 
+commons.error.delete:        <font color='#EE1122'>Ha ocurrido un error al tratar de eliminar el registro, intentelo nuevamente</font>
+commons.btn.guardarCambios:  Guardar Cambios
+commons.btn.cancelar:        Cancelar Cambios
+commons.error.vacio.Sel:     <font color='#EE1122'>Debe de seleccionar un registro </font>
+commons.lbl.titulo.modDatos:	 Modificar datos personales
+commons.msg.guardarCambios:  <font color='#4682b4'><b>Se han guardado los cambios exitosamente</b></font>
+
+commons.error.guardarCambios:   <font color='#EE1122'>Se ha producido un error al momento de guardar los registros, intentelo nuevamente</font>
+commons.error.actualizar:  	    <font color='#EE1122'>Ha ocurrido un error al momento de actualizar la información, intentelo nuevamente</font>
+commons.error.actualizar.lista:	<font color='#EE1122'>Debe seleccionar un registro de la lista</font>
+commons.error.general:			<font color='#EE1122'>Ha ocurrido un error al tratar de realizar dicha operación</font>
+commons.error.guardar:     		<font color='#EE1122'>Se ha producido un error al momento de guardar el registro, intentelo nuevamente</font>
+commons.error.obligatorio: 		<font color='#EE1122'>Debe ingresar todos los campos obligatorios</font>
+commons.error.vacio:       		<font color='#EE1122'>Debe ingresar todos los campos correctamente</font>
+commons.guardarTodos.exito:		<font color='#4682b4'><b>Se han hecho los cambios exitosamente</b></font>
+commons.guardarTodos.error:		<font color='#EE1122'>No existen registros que actualizar</font> 
+commons.lbl.año:         	Año:
+commons.lbl.ciclo:       	Ciclo:
+commons.lbl.codigo:      	Código:
+commons.lbl.descripcion: 	Descripción:
+commons.lbl.estudiante:  	Estudiante:
+commons.lbl.fechaInico:  	Fecha de Inicio:
+commons.lbl.fechaFin:    	Fecha de Finalización:
+commons.lbl.titulo:      	Sistema Administrador de Laboratorios DEI
+commons.msg.actualizacion: 	<font color='#4682b4'><b>Se ha hecho la actualización exitosamente</b></font>
+commons.msg.cerrarSesion:   Cerrar Sesión
+commons.msg.guardar:       	<font color='#4682b4'><b>Se ha guardado el registro exitosamente</b></font>
+commons.msg.inicio:         Regresar al Inicio
+commons.msg.obligatorio:    <font color='#36648b'>* Son Campos Obligatorios</font>
+commons.msg.*: 				<font color='#EE1122'> &nbsp;* </font>
+commons.sel.activo:     	Activo
+commons.sel.inactivo:   	Inactivo
+commons.sel.no: 			No
+commons.sel.seleccione: 	Seleccione
+commons.sel.si: 			Si
+commons.lbl.nombre:			Nombre
+commons.lbl.listas.vacio:     <font color='#EE1122'>No existen datos que mostrar</font>
+commons.msg.yaexiste.materia: <font color='#EE1122'>Este estudiante ya esta registrado en esa materia pero en diferente sección</font>
+commons.msg.delete.lbl: 	  <font color='#4682b4'><b>Se ha eliminado el registro</b></font>
+
+# ---------- Pagina de Login ----------
+login.error.inactivo:   	<font color='#FFFFFF'>Su usuario se encuenra Inactivo, no puede acceder al Sistema</font>
+login.error.invalido:		<font color='#FFFFFF'>Usuario o Contraseña incorrecta, por favor intente nuevamente</font>
+login.error.login:  		<font color='#FFFFFF'>Debe ingresar un usuario y contraseña</font>
+login.lbl.pwd: 				Contraseña:
+login.lbl.usr: 				Usuario:
+login.msg.recordarPwd: 		Recordar Contraseña
+login.msg.solicitarUsr: 	Solicitar Usuario
+
+# ---------- Mantenimiento Opción ---------- 
+opcionMto.error.orden:      <font color='#EE1122'>Debe ingresar un valor numérico en el campo de orden</font>
+opcionMto.lbl.descripcion: 	Descripción:
+opcionMto.lbl.estado: 		Estado:
+opcionMto.lbl.metodo: 		Método:
+opcionMto.lbl.nombre: 		Nombre:
+opcionMto.lbl.orden: 		Orden:
+opcionMto.lbl.padre:        Opción Padre:
+opcionMto.lbl.titulo: 		Mantenimiento de Opciones
+opcionMto.lbl.url: 			URL:
+opcionMto.lbl.separador:	Separador
+opcionMto.lbl.activos:		<br/><b>Opciones Activas </b>
+opcionMto.lbl.inactivas:	<br/><b>Opciones Inactivas</b>
+
+# ---------- Usuario Mantenimiento ----------
+usuarioMto.error.existe: 	 <font color='#EE1122'>Usuario ya registrado, intente nuevamente con otro usuario</font>
+usuarioMto.error.tipoUsr:    <font color='#EE1122'>Debe seleccionar un tipo de usuario</font>
+usuarioMto.lbl.apellidos: 	 Apellido Restante:
+usuarioMto.lbl.direccion:    Dirección:
+usuarioMto.lbl.email: 		 Correo Electrónico:
+usuarioMto.lbl.estado: 		 Estado:
+usuarioMto.lbl.fechaNac: 	 Fecha Nacimiento:
+usuarioMto.lbl.iniVigencia:  Fecha Inicio de Vigencia:
+usuarioMto.lbl.finVigencia   Fecha Fin de Vigencia:
+usuarioMto.lbl.inactivos:	 <b>Usuarios Inactivos</b>
+usuarioMto.lbl.nombres:   	 Nombre Restante:
+usuarioMto.lbl.primerApe:    Primer Apellido:
+usuarioMto.lbl.primerNom:    Primer Nombre:
+usuarioMto.lbl.tipo:       	 Tipo de Usuario:
+usuarioMto.lbl.telCasa: 	 Teléfono de Casa:
+usuarioMto.lbl.telCel: 		 Teléfono Celular:
+usuarioMto.lbl.telTrab: 	 Teléfono de Trabajo:
+usuarioMto.lbl.titulo:       Mantenimiento de Usuario
+usuarioMto.lbl.usrDei:   	 Usuario DEI
+usuarioMto.lbl.usrDei.codigo Código empleado UCA: 
+usuarioMto.lbl.usrExtension: Extensión del Usuario DEI:
+usuarioMto.lbl.usrExterno:   Usuario Externo
+usuarioMto.lbl.comentario:   Comentario:
+usuarioMto.lbl.sexo:		 Sexo:
+usuarioMto.lbl.estadoCivil:  Estado Civil:
+usuarioMto.lbl.Masculino:    Masculino
+usuarioMto.lbl.Femenino:     Femenino 
+usuarioMto.lbl.carrera:      Carrera:
+usuarioMto.lbl.oyente:		 Oyente:  
+usuarioMto.lbl.nit:          Nº NIT: 
+usuarioMto.lbl.dui:			 DUI:  
+usuarioMto.lbl.isss:		 Nº de ISSS:     
+usuarioMto.lbl.nup:			 NUP:	
+usuarioMto.lbl.usrEst:       Estudiante 
+usuarioMto.lbl.activos : <b>Usuarios Activos</b>
+
+# ---------- Solicitar Usuario ----------
+solicitarUsr.lbl.titulo: Solicitar Usuario
+solicitarUsr.msg.exito: <font color='#4682b4'><b>Su solicitud se ha ingresado correctamente, se le notificara la aprobación de su Solicitud</b></font>
+
+#-----------Asignar perfiles--------------
+asignarPerfil.error.perfilAsignado:  	<font color='#EE1122'>El usuario ya posee el perfil que se desea asignar</font>
+asignarPerfil.lbl.perfilesDisponibles: 	<b>Perfiles Disponibles</b>
+asignarPerfil.lbl.perfilesUsr: 			<b>Perfiles que posee el Usuario</b>
+asignarPerfil.lbl.titulo: 				Asignar Perfiles
+
+#----------- Cambiar Contraseña --------------
+cambiarPwd.lbl.pwdActual:      Contrasena Actual:
+cambiarPwd.lbl.pwdNueva: 	   Contrasena Nueva:
+cambiarPwd.lbl.pwdReNueva:	   Confirmar Contrasena Nueva:
+cambiarPwd.lbl.titulo: 		   Cambiar Contraseña
+cambiarPwd.error.pwdInvalido:  <font color='#EE1122'>Contraseña actual invalida </font>
+cambiarPwd.error.pwdDistintos: <font color='#EE1122'>Las contraseña nuevas son diferentes </font>
+cambiarPwd.btn.guardar:        Guardar Cambios
+
+#----------- Organizacion DEI Mantenimiento --------------
+orgDEI.lbl.cargo:  	     Cargo:
+orgDEI.lblnombre: 	     Nombre de Usuario:
+orgDEI.lbl.titulo: 	     Mantenimiento de organización del Departamento de Electrónica e Informática DEI
+orgDEI.msg.asignados:	 Cargos Asignados al Usuario
+orgDEI.msg.no.asignados: Cargos No Asignados al Usuario
+
+
+#----------- Perfil Mantenimiento --------------
+perfilMto.lbl.titulo: 		Mantenimiento de Perfiles
+perfilMto.lbl.nombre: 		Nombre:
+perfilMto.lbl.descripcion: 	Descripción:
+perfilMto.lbl.estado: 		Estado:
+perfilMto.lbl.menu: 		Menu:
+perfilMto.sel.perfil:	 	Seleccione Perfil:
+perfilMto.msg.activos: 		<b>Perfiles Activos del Sistema</b>
+perfilMto.msg.inactivos: 	<b>Perfiles Inactivos del Sistema</b>
+
+#----------- Opcion Perfil --------------
+opcPerfil.lbl.titulo: 		Asignar Opciones a Perfil
+opcPerfil.msg.asignados: 	<b>Opciones Asignadas al Perfil</b>
+opcPerfil.msg.no.asignados: <b>Opciones No Asignadas al Perfil</b>
+
+#----------- Asignar Perfil --------------
+asgPerfil.msg.asignados: 	<b>Perfiles Asignados al Usuario</b>
+asgPerfil.msg.no.asignados: <b>Perfiles No Asignados al Usuario</b>
+
+#----------- Filtro Reportes --------------
+reportes.lbl.titulo: 	Reportes Administrativos
+reportes.lbl.usuarios: 	Reporte de Usuarios del Sistema
+reportes.btn.mostrar: 	Mostrar:
+
+asgMatEst.lbl.titulo: Asignar Materias a Estudiante 
+
+
+# --------------------MODULO DE ADMINISTRACION----------------------------------
+
+#----------- Mantenimiento Materias--------------
+materiasMto.titulo: 		Mantenimiento de Materias
+materiasMto.nombre: 		Nombre Materia:
+materiasMto.descripcion: 	Descripción Materia:
+materiasMto.estado: 		Estado Materia:
+materiasMto.error.guardar: 	<font color='#EE1122'>Error al guardar los datos, es posible que el código de la materia ya exista</font>
+materiasMto.error.Vacio: 	<font color='#EE1122'>Debe ingresar el código, nombre y estado de la materia para poder actualizar el registro</font>
+materiasMto.error.actualizar: <font color='#EE1122'>No se pudo actualizar el registro, es posible que no exista dicha materia</font>
+materiasMto.numeroCodigo:  	<font color='#EE1122'>Los valores del código de materia y unidades valorativas deben ser numéricos</font>
+materiasMto.lbl.activos: 	<b>Materias Activas</b>
+materiasMto.lbl.inactivos: 	<b>Materias Inactivas</b>
+materiasMto.lbl.unidades.valorativas: Unidades Valorativas:
+
+#----------- Mantenimiento Tipo Medida--------------
+
+tipoMedidaMto.activos: 		<b>Tipo Medidas Activas</b>
+tipoMedidaMto.estado: 		Estado de Tipo Medida:
+tipoMedidaMto.inactivos: 	<b>Tipo Medidas Inactivas</b>
+tipoMedidaMto.nombre: 		Nombre de Tipo Medida:
+tipoMedidaMto.titulo: 		Mantenimiento de Tipo Medida
+
+# -----------NUEVOS Mantenimiento Medida----------------------
+medidaMto.titulo: 			Mantenimiento Medidas
+medidaMto.abreviatura: 		Abreviatura:
+medidaMto.factor: 			Factor:
+medidaMto.tipo: 			Tipo Medida:
+medidaMto.lbl.activos: 		<b> Medidas Activas </b>
+medidaMto.lbl.inactivos: 	<b> Medidas Inactivas </b>
+
+
+# --------Mantenimiento de Tipo Multicode -------------------------
+tipoMulticodeMto.titulo: 		Mantenimiento de Tipos de Código Múltiple
+tipoMulticodeMto.lbl.activos: 	<b>Tipos de Código Múltiple Activos<b>
+tipoMulticodeMto.lbl.inactivos: <b>Tipos de Código Múltiple Inactivos<b>
+
+
+# ---------------Mantenimiento Multicode---------------------------
+multicodeMto.titulo: 		Mantenimiento de Códigos Múltiples:
+multicodeMto.tiposCodigo: 	Tipos de Código:
+multicodeMto.lbl.activos: 	<b> Códigos Multiple Activos<b>
+multicodeMto.lbl.inactivos: <b> Códigos Multiple Inactivos<b>
+
+##MANTENIMIENTO DE LABORATORIOS
+laboratorioMto.titulo: 		 	  Mantenimiento de Laboratorios
+laboratorio.lbl.numFilas: 	 	  Número de Filas:
+laboratorio.lbl.numColumnas: 	  Número de Columnas:
+laboratorio.lbl.numCodigo: 	      <font color='#EE1122'>Los valores de número de filas y columnas deben ser numéricos</font>
+laboratorio.lbl.legend.activos:   <b>Laboratorios Activos</b>
+laboratorio.lbl.legend.inactivos: <b>Laboratorios Inactivos</b>
+
+##MANTENIMIENTO DE PARAMETROS
+parametro.lbl.legend: Mantenimiento de Parámetros
+parametro.lbl.valor: Valor:
+
+### NUEVOS EN MATERIA
+# mtoMaterias.nombre: Nombre:
+# mtoMaterias.desc: Descripcion:
+# mtoMaterias.est: Estado:
+# mtoMaterias.errorSave: Error al guardar un registro
+# mtoMaterias.vacioUpdate: Vacio Update
+# mtoMaterias.errorUpdate: Error en la actualizacion del registro
+# mtoMaterias.numCodigo: Error en codigo
+# mtoMaterias.legend: Mantenimiento de Materias
+
+
+#--------- NUEVOS EN MTO TIPO MEDIDA
+# mtoTipoMedida.legend: Mantenimiento de Tipo Medida
+# mtoTipoMedida.nombre: Nombre:
+
+# --------------------MODULO DE REGISTRO----------------------------------
+direcLab.lbl.legend: Asignación de Directores de Laboratorios
+direcLab.lbl.nombre: Nombre de Laboratorio:
+directLab.btn.saveAll: Guardar Cambios
+directLab.btn.cancelAll: Cancelar Cambios
+directLab.displaytag.existentes: <b>Directores de Laboratorios Disponibles</b>
+directLab.displaytag.asignados: <b>Directores de Laboratorios Asignados</b>
+
+cargaDatos.legend: Carga Masiva de Datos
+cargaDatos.lbl.ruta.archivo: Ruta de Archivo:
+cargaDatos.btn.carga.masiva: Cargar Datos
+cargaDatos.btn.parser.archivo: Verificación de Archivo
+cargaDatos.display.list.buenos: <b>Registros Correctos</b>
+cargaDatos.display.list.malos: <b>Registros Incorrectos</b>
+cargarDatos.vacio.nolist: <font color='#EE1122'>Debe verificar el archivo de Excel antes de realizar la carga</font>
+cargarDatos.exito.carga:<font color='#4682b4'><b>Se ha cargado los registros exitosamente </b></font>
+cargadatos.lbl.registros.correctos: <font color='#4682b4'><b> Números de Registros Correctos:  </b></font>
+cargadatos.lbl.registros.incorrectos: <font color='#4682b4'><b>Número de Registros Incorrectos: </b></font>
+cargadatos.btn.show.registros.correctos: Ver Registros Correctos
+cargadatos.btn.show.registros.incorrectos: Ver Registros Incorrectos
+cargadatos.lbl.invalid.registers: <font color='#EE1122'>El ciclo o la carrera que se encuentran registrados en el Archivo de Excel deben coincidir con lo de los parámetros</font>
+
+gestionUsuario.legend: Gestión de Usuarios
+gestionUsuario.lbl.usuario: Usuario:
+gestionUsuario.display.list.disp: <b>Usuarios en espera de Confirmación o Rechazo</b>
+gestionUsuario.lbl.exito: <font color='#4682b4'><b>Operación Extosa. Se ha notificado al Usuario la acción realizada</b></font>
+gestionUsuario.lbl.error.mail:<font color='#EE1122'>No se pudo mandar el correo ni actualizar el registro</font>
+
+asigmatcat.lbl.error.list.one: <font color='#EE1122'>Solo puede existir un catedrático para una materia</font>
+asigmatcat.lb.error.no.data: <font color='#EE1122'>No existen registros que actualizar</font>
+
+-- app resources
+reportes.Seccion: Sección
+reportes.Catedratico: Catedrático
+
+
+#---------------------------------- CICLO -------------------------------
+ciclo.lbl.idCiclo:   Idenficador de Ciclo
+ciclo.lbl.activo:    Ciclo de Trabajo
+ciclo.lbl.numero:    Número de Ciclo
+ciclo.lbl.anyo:      Año de Ciclo
+ciclo.lbl.fechaIni:  Fecha de Inicio
+ciclo.lbl.fechaFin:  Fecha Finalización
+ciclo.lbl.titulo:    Mantenimiento de Ciclo
+ciclo.lbl.activos:   <b>Ciclos Activos  </b>
+ciclo.lbl.inactivos: <b>Ciclos Inactivos</b>
+ciclo.error.existe: <font color='#EE1122'> El Ciclo ya esta registrado. Intente nuevamente</font>
+ciclo.error.cicloActivo: <font color='#EE1122'> Ya existe un ciclo de Trabajo.   </font>
+
+#----------------------------- REQUERIMIENTO DE MATERIA ----------------------
+reque.lbl.materia:       Materia
+reque.lbl.seccion:       Sección
+reque.lbl.ciclo:         Ciclo
+reque.lbl.catedratico:   Catedrático
+reque.lbl.tipoHwSw:      Tipo de Requerimiento
+reque.lbl.requerimiento: Requerimiento
+reque.lbl.titulo: 		 Requerimiento de Materia
+reque.msg.Hardware:      Hardware
+reque.msg.Software:      Software
+reque.msg.otros:         Otros 
+reque.lbl.caption:       Requerimientos de Materia Seleccionada   
+
+
+carrera.lbl.display.activo: <b>Carreras Activas</b>
+carrera.lbl.display.inactivo: <b>Carreras Inactivas</b>
+carrera.lbl.titulo: Mantenimiento de Carrera
+
+
+
+solicitarUsr.btn.send:  	Enviar Solicitud
+commons.btn.clean:      	Limpiar
+commons.error.Error:    	<font color='#EE1122'>Ha ocurrido un error intentelo nuevamente, si el error persite comunicarse con su operador</font>
+modDatos.btn.modificar:    	Actualizar Datos
+commons.btn.cancelCambios: 	Cancelar Cambios
+
+errorpage.title: PAGINA DE ERROR
+errorpage.lbl.legend: <h3>Se ha generado un error dentro de la Aplicación</h3>
+
+vigencia.lbl.titulo: Fechas de Vigencia
+vigencia.btn.Agregar: Agregar
+carrera.lbl.planEstudio: Plan de Estudio
+
+commons.btn.mostrar: 		 Mostrar
+usuarioMto.lbl.Solicitado: 	 Solicitado por:
+usuarioMto.lbl.CicloIngreso: Ciclo de ingreso:
+usuarioMto.lbl.AnyoIngreso:  Año de ingreso:
+usuarioMto.lbl.Carnet:  	 Carnet de Estudiante:
+
+vigencia.fecha.validacion: <font color='#EE1122'>La fecha de inicio y de fin debe ser mayor a la última fecha inicial</font>
+
+
+# MODULO DE CONTROL DE ACTIVOS E INVENTARIO
+
+# opciones para los formularios
+
+opc.insert : Agregar
+opc.update : Actualizar
+opc.delete : Eliminar
+opc.find : Find
+opc.cancel : Cancelar
+opc.back : Regresar
+opc.back : Regresar
+opc.login : login
+opc.logout : logout
+opc.change : change
+opc.findup: FindUp
+opc.generarReporte: Generar
+opc.asignar: Asignar
+opc.byPass: byPass
+opc.cotDigital = Cotización Digital
+opc.anular = Anular
+
+opc.versionApp: Version 2.0
+
+# lista de valores
+lov.titulo = :: SALDEI - Lista de Valores -::
+lov.encabezado = Lista de Valores
+lov.title.table = Lista de Valores
+lov.btn.select = Seleccionar
+
+# fail option
+acceso.denegado = Ud no tiene acceso a esta opci&oacute;n
+acceso.denegado.titulo =:: SALDEI - Acceso Denegado - ::
+
+
+# Formulario de Presupuesto
+ppto.titulo = :: SALDEI - Presupuesto -::
+ppto.encabezado = Cat&aacute;logo de Presupuestos
+ppto.fecha_ini = Fecha inicial
+ppto.fecha_fin = Fecha final
+ppto.estado = Estado
+ppto.codigo = C&oacute;digo
+
+ppto.title.table = Presupuesto
+ppto.fecha.error = La fecha final debe ser mayor que la inicial
+
+presupuesto.estado.requerido = Debe seleccionar un estado
+presupuesto.fechaIni.requerido = Debe seleccionar una fecha
+presupuesto.fechaFin.requerido = Debe seleccionar una fecha
+presupuesto.link.requerido = Debe introducir el enlace
+
+presupuesto.mensaje.exito.delete = - El presupuesto fue eliminado -
+presupuesto.mensaje.exito.insert = - El presupuesto fue agregado -
+presupuesto.mensaje.exito.update = - El presupuesto fue actualizado -
+ppto.mensajeError.error.nodelete = - El presupuesto seleccionado no pudo eliminarse porque tiene registros asociados -
+
+
+# Formulario de Tipo Unidad
+tipouni.mensaje.exito.delete = - El tipo de unidad fue eliminada -
+tipouni.mensaje.exito.insert = - El tipo de unidad fue insertada -
+tipouni.mensaje.exito.update = - El tipo de unidad fue actualizada -
+tipouni.titulo = :: SALDEI - Tipo de Unidad -::
+tipouni.encabezado = Cat&aacute;logo de Tipo de Unidad
+tipouni.descripcion = Descripci&oacute;n
+tipouni.descripcion.requerido = Debe introducir una descripci&oacute;n
+tipouni.mensajeError.error.nodelete = - El tipo de unidad seleccionado no pudo eliminarse porque tiene registros asociados -
+
+
+# Formulario de Bodega
+bode.titulo = :: SALDEI - Cat&aacute;logo Bodegas -::
+bode.encabezado = Cat&aacute;logo de Bodegas
+bode.codigo = C&oacute;digo
+bode.nombre = Nombre
+bode.ubicacion = Ubicaci&oacute;n
+bode.estado = Estado
+bode.mensaje.exito.noinsert = - ERROR: Esa bodega ya existe -
+
+# Formulario de Unidad
+uni.titulo = :: SALDEI - Unidad -::
+uni.encabezado = Cat&aacute;logo de Unidades
+uni.codUnidad = C&oacute;digo de Unidad
+uni.descripcion = Descripci&oacute;n
+uni.descripcion.requerido = Debe introducir una descripci&oacute;n
+uni.codTipoUnidad = Tipo de unidad
+uni.codTipoUnidad.requerido = Debe seleccionar un tipo de unidad
+uni.codResponsable = Responsable
+uni.codResponsable.requerido = Debe seleccionar un responsable
+uni.estado = Estado
+uni.estado.requerido = Debe seleccionar un estado
+uni.fechaCreacion = Fecha de creaci&oacute;n
+uni.mensaje.exito.insert = - La unidad fue insertada -
+uni.mensaje.exito.update = - La unidad fue actualizada -
+uni.mensaje.exito.delete = - La unidad fue puesta como inactiva - 
+uni.mensajeError.error.nodelete = - La unidad seleccionada no pudo actualizase porque tiene registros asociados -
+bode.activa = Activa
+bode.inactiva = Inactiva
+
+
+# Formulario de Tipo de Movimientos
+
+tm.titulo = :: SALDEI - Tipos  de Movimientos -::
+tm.encabezado = Catálogo de Tipos de Movimientos
+tm.codTipoMov = C&oacute;digo
+tm.descripcion = Descripci&oacute;n
+tm.operacion = Operaci&oacute;n
+
+tm.title.table = Tipo de Movimientos
+
+tm.codTipoMov.requerido = Debe seleccionar un Codigo 
+tm.descripcion.requerido = Debe ingresar una descripción
+tm.operacion.requerido = Debe ingresar el tipo de operacion
+tm.link.requerido = Debe introducir el enlace
+
+tm.mensaje.exito.delete = - El Tipo de Movimiento fue eliminado -
+tm.mensaje.exito.insert = - El Tipo de Movimiento fue agregado -
+tm.mensaje.exito.update = - El Tipo de Movimiento fue actualizado -
+tm.mensajeError.error.nodelete = - El Tipo de Movimiento no pudo eliminarse porque tiene registros asociados -
+tm.mensajeError.error.noinsert = - ERROR: El c&oacute;digo del Tipo de Movimiento ya existe - 
+bode.codigo.requerido = Debe escribir el c&oacute;digo de la bodega
+bode.nombre.requerido = Debe escribir un nombre de bodega
+bode.estado.requerido = Debe escribir la ubicaci&oacute;n de la bodega
+
+
+bode.mensaje.exito.delete = - La bodega fue eliminada -
+bode.mensaje.exito.insert = - La bodega fue agregada -
+bode.mensaje.exito.update = - La bodega fue actualizada -
+bode.mensaje.exito.nodelete = - La bodega no fue eliminada -
+
+bode.mensajeError.error.nodelete = - La bodega seleccionada no pudo eliminarse porque tiene registros asociados -
+bode.mensajeError.error.delete = - La bodega no pudo ser eliminada -
+bode.mensajeError.error.insert = - ERROR: La bodega ya existe -
+# Formulario de Categoria
+cat.titulo = :: SALDEI - Cat&aacute;logo Categor&iacute;as -::
+cat.encabezado = Cat&aacute;logo de Categor&iacute;as
+cat.codigo = C&oacute;digo
+cat.nombre = Nombre
+
+cat.codigo.requerido = Debe escribir el c&oacute;digo de la categor&iacute;a
+cat.nombre.requerido = Debe escribir un nombre de la categor&iacute;a
+
+cat.mensaje.exito.delete = - La categor&iacute;a fue eliminada -
+cat.mensaje.exito.insert = - La categor&iacute;a fue agregada -
+cat.mensaje.exito.update = - La categor&iacute;a fue actualizada -
+cat.mensaje.exito.noinsert = - ERROR: El c&oacute;digo de la categor&iacute;a ya existe -
+cat.mensajeError.error.nodelete = - La categor&iacute;a seleccionada no pudo eliminarse porque tiene registros asociados -
+cat.mensajeError.error.noinsert = - ERROR: El c&oacute;digo de la categor&iacute;a ya existe -
+# Formulario de SubCategoria
+subcat.titulo = :: SALDEI - Cat&aacute;logo Sub Categor&iacute;as -::
+subcat.encabezado = Cat&aacute;logo de  Sub Categor&iacute;as
+subcat.codigo = C&oacute;digo de Sub Categor&iacute;a
+subcat.nombre = Nombre
+subcat.categoria = Categor&iacute;a
+
+subcat.codigo.requerido = Debe escribir el c&oacute;digo de la sub categor&iacute;a
+subcat.codigoCat.requerido = Debe seleccionar una categor&iacute;a
+subcat.nombre.requerido = Debe introducir un nombre para la sub categor&iacute;a
+subcat.codigo.novalido = El c&oacute;digo de sub categor&iacute;a no es v&aacute;lido
+
+subcat.mensaje.exito.delete = - La sub categor&iacute;a fue eliminada -
+subcat.mensaje.exito.insert = - La sub categor&iacute;a fue agregada -
+subcat.mensaje.exito.update = - La sub categor&iacute;a fue actualizada -
+subcat.mensaje.exito.noinsert = - ERROR: El c&oacute;digo de la sub categor&iacute;a ya existe -
+subcat.mensajeError.error.nodelete = - La sub categor&iacute;a seleccionada no pudo eliminarse porque tiene registros asociados -
+
+# Formulario de Recursos
+recurso.titulo = :: SALDEI - Cat&aacute;logo de Recursos -::
+recurso.encabezado = Cat&aacute;logo de Recursos
+
+recurso.codigo = C&oacute;digo
+recurso.nombre = Nombre
+recurso.codCategoria = Categor&iacute;a
+recurso.codSubCategoria = Sub categor&iacute;a
+recurso.creadoPor = Creado por
+recurso.fechaCreacion = Fecha creaci&oacute;n
+recurso.codUnidadMedida = Unidad de Medida
+recurso.minimo = M&iacute;nimo
+recurso.serializable = Serializable
+recurso.consumible = Suministro
+
+recurso.nombre.requerido = Debe escribir el nombre del recurso
+recurso.codCategoria.requerido = Debe ingresar la categor&iacute;a del recurso
+recurso.codSubCategoria.requerido = Debe ingresar la sub categor&iacute;a del recurso
+recurso.codUnidadMedida.requerido = Debe ingresar la unidad de medida
+recurso.minimo.requerido = Debe escribir el m&iacute;nimo
+recurso.consumible.requerido = Debe indicar si el recurso es consumible o no
+
+
+recurso.mensaje.exito.delete = - El recurso ha sido eliminado -
+recurso.mensaje.exito.insert = - El recurso fue agregado -
+recurso.mensaje.exito.update = - El recurso fue actualizado -
+recurso.mensajeError.error.nodelete = - El recurso seleccionado no pudo eliminarse porque tiene registros asociados -
+
+
+
+
+# Formulario de catalogo de cuentas
+cuenta.titulo = :: SALDEI - Cat&aacute;logo de Cuentas -::
+cuenta.encabezado = Cat&aacute;logo de Cuentas
+cuenta.codigo = Cuenta No.
+cuenta.descripcion = Descripci&oacute;n
+
+cuenta.codigo.requerido = Debe escribir el n&uacute;mero de la cuenta
+cuenta.descripcion.requerido = Debe introducir una descripci&oacute;n
+
+cuenta.mensaje.exito.delete = - La cuenta fue eliminada -
+cuenta.mensaje.exito.insert = - La cuenta fue agregada -
+cuenta.mensaje.exito.update = - La cuenta fue actualizada -
+cuenta.mensajeError.error.nodelete =- La cuenta seleccionada no pudo eliminarse porque tiene registros asociados -
+
+#Formulario de motivos de baja
+moba.titulo = :: SALDEI - Motivos de Baja -::
+moba.encabezado = Cat&aacute;logo de Motivos de Baja
+moba.descripcion = Descripci&oacute;n
+
+moba.descripcion.requerido = Debe introducir una descripci&oacute;n
+moba.mensaje.exito.delete = - El motivo de baja fue eliminado -
+moba.mensaje.exito.insert = - El motivo de baja fue agregado -
+moba.mensaje.exito.update = - El motivo de baja fue actualizado-
+moba.mensajeError.error.nodelete = - El motivo de baja seleccionado no pudo eliminarse porque tiene registros asociados -
+
+#Formulario de proveedores
+proveedor.titulo = :: SALDEI - Proveedores -::
+proveedor.encabezado = Cat&aacute;logo de Proveedores
+proveedor.mensaje.exito.delete = - El proveedor fue eliminado -
+proveedor.mensaje.exito.insert = - El proveedor fue agregado -
+proveedor.mensaje.exito.update = - El proveedor fue actualizado-
+proveedor.mensajeError.error.nodelete = - El proveedor seleccionado no pudo eliminarse porque tiene registros asociados -
+
+proveedor.codProveedor.requerido = Debe introducir un C&oacute;digo de proveedor
+proveedor.nombre.requerido = Debe introducir un nombre
+proveedor.estado.requerido = Debe seleccionar un estado
+proveedor.codigo = C&oacute;digo
+proveedor.nombre = Nombre
+proveedor.direccion = Direcci&oacute;n
+proveedor.nit = NIT
+proveedor.fax = Fax
+proveedor.telefono = Tel&eacute;fono
+proveedor.email = E-mail
+proveedor.website = Sitio web
+proveedor.regfiscal = Registro fiscal
+proveedor.giro = Giro
+proveedor.estado = Estado
+proveedor.contacto = Contacto
+# Formulario de Detalle de Presupuesto
+detppto.titulo = :: SALDEI - Detalle de Presupuesto -::
+detppto.encabezado = Detalle de Presupuesto
+detppto.cuentaDesc = Cuenta
+detppto.monto = Monto
+detppto.saldoActual = Saldo Actual
+detppto.fecha_inicial = Fecha inicial
+detppto.fecha_final = Fecha final
+
+detppto.title.table = Detalle de Presupuesto
+
+detpresupuesto.monto.requerido = Debe Introducir un monto
+detpresupuesto.monto.mayor = Debe Introducir un monto mayor que 0
+detpresupuesto.cuenta.requerido = Debe seleccionar una Cuenta
+detpresupuesto.link.requerido = Debe introducir el enlace
+
+detpresupuesto.mensaje.exito.delete = - La cuenta fue eliminada -
+detpresupuesto.mensaje.exito.insert = - La fue agregada -
+detpresupuesto.mensaje.exito.update = - La cuenta fue actualizada -
+detpresupuesto.mensaje.exito.delete = - La cuenta fue eliminada -
+detpresupuesto.mensaje.exito.insert = - La cuenta fue agregada -
+detpresupuesto.mensaje.exito.update = - La cuenta fue actualizada -
+cuenta.mensaje.exito.noinsert = - ERROR: Ese número de cuenta ya existe -
+cuenta.mensaje.fallo.insert = - La cuenta no fue agregada -
+
+# Formulario Solicitud de Prestamo
+prestamo.titulo = :: SALDEI - Solicitud de Pr&eacute;stamo -::
+prestamo.encabezado = Solicitud de Pr&eacute;stamo
+prestamo.activo = Activo
+prestamo.fecha_ini = Fecha Pr&eacute;stamo
+prestamo.fecha_fin = Fecha Devoluci&oacute;n
+prestamo.descripcion = Descripci&oacute;n
+prestamo.solicitante = Solicitante
+prestamo.codSolicitante = C&oacute;digo Solicitante
+prestamo.unidad = Ubicaci&oacute;n
+prestamo.solicitara = Solicitar A
+prestamo.comentario = Descripci&oacute;n
+prestamo.fechaAprobacion= Fecha Aprobaci&oacute;n
+prestamo.fechaFinalizacion = Fecha Finalizaci&oacute;n
+prestamo.fechaAnulacion= Fecha Anulaci&oacute;n
+prestamo.motivos= Resoluci&oacute;n
+prestamo.mensaje.exito.delete = - La solicitud de pr&eacute;stamo ha sido borrada -
+prestamo.mensaje.exito.insert = - La solicitud de pr&eacute;stamo ha sido creada -
+prestamo.mensaje.exito.update = - La solicitud de pr&eacute;stamo ha sido actualizada -
+prestamo.mensajeError.error.nodelete = - La solicitud no puede ser eliminada porque tiene recursos asociados-
+prestamo.fecha_creacion = Fecha de Creaci&oacute;n
+prestamo.estado = Estado
+cuenta.codigo.requerido = Debe escribir el n&uacute;mero de la cuenta
+
+
+cuenta.mensaje.exito.delete = - La cuenta fue eliminada -
+cuenta.mensaje.exito.insert = - La cuenta fue agregada -
+cuenta.mensaje.exito.update = - La cuenta fue actualizada -
+cuenta.mensaje.exito.noinsert = - ERROR: Ese número de cuenta ya existe -
+cuenta.mensaje.fallo.insert = - La cuenta no fue agregada -
+
+#Formulario para la descarga de activo
+soldesca.titulo = :: SALDEI - Solicitud de Traslado a Bodega -::
+soldesca.encabezado = Solicitud de Traslado a Bodega
+soldesca.mensaje.exito.insert = - La solicitud de traslado a bodega fue creada -
+soldesca.mensaje.exito.update = - La solicitud de traslado a bodega ha sido actualizada -
+soldesca.mensaje.exito.delete = - La solicitud de traslado a bodega ha sido eliminada -
+soldesca.codigo = C&oacute;digo
+soldesca.unidad = Unidad
+soldesca.unidad.requerido = Debe seleccionar una unidad
+soldesca.fechaCreacion = Fecha Creaci&oacute;n
+soldesca.mensajeError.error.nodelete = - La solicitud no puede ser eliminada porque tiene activos asociados -
+soldesca.destino = Bodega de Destino
+soldesca.destino.requerido = Debe seleccionar un destino
+
+
+#Formulario de detalle para la descarga de activo
+
+detsoldesca.titulo = :: SALDEI - Detalle de Solicitud de Traslado a Bodega -::
+detsoldesca.encabezado: Detalle de Solicitud de Traslado a Bodega
+detsoldesca.noSolicitud : No. Solicitud: 
+detsoldesca.descarga = Solicitud de descarga
+detsoldesca.activo = Activo
+detsoldesca.unidad = Unidad
+detsoldesca.mensajeError.error.nodelete = El registro seleccionado no se pudo eliminar porque tiene referencias en otros lados
+detsoldesca.mensaje.exito.delete = - El activo fue eliminado de la solicitud -
+detsoldesca.mensaje.exito.insert = - El activo fue insertado en la solicitud -
+detsoldesca.mensaje.exito.update = - El activo fue actualizado en la solicitud -
+detsoldesca.activo.requerido = Debe seleccionar un activo 
+detsoldesca.numsolicitud = No Solicitud
+detsoldesca.codactivo = C&oacute;digo de activo
+detsoldesca.mensajeError.error.noenviar = No puede enviarse una solicitud vacia, favor seleccione un recurso o m&aacute;s
+detsoldesca.mensaje.exito.enviada = - La solicitud de traslado a bodega ha sido enviada -
+
+opc.enviarSolicitud = Enviar
+
+
+# Formulario de catalogo de Activos
+activo.titulo = :: SALDEI - Catálogo de Activos -::
+activo.encabezado = Cat&aacute;logo de Activos
+activo.code = C&oacute;digo
+activo.descripcion = Recurso
+activo.unidadCode = C&oacute;digo de unidad
+activo.unidadDesc = Unidad
+activo.codeUca = C&oacute;digo UCA
+activo.serie = Serie
+activo.estado = Estado
+
+activo.recurso.requerido = Debe Seleccionar un recurso
+activo.unidad.requerido = Debe seleccionar una unidad
+activo.serie.requerido = Debe ingresar una serie
+
+
+activo.mensaje.exito.delete = - El activo fue eliminado -
+activo.mensaje.exito.insert = - El activo fue agregado -
+activo.mensaje.exito.update = - El activo fue actualizado -
+activo.mensajeError.error.nodelete = - El activo no puede ser eliminado porque tiene recursos asociados -
+
+
+# Formulario DETALLE Solicitud de Prestamo
+detprestamo.comentario = Comentario
+detprestamo.solicitante = Solicitante
+detprestamo.solicitara = Solicitar a
+detprestamo.estado = Solicitud
+detprestamo.codSolicitud= Solicitud No.
+detprestamo.activo= Cod. Activo
+detprestamo.responsable = Responsable
+detprestamo.fecha_inicial= Fecha de Prestamo
+detprestamo.fecha_final=Fecha de Devoluci&oacute;n
+detprestamo.recurso= Descripci&oacute;n
+detprestamo.ubicacion= Ubicaci&oacute;n
+detprestamo.cat= Categoria
+detprestamo.subcat= Subcategoria
+detprestamo.serie= Num Serie
+prestamo.propietario.requerido = Debe seleccionar a quien solicitar el recurso
+prestamo.fechaIni.requerido = Debe seleccionar una fecha 
+prestamo.fechaFin.requerido = Debe seleccionar una fecha de devolucion
+prestamo.fecha.error = Error en la fecha seleccionada, debe escoger otra.
+detprestamo.mensaje.exito.enviar = Su solicitud ha sido enviada
+detprestamo.mensaje.exito.delete = -El recurso fue eliminado-
+prestamo.solicitud= Solicitud No.
+detprestamo.mensajeError.error.noenviar = No puede enviarse una solicitud vacia, favor seleccione un recurso o m&aacute;s
+detprestamo.mensajeError.error.noinsert = -El recurso esta siendo solicitado por otro usuario para el mismo periodo-
+
+detprestamo.mensaje.exito.insert = - El recurso fue agregado a la solicitud -
+
+
+
+# Formulario requisicion
+requisicion.codSolicitud = Requisici&oacute;n No.
+requisicion.titulo = :: SALDEI - Requisici&oacute;n de Recursos -::
+requisicion.encabezado = Requisici&oacute;n de Recursos
+requisicion.activo = Activo
+requisicion.descripcion = Descripci&oacute;n
+requisicion.solicitante = Solicitante
+requisicion.codSolicitante = C&oacute;digo Solicitante
+requisicion.unidad = Unidad
+requisicion.estado = Estado
+requisicion.bodega = Bodega
+requisicion.comentario = Descripci&oacute;n
+requisicion.fecha_finalizacion = F. Finalizaci&oacute;n
+requisicion.fecha_anulacion = F. Anulaci&oacute;n
+requisicion.fecha_aprobacion = F. Aprobaci&oacute;n
+requisicion.fecha_creacion = F. Creaci&oacute;n
+requisicion.motivoRechazo = Resoluci&oacute;n
+requisicion.motivoAnulacion = Motivo Anulaci&oacute;n
+requisicion.unidad.requerido = Debe seleccionar la Unidad de Trabajo 
+requisicion.bodega.requerido = Debe seleccionar la Bodega 
+
+requisicion.mensaje.exito.delete = -La requisici&oacute;n fue Eliminada -
+requisicion.mensaje.exito.insert = - La requisici&oacute;n fue Agregada  -
+requisicion.mensaje.exito.update = - La requisici&oacute;n fue Actualizada -
+requisicion.mensaje.exito.noinsert = - ERROR: La requisici&oacute;n ya existe -
+requisicion.mensaje.fallo.insert = - Problemas al crear la requisici&oacute;n-
+requisicion.mensajeError.error.nodelete = - La requisici&oacute;n no puede ser eliminada porque tiene recursos asociados-
+#Aprobacion/Rechazo de Sol Prestamo
+arprestamo.titulo = :: SALDEI - Aprobaci&oacute;n/Rechazo de Solicitudes de Pr&eacute;stamo- ::
+arprestamo.mensaje.exito.entregados=- Los recursos han sido entregados al solicitante -
+arprestamo.mensaje.exito.rechazada= - La solicitud ha sido rechazada -
+arprestamo.mensaje.exito.recibidos= - Los recursos han sido devueltos -
+arprestamo.mensajeError.error.aprobada = -ERROR: La solicitud no puede ser aprobada ya que el activo solicitado no se encuentra disponible para esa fecha -
+arprestamo.mensajeError.error.noactivo = - ERORR: La solicitud contiene activos que no se encuetra disponible para su pr&eacute;stamo -
+arprestamo.mensaje.exito.anulada = - La solicitud ha sido anulada -
+# Solicitud de compra
+solCompra.titulo = :: SALDEI - Solicitud de Compra -::
+solCompra.encabezado = Solicitud de Compra
+solCompra.code = Solicitud 
+solCompra.solicitante = Solicitante
+solCompra.unidadCode = C&oacute;digo de unidad
+solCompra.unidad = Unidad
+solCompra.bodegaCode = C&oacute;digo de Bodega
+solCompra.bodega = Bodega
+solCompra.comentario = Descripci&oacute;n
+solCompra.estado = Estado
+
+solCompra.bodega.requerido = Debe Seleccionar una Bodega
+solCompra.unidad.requerido = Debe seleccionar una Unidad
+
+
+solCompra.mensaje.exito.delete = - la solicitud de compra fue eliminada -
+solCompra.mensaje.exito.insert = - la solicitud de compra fue agregada -
+solCompra.mensaje.exito.update = - la solicitud de compra fue actualizada -
+solCompra.mensaje.exito.enviar = - la solicitud de compra fue enviada -
+solCompra.mensajeError.error.nodelete = -ERROR: la solicitud no puede ser eliminada porque tiene registros asociados -
+
+
+# Formulario requisicion
+
+detReq.codSolicitud = Requisici&oacute;n No.
+
+detReq.activo = Activo
+detReq.titulo = :: SALDEI - Detalle Requisici&oacute;n de Recursos -::
+detReq.encabezado = Requisici&oacute;n de Recursos
+detReq.recurso = Recurso
+detReq.descripcion = Descripci&oacute;n
+detReq.solicitante = Solicitante
+detReq.codSolicitante = C&oacute;digo Solicitante
+detReq.unidad = Unidad
+detReq.estado = Estado
+detReq.bodega = Bodega
+detReq.comentario = Comentario
+detReq.nombreRecurso = Comentario
+detReq.cantidad =Cantidad
+
+
+detReq.unidad.requerido = Debe seleccionar la Unidad de Trabajo 
+detReq.bodega.requerido = Debe seleccionar la Bodega 
+detReq.recurso.requerido = Debe seleccionar el Recurso 
+detReq.cantidad.requerido = La Cantidad debe ser mayor que 0
+
+detReq.mensaje.exito.delete = -El Registro  fue Eliminado -
+detReq.mensaje.exito.insert = - El Registro fue Agregado  -
+detReq.mensaje.exito.update = - El Registro fue Actualizado -
+detReq.mensaje.exito.noinsert = - ERROR: El Registro ya fue agregado -
+detReq.mensaje.fallo.insert = - Problemas al ingresar el recurso-
+arprestamo.encabezado = Aprobaci&oacute;n/Rechazo de Solicitudes de Pr&eacute;stamo
+opc.aprobar : Aprobar
+opc.rechazar : Rechazar
+opc.entregar: Entregar
+opc.recibir: Recibir
+arprestamo.mensaje.exito.aprobada= - La solicitud ha sido aprobada -
+arprestamo.mensaje.exito.rechazada= - La solicitud ha sido rechazada -
+
+# Formulario Reporte de Asignaciones Actuales
+rptAsigActuales.encabezado = Reporte de Asignaciones Actuales
+rptAsigActuales.titulo = :: SALDEI - Reporte de Asignaciones Actuales -::
+#APROBACION/RECHAZO DE SOLICITUD DE DESCARGA#
+aprDesc.encabezado = Aprobaci&oacute;n/Rechazo de Solicitudes de Traslado a Bodega
+aprDesc.titulo = :: SALDEI - Aprobar/Rechazar Solicitudes de Traslado a Bodega -::
+
+
+#DETALLE APROBACION/RECHAZO DE SOLICITUD DE DESCARGA#
+detAprDesc.fecha_creacion = Fecha de creaci&oacute;n
+detAprDesc.destino = Bodega de destino
+detAprDesc.destino.requerido = Debe seleccionar una bodega de destino
+detAprDesc.mensaje.exito.aprobada= - La solicitud ha sido aprobada -
+detAprDesc.mensaje.exito.rechazada= - La solicitud ha sido rechazada -
+detAprDesc.resolucion = Resoluci&oacute;n
+detAprDesc.mensajeError.error.notraslado = -ERROR: El traslado no se puede efectuar ya que el activo esta siendo requerido por un usuario-
+detAprDesc.mensaje.exito.anular = - La solicitud ha sido anulada -
+#formulario de cotizaciones
+
+cotizacion.titulo = :: SALDEI - Cotizaci&oacute;n de Compra -::
+cotizacion.encabezado = Cotizaci&oacute;n de Compra
+cotizacion.codSolicitud = Solicitud 
+cotizacion.solicitante = Solicitante
+cotizacion.codCotizacion = Cotizaci&oacute;n
+cotizacion.proveedor = Proveedor
+cotizacion.iva = Incluye IVA
+cotizacion.bodega  = Bodega
+cotizacion.codBodega  = C&oacute;digo Bodega
+cotizacion.url = Cotizaci&oacute;n
+cotizacion.comentario = Descripci&oacute;n
+cotizacion.estado = Estado
+
+cotizacion.proveedor.requerido = Debe Seleccionar un Proveedor
+cotizacion.bodega.requerido = Debe Seleccionar una Bodega
+
+
+cotizacion.mensaje.exito.delete = - La cotizaci&oacute;n de compra fue eliminada -
+cotizacion.mensaje.exito.insert = - La cotizaci&oacute;n de compra fue agregada -
+cotizacion.mensaje.exito.update = - La cotizaci&oacute;n de compra fue actualizada -
+# traslado de activos
+trasactivo.unidadDesc = Unidad Actual
+trasactivo.unidadResponsable = Responsable Actual
+trasactivo.unidadNew = Unidad Destino
+trasactivo.responNew = Nuevo Responsable
+trasactivo.titulo = :: SALDEI - Traslado de Activos -::
+trasactivo.encabezado = Traslado de Activos
+trasactivo.mensaje.exito.traslado = - El cambio de unidad ha sido realizado -
+trasactivo.unidad.requerido = - Debe seleccionar la unidad destino -
+trasactivo.mensajeError.error.traslado = -ERROR: El activo no puede ser trasladado porque esta siendo requerido por un usuario-
+# Formulario Aprobacion requisicion
+
+aprReq.codSolicitud = Requisici&oacute;n No.
+aprReq.titulo = :: SALDEI - Aprobaci&oacute;n/Rechazo de Requisiciones -::
+aprReq.encabezado = Aprobaci&oacute;n/Rechazo de Requisiciones
+aprReq.activo = Activo
+aprReq.descripcion = Descripci&oacute;n
+aprReq.solicitante = Solicitante
+aprReq.codSolicitante = C&oacute;digo Solicitante
+aprReq.unidad = Unidad
+aprReq.estado = Estado
+aprReq.bodega = Bodega
+aprReq.comentario = Comentario
+aprReq.fecha_finalizacion = F. Finalizaci&oacute;n
+aprReq.fecha_anulacion = F. Anulaci&oacute;n
+aprReq.fecha_aprobacion = F. Aprobaci&oacute;n
+aprReq.fecha_creacion = F. Creaci&oacute;n
+aprReq.motivoRechazo = Resoluci&oacute;n
+aprReq.motivoAnulacion = Motivo Anulaci&oacute;n
+aprDetReq.solicitante = Solicitante
+requisicion.comentario = Comentario
+
+
+# Reporte de Hist de Asignaciones
+rptHistAsig.titulo = :: SALDEI - Reporte de Historico de Asignaciones - ::
+
+
+# Formulario del detalle de la aprobacion de la requisicion
+
+aprDetReq.codSolicitud = Requisici&oacute;n No.
+aprDetReq.activo = Activo
+aprDetReq.titulo = :: SALDEI - Aprobaci&oacute;n - Detalle Requisici&oacute;n de Recursos -::
+aprDetReq.encabezado = Aprobaci&oacute;n - Requisici&oacute;n de Recursos
+aprDetReq.recurso = Recurso
+aprDetReq.descripcion = Descripci&oacute;n
+aprDetReq.solicitante = Solicitante
+aprDetReq.codSolicitante = C&oacute;digo Solicitante
+aprDetReq.unidad = Unidad
+aprDetReq.estado = Estado
+aprDetReq.bodega = Bodega
+aprDetReq.comentario = Comentario
+aprDetReq.nombreRecurso = Comentario
+aprDetReq.cantidad =Cantidad
+
+
+aprDetReq.unidad.requerido = Debe seleccionar la Unidad de Trabajo 
+aprDetReq.bodega.requerido = Debe seleccionar la Bodega 
+aprDetReq.recurso.requerido = Debe seleccionar el Recurso 
+aprDetReq.cantidad.requerido = La Cantidad debe ser mayor que 0
+
+aprDetReq.mensaje.exito.delete = -EL Registro  fue Eliminado -
+aprDetReq.mensaje.exito.insert = - EL Registro fue Agregado  -
+aprDetReq.mensaje.exito.update = - EL Registro fue Actualizado -
+aprDetReq.mensaje.exito.noinsert = - ERROR: EL Registro ya fue agregado -
+aprDetReq.mensaje.fallo.insert = - Problemas al ingresar el recurso-
+aprDetReq.mensaje.exito.aceptada = - La solicitud ha sido aceptada -
+aprDetReq.mensaje.exito.rechazada = - La solicitud ha sido rechazada -
+aprDetReq.mensaje.exito.anular = - La solicitud ha sido anulada -
+
+
+
+# Formulario solicitud de suministros
+
+suministro.codSolicitud = Solicitud No.
+suministro.titulo = :: SALDEI - Solicitud de Suministros -::
+suministro.encabezado = Solicitud de Suministros
+suministro.activo = Activo::
+suministro.descripcion = Descripci&oacute;n
+suministro.solicitante = Solicitante
+suministro.codSolicitante = C&oacute;digo Solicitante
+suministro.unidad = Unidad
+suministro.estado = Estado
+suministro.bodega = Bodega
+suministro.comentario = Descripci&oacute;n
+suministro.fecha_finalizacion = F. Finalizaci&oacute;n
+suministro.fecha_anulacion = F. Anulaci&oacute;n
+suministro.fecha_aprobacion = F. Aprobaci&oacute;n
+suministro.fecha_creacion = F. Creaci&oacute;n
+suministro.motivoRechazo = Resoluci&oacute;n
+suministro.motivoAnulacion = Motivo Anulaci&oacute;n
+
+suministro.unidad.requerido = Debe seleccionar la Unidad de Trabajo 
+suministro.bodega.requerido = Debe seleccionar la Bodega 
+
+suministro.mensaje.exito.delete = -La Solicitud fue Eliminada -
+suministro.mensaje.exito.insert = - La Solicitud fue Agregada  -
+suministro.mensaje.exito.update = - La Solicitud fue Actualizada -
+suministro.mensaje.exito.noinsert = - ERROR: La Solicitud ya existe -
+suministro.mensaje.fallo.insert = - Problemas al crear la Solicitud-
+suministro.mensajeError.error.nodelete = - La solicitud no puede ser eliminada porque tiene recursos asociados-
+# Formulario detalle de solicitud de suministros
+
+detSum.codSolicitud = Requisicion No.
+
+detSum.activo = Activo
+detSum.titulo = :: SALDEI - Detalle Solicitud de Suministros -::
+detSum.encabezado = Detalle Solicitud de Suministros
+detSum.recurso = Suministro
+detSum.descripcion = descripción
+detSum.solicitante = Solicitante
+detSum.codSolicitante = Codigo Solicitante
+detSum.unidad = Unidad
+detSum.estado = Estado
+detSum.bodega = Bodega
+detSum.comentario = Descripci&oacute;n
+detSum.nombreRecurso = Comentario
+detSum.cantidad =Cantidad
+detSum.uniSol = Solicitante
+
+detSum.unidad.requerido = Debe seleccionar la Unidad de Trabajo 
+detSum.bodega.requerido = Debe seleccionar la Bodega 
+detSum.recurso.requerido = Debe seleccionar el Suministro 
+detSum.cantidad.requerido = La Cantidad debe ser mayor que 0
+
+detSum.mensaje.exito.delete = -EL Registro  fue Eliminado -
+detSum.mensaje.exito.insert = - EL Registro fue Agregado  -
+detSum.mensaje.exito.update = - EL Registro fue Actualizado -
+detSum.mensaje.exito.noinsert = - ERROR: EL Registro ya fue agregado -
+detSum.mensaje.fallo.insert = - Problemas al ingresar el suministro-
+detSum.mensaje.exito.enviada = - La solicitud de suministros ha sido enviada -
+detSum.mensaje.mensajeError.error.noenviar = - No puede enviarse una solicitud vacia, favor seleccione un suministro o m&aacute;s-
+#formulario de detalles de las cotizaciones
+
+cotizacionDet.titulo = :: SALDEI - Detalle de Cotizaci&oacute;n de Compra -::
+cotizacionDet.encabezado = Detalle Cotizaci&oacute;n de Compra
+cotizacionDet.codSolicitud = Solicitud 
+cotizacionDet.solicitante = Solicitante
+cotizacionDet.codCotizacion = Cotizaci&oacute;n
+cotizacionDet.proveedor = Proveedor
+cotizacionDet.recurso = Recurso
+cotizacionDet.bodega  = Bodega
+cotizacionDet.iva  = Incluye IVA
+cotizacionDet.precioIva  = Precio con IVA
+cotizacionDet.codBodega  = C&oacute;digo Bodega
+cotizacionDet.cantidad = Cantidad
+cotizacionDet.precioUnitario = Precio Unitario
+cotizacionDet.estado = Estado
+cotizacionDet.monto = Monto
+cotizacionDet.comentario = Comentario
+
+cotizacionDet.recurso.requerido = Debe Seleccionar un Recurso
+cotizacionDet.bodega.requerido = Debe Seleccionar una Bodega
+cotizacionDet.precioUnitario.requerido = Debe introducir un monto
+cotizacionDet.cantidad.requerido = Debe introducir una cantidad
+cotizacionDet.mensaje.exito.delete = - El Recurso fue eliminado de la cotizacion de compra -
+cotizacionDet.mensaje.exito.insert = - El Recurso fue agregado a la cotizacion de compra -
+cotizacionDet.mensaje.exito.update = - El Recurso fue actualizado de la cotizacion de compra -
+
+
+
+
+
+# Formulario Aprobacion/Rechazo de Solicitud de suministros
+aprSum.titulo = :: SALDEI - Aprobaci&oacute;n/Rechazo de Solicitud de Suministros -::
+aprSum.encabezado = Aprobaci&oacute;n/Rechazo de Solicitud de Suministros
+
+# Formulario del detalle de la aprobacion de la solicitud de suministro
+
+aprDetSum.codSolicitud = Solicitud No.
+aprDetSum.activo = Activo
+aprDetSum.titulo = :: SALDEI - Aprobaci&oacute;n/Rechazo - Detalle Solicitud de Suministros -::
+aprDetSum.encabezado = Aprobaci&oacute;n/Rechazo - Solicitud de Suministros
+aprDetSum.recurso = Suministro
+aprDetSum.descripcion = Descripci&oacute;n
+aprDetSum.solicitante = Solicitante
+aprDetSum.codSolicitante = C&oacute;digo Solicitante
+aprDetSum.unidad = Unidad
+aprDetSum.estado = Estado
+aprDetSum.bodega = Bodega
+aprDetSum.comentario = Comentario
+aprDetSum.nombreRecurso = Comentario
+aprDetSum.cantidad =Cantidad
+
+
+aprDetSum.unidad.requerido = Debe seleccionar la Unidad de Trabajo 
+aprDetSum.bodega.requerido = Debe seleccionar la Bodega 
+aprDetSum.recurso.requerido = Debe seleccionar el Suministro 
+aprDetSum.cantidad.requerido = Debe introducir una cantidad valida
+
+aprDetSum.mensaje.exito.delete = -EL Registro  fue Eliminado -
+aprDetSum.mensaje.exito.insert = - EL Registro fue Agregado  -
+aprDetSum.mensaje.exito.update = - EL Registro fue Actualizado -
+aprDetSum.mensaje.exito.noinsert = - ERROR: EL Registro ya fue agregado -
+aprDetSum.mensaje.fallo.insert = - Problemas al ingresar el recurso-
+aprDetSum.mensaje.exito.aceptada = - La solicitud ha sido aceptada -
+aprDetSum.mensaje.exito.rechazada = - La solicitud ha sido rechazada -
+aprDetSum.mensaje.exito.anulada = - La solicitud ha sido anulada -
+
+#PARA LA BAJA DE ACTIVO#
+bajaActivo.titulo = :: SALDEI - Baja de Activos -::
+bajaActivo.encabezado = Baja de Activos
+bajaActivo.motivoBaja = Motivo de baja
+bajaActivo.comentario = Descripci&oacute;n
+bajaActivo.motivoBaja.requerido = Debe seleccionar un motivo de baja
+bajaActivo.mensaje.exito.insert = - El activo ha sido dado de baja -
+bajaActivo.mensajeError.error.insert = Debe seleccionar un activo para darle la baja
+bajaActivo.mensajeError.error.nobaja = -ERROR: No se puede dar de baja al activo porque esta siendo solicitado por un usuario -
+#Formulario para solicitud de abastecimiento#
+
+solaba.titulo = :: SALDEI - Solicitud de Abastecimiento -::
+solaba.encabezado = Solicitud de Abastecimiento
+solaba.mensaje.exito.insert = - La solicitud de abastecimiento fue creada -
+solaba.mensaje.exito.update = - La solicitud de abastecimiento ha sido actualizada -
+solaba.mensaje.exito.delete = - La solicitud de abastecimiento ha sido eliminada -
+solaba.bodegadestinodesc = Bodega de destino
+
+
+# Formulario Reporte de Movimeintos de Recursos
+repMovRecurso.encabezado = Reporte de Movimientos de Recursos
+repMovRecurso.titulo = :: SALDEI - Reporte de Movimientos de Recursos -::
+repMovRecurso.fecha_ini = Fecha Inicial
+repMovRecurso.fecha_fin = Fecha Final
+repMovRecurso.codRecurso = Recurso
+repMovRecurso.fecha_ini.requerido = La fecha inicial es requerida
+repMovRecurso.fecha_fin.requerido = La fecha final es requerida
+repMovRecurso.rango_invalido = La fecha final no puede ser menor a la inicial
+
+
+
+# Formulario Reporte de Existencias
+
+repExist.encabezado = Reporte de Existencias
+repExist.titulo = :: SALDEI Reporte de Existencias-::
+repExist.bodega = Bodega
+repExist.cero = Mostrar con Existencia Cero?
+
+
+#Formulario para la aprobacion de solicitud de abastecimiento#
+aprsolaba.titulo = :: SALDEI - Aprobaci&oacute;n/Rechazo de Solicitud de Abastecimiento -::
+aprsolaba.encabezado = Aprobaci&oacute;n/Rechazo de Solicitud de Abastecimiento
+
+#Formulario para el detalle de la aprobacion de solicitud de abastecimiento#
+aprdetsolaba.recurso = Suministro
+aprdetsolaba.destino = Bodega de destino
+aprdetsolaba.titulo = :: SALDEI - Detalle de Aprobaci&oacute;n de Solicitud de Abastecimiento -::
+aprdetsolaba.encabezado = Detalle de Aprobaci&oacute;n de Solicitud de Abastecimiento
+aprdetsolaba.cantidad = Cantidad solicitada
+aprdetsolaba.unidad = Unidad de medida
+aprdetsolaba.mensaje.exito.anulada = - La solicitud de Abastecimiento ha sido anulada-
+
+#Consulta de bodega#
+consultabodega.encargado = Encargado
+consultabodega.destino = Destino
+consultabodega.existencia = Existencia
+
+#links#
+linkInv.solicitudAbastecimiento = Solicitar Abastecimiento
+
+#Mantenimiento de estado de activos#
+estadoAct.titulo = :: SALDEI - Cat&aacute;logo de Estado de Activo -::
+estadoAct.encabezado = Cat&aacute;logo de Estado de Activo
+estadoAct.descripcion.requerido = Debe introducir una descripci&oacute;n
+estadoAct.mensaje.exito.insert = - El estado del activo ha sido creado -
+estadoAct.mensaje.exito.update = - El estado del activo ha sido actualizado -
+estadoAct.mensaje.exito.delete = - El estado del activo ha sido eliminado -
+estadoAct.mensajeError.error.nodelete = - El estado de activo seleccionado no pudo eliminarse porque tiene registros asociados -
+estadoAct.codigo = C&oacute;digo de estado
+estadoAct.descripcion = Descripci&oacute;n
+
+#Agregando los estados para el catalogo de activos#
+activo.baja = Baja
+activo.estado.requerido = Debe seleccionar un estado
+
+#Mantenimiento de usuarios y titulos#
+uti.encabezado = Usuarios y T&iacute;tulos 
+uti.titulo2 = :: SALDEI - Usuarios y T&iacute;tulos -::
+uti.usuario = Usuario
+uti.titulo = T&iacute;tulo
+uti.titulo.requerido = Debe introducir un t&iacute;tulo
+uti.usuario.requerido = Debe seleccionar un usuario
+uti.abreviatura = Abreviatura
+uti.pd = Por defecto
+
+uti.mensaje.exito.delete = - El titulo ha sido eliminado con exito -
+uti.mensajeError.error.nodelete = - El titulo seleccionado no pudo eliminarse porque tiene registros asociados -
+uti.mensaje.exito.insert = - El titulo ha sido insertado con exito -
+uti.mensaje.exito.update = - El titulo ha sido actualizado con exito -
+
+#Asociar minimo de recursos (solamente consumibles) a bodega#
+minixbod.encabezado = Recursos por Bodega
+minixbod.titulo = :: SALDEI - Recursos por Bodega -::
+minixbod.codRecurso = C&oacute;digo
+minixbod.nombreRecurso = Recurso
+minixbod.categoria = Categor&iacute;a
+minixbod.subcategoria = Subcategor&iacute;a
+minixbod.unidadmedida = Unidad de Medida
+minixbod.abvunidadmedida = Abreviatura
+minixbod.bodega = Bodega
+minixbod.minimo = M&iacute;nimo
+
+minixbod.codBodega.requerido = Debe seleccionar una bodega
+minixbod.minimo.requerido = Debe introducir un minimo
+minixbod.minimo.valido = Debe introducir una cantidad valida
+
+minixbod.mensaje.exito.delete = - El recurso ha sido desasociado de la bodega con exito -
+minixbod.mensajeError.error.nodelete = - La bodega seleccionada no pudo desasociarse del recurso porque tiene registros asociados -
+minixbod.mensaje.exito.insert = - El recurso ha sido asociado a la bodega con exito -
+minixbod.mensaje.exito.update = - El minimo ha sido actualizado con exito -
+
+# formulario de Aprobacion de Solicitud de compra
+aprSolCompra.titulo = :: SALDEI - Aprobaci&oacute;n de Solicitud de Compra -::
+aprSolCompra.encabezado = Aprobaci&oacute;n de Solicitud de Compra
+aprSolCompra.codSolicitud = Solicitud
+aprSolCompra.solicitante = Solicitante
+aprSolCompra.cotizacion = Cotizaci&oacute;n
+aprSolCompra.codCotizacion = C&oacute;digo
+aprSolCompra.proveedor = Proveedor
+aprSolCompra.cuenta = Cuenta
+aprSolCompra.presupuesto = Presupuesto
+aprSolCompra.monto = Monto Presupuestado $
+aprSolCompra.saldo = Saldo Presupuestado $
+aprSolCompra.montoActual = Monto Actual $
+aprSolCompra.resolucion = Resoluci&oacute;n
+aprSolCompra.comentarios = Comentarios
+aprSolCompra.codBodega = C&oacute;digo
+aprSolCompra.bodega = Bodega
+aprSolCompra.destino = Destino
+aprSolCompra.estado = Estado
+aprSolCompra.comentario = Comentario
+
+
+aprSolCompra.mensaje.exito.aprobar = - La solicitud de compra fue aprobada exitosamente -
+aprSolCompra.mensaje.exito.rechazar = - La solicitud de compra fue Rechazada -
+aprSolCompra.mensaje.exito.anular = - La solicitud de compra fue Anulada -
+
+
+aprSolCompra.cotizacion.requerido = Debe seleccionar una Cotizaci&oacute;n
+aprSolCompra.presupuesto.requerido = Debe seleccionar un Presupuesto
+aprSolCompra.bodega.requerido = Debe seleccionar una Bodega
+aprSolCompra.monto.invalido = El monto de Solicitud supera el saldo actual de la cuenta seleccionada
+
+
+
+# Formulario Reporte de Sugerido de Abastesimiento
+
+repAbas.encabezado =Reporte - Sugerido de Abastesimiento de Suministro
+repAbas.titulo = :: SALDEI Sugerido de Abastesimiento-::
+repAbas.bodega = Bodega
+
+
+# Formulario Reporte de Salidas por Bodegas
+
+repSalBod.encabezado = Reporte - Salidas de Recursos por Bodega
+repSalBod.titulo = :: SALDEI Salidas de Recursos por Bodega-::
+repSalBod.bodega = Bodega
+repSalBod.fecha_ini = Fecha Inicial
+repSalBod.fecha_fin = Fecha Final
+repSalBod.fecha_ini.requerido = La fecha inicial es requerida
+repSalBod.fecha_fin.requerido = La fecha final es requerida
+repSalBod.rango_invalido = La fecha final no puede ser menor a la inicial
+repSalBod.grafico = Generar Gráfico?
+repSalBod.consumible = Sólo Consumibles?
+
+# Reporte de Consumo por Solicitante
+
+repConSol.encabezado = Reporte - Consumo por Solicitante
+repConSol.titulo = :: SALDEI Consumo por Solicitante -::
+repConSol.director = Solicitante 
+repConSol.fecha_ini = Fecha Inicial
+repConSol.fecha_fin = Fecha Final
+repConSol.fecha_ini.requerido = La fecha inicial es requerida
+repConSol.fecha_fin.requerido = La fecha final es requerida
+repConSol.rango_invalido = La fecha final no puede ser menor a la inicial
+repConSol.grafico = Generar Gráfico?
+repConSol.unidad = Unidad
+
+#Agrego al detalle de presupuesto#
+
+detppto.saldo = Saldo
+detpresupuesto.mensajeError.error.noupdate = - ERROR: La actualizaci&oacute;n no pudo llevarse a cabo -
+
+#Agrego al activo#
+activo.mensajeError.error.insert = - ERROR: Ya existe un activo con ese codigo de la UCA -
+
+#Agrego a la solicitud de abastecimiento#
+solaba.codBodega.requerido = Debe seleccionar una bodega
+
+#Agrego al detalle de solicitud de abastecimiento#
+detsolaba.titulo = :: SALDEI Detalle de Soicitud de Abastecimiento -::
+detsolaba.encabezado = Detalle de Solicitud de Abastecimiento
+detsolaba.codRecurso = C&oacute;digo de recurso
+detsolaba.recurso = Suministro
+detsolaba.cantidad = Cantidad
+# Reporte de Historico de Asignaciones
+
+detsolaba.mensaje.exito.delete = - El recurso fue eliminado de la solicitud -
+detsolaba.mensajeError.error.nodelete = El registro seleccionado no se pudo eliminar porque tiene referencias en otros lados
+detsolaba.mensaje.exito.insert = - El recurso fue insertado en la solicitud -
+detsolaba.mensaje.exito.update = - El recurso fue actualizado en la solicitud -
+detsolaba.mensaje.exito.enviada = - La solicitud de abastecimiento ha sido enviada -
+detsolaba.mensajeError.error.noenviar =  No puede enviarse una solicitud vacia, favor seleccione un recurso o m&aacute;s 
+detsolaba.recurso.requerido = Debe seleccionar un recurso
+detsolaba.cantidad.requerido = Debe introducir una cantidad
+detsolaba.cantidad.valida = Debe introducir un número positivo entero 
+
+#Agrego al detalle de la solicitud de descarga de activos#
+detAprDesc.titulo = :: SALDEI Detalle de resoluci&oacute;n de traslado de activo a bodega -::
+detAprDesc.encabezado =  Detalle de Resoluci&oacute;n de Traslado de Activo a Bodega
+
+
+repHisAsig.encabezado = Reporte - Historico de Asignaciones
+repHisAsig.titulo = :: SALDEI Historico de Asignaciones -::
+repHisAsig.fecha_ini = Fecha Inicial
+repHisAsig.fecha_fin = Fecha Final
+repHisAsig.fecha_ini.requerido = La fecha inicial es requerida
+repHisAsig.fecha_fin.requerido = La fecha final es requerida
+repHisAsig.rango_invalido = La fecha final no puede ser menor a la inicial
+repHisAsig.codActivo = Activo
+
+#Agrego al detalle de requisicion de recursos#
+detReq.mensaje.exito.enviada = - La solicitud de requisicion ha sido enviada - 
+
+
+# formulario del ingresos de Solicitud de compra
+ingSolCompra.titulo = :: SALDEI - Ingreso por Solicitud de Compra -::
+ingSolCompra.encabezado = Ingreso por Solicitud de Compra
+ingSolCompra.codSolicitud = Solicitud
+ingSolCompra.solicitante = Solicitante
+ingSolCompra.proveedor = Proveedor
+ingSolCompra.resolucion = Resolucion
+ingSolCompra.comentarios = Comentarios
+ingSolCompra.codBodega = Codigo
+ingSolCompra.bodega = Bodega
+ingSolCompra.estado = Estado
+ingSolCompra.recurso = Recurso
+ingSolCompra.cantidad = Cantidad
+ingSolCompra.cantidadPendiente = Pendiente
+ingSolCompra.precioUnitario = Precio Unitario
+ingSolCompra.monto = Monto
+ingSolCompra.serie = Serie
+
+ingSolCompra.mensaje.exito.ingreso = - La solicitud de compra fue Ingresada exitosamente -
+
+
+ingSolCompra.serie.requerido = Debe seleccionar una Cotizacion
+ingSolCompra.cantidad.requerido = Debe seleccionar un Presupuesto
+
+ingSolCompra.mensaje.exito.ingreso = - Las Existencias de solicitud de Compra fue Ingresada exitosamente -
+ingSolCompra.mensaje.fallo = Debe ingresar existencias para al menos un recurso
+
+#Recibir la descarga de activo#
+recibirdesc.bodegaDes = Bodega de destino
+
+#Agrego al detalle de solicitud de descarga de activo#
+detsoldesca.ubicacion = Ubicaci&oacute;n
+
+#Detalle de recibir activos para descarga#
+detrecibirdesc.comentarioTecnico = Comentarios del<br>t&eacute;cnico
+detrecibirdesc.comentarioTecnico.requerido = Debe introducir un comentario tecnico
+detrecibirdesc.mensaje.exito.update = - Los activos han sido recibidos -
+
+#Opcion para consulta de historico#
+campo.consultarHistorico = Consultar
+
+#Reporte de Solicitud de Abastesimiento
+repSolAbas.codSolicitud = Código Solicitud
+repSolAbas.tipoReporte = Tipo Solicitud
+repSolAbas.titulo = :: SALDEI - Reporte Solicitud de Abastacimiento-::
+repSolAbas.encabezado = Reporte Solicitud de Abastecimiento
+
+
+# formulario del ingresos de Solicitud de Abastecimiento
+ingSolAbas.titulo = :: SALDEI - Ingreso por Solicitud de Abastecimiento -::
+ingSolAbas.encabezado = Ingreso por Solicitud de Abastecimiento
+ingSolAbas.codSolicitud = Solicitud
+ingSolAbas.solicitante = Solicitante
+ingSolAbas.proveedor = Proveedor
+ingSolAbas.resolucion = Resolucion
+ingSolAbas.comentarios = Comentarios
+ingSolAbas.codBodega = Codigo
+ingSolAbas.bodega = Bodega
+ingSolAbas.estado = Estado
+ingSolAbas.recurso = Recurso
+ingSolAbas.cantidad = Cantidad
+ingSolAbas.comentario = Comentario
+ingSolAbas.resolucion = Resolucion
+
+
+ingSolAbas.cantidad.requerido = La cantidad no puede ser mayor a {0}
+
+ingSolAbas.mensaje.exito.ingreso = - Las Existencias de solicitud de Abatecimiento fue Ingresada exitosamente -
+ingSolAbas.mensaje.fallo = Debe ingresar existencias para al menos un recurso
+
+#Nuevo mantenimiento de opciones#
+mopc.mensaje.exito.delete = - La opcion ha sido desactivada -
+mopc.mensaje.exito.insert = - La opcion ha sido insertada -
+mopc.mensaje.exito.update = - La opcion ha sido actualizada -
+
+# formulario de las salidas de Solicitud de Abastecimiento
+salSolSuministro.titulo = :: SALDEI - Salidas por Solicitud de Suministro -::
+salSolSuministro.encabezado = Salidas por Solicitud de Suministro
+salSolSuministro.codSolicitud = Solicitud
+salSolSuministro.solicitante = Solicitante
+salSolSuministro.proveedor = Proveedor
+salSolSuministro.resolucion = Resoluci&oacute;n
+salSolSuministro.comentarios = Comentarios
+salSolSuministro.codBodega = C&oacute;digo
+salSolSuministro.bodega = Bodega
+salSolSuministro.unidad = Unidad de Destino
+salSolSuministro.estado = Estado
+salSolSuministro.comentario = Comentario
+salSolSuministro.resolucion = Resoluci&oacute;n
+salSolSuministro.recurso = Recurso
+salSolSuministro.cantidad = Cantidad
+
+salSolSuministro.cantidad.requerido = La cantidad no puede ser mayor a {0}
+
+salSolSuministro.mensaje.exito.ingreso = - La asignacion de los suministros fue realizada exitosamente -
+salSolSuministro.mensaje.fallo = La solicitud de suministro ya fue entregada totalmente
+salSolSuministro.mensaje.fallo.existencia = Debe haber existencias para al menos un suministro
+
+#reporte solicitud de compra
+
+repSolCompra.titulo = :: SALDEI - Reporte Solicitud de Compra -::
+repSolCompra.encabezado = Reporte Solicitud de Compra
+repSolCompra.codSolicitud = Codigo de Solicitud
+mopc.titulo = :: SALDEI Mantenimiento de opciones -::
+mopc.encabezado = Mantenimiento de opciones
+mopc.nomOpcion = Nombre
+mopc.nomOpcion.requerido = Debe introducir un nombre
+mopc.descOpcion = Descripci&oacute;n
+mopc.descOpcion.requerido = Debe introducir una descripción
+mopc.urlOpcion = URL
+mopc.urlOpcion.requerido = Debe introducir una URL
+mopc.orden = Orden
+mopc.metodo = M&eacute;todo
+mopc.metodo.requerido = Debe introducir un m&eacute;todo
+mopc.opcionPadre = Opci&oacute;n padre
+
+mopc.isSeparador = Separador
+mopc.estOpcion = Estado
+mopc.opcionPadre = Padre  
+
+mopc.orden.requerido = Debe introducir una cantidad valida
+mopc.visible = Visible
+
+# formulario de las salidas de Solicitud de Compras y Recursos
+salSolRecurso.titulo = :: SALDEI - Salidas por Solicitudes de Recursos -::
+salSolRecurso.encabezado = Salidas por Solicitudes de Recursos
+salSolRecurso.codSolicitud = Solicitud
+salSolRecurso.solicitante = Solicitante
+salSolRecurso.proveedor = Proveedor
+salSolRecurso.resolucion = Resoluci&oacute;n
+salSolRecurso.comentarios = Comentarios
+salSolRecurso.codBodega = C&oacute;digo
+salSolRecurso.bodega = Bodega
+salSolRecurso.unidad = Unidad de Destino
+salSolRecurso.estado = Estado
+salSolRecurso.comentario = Comentario
+salSolRecurso.resolucion = Resoluci&oacute;n
+salSolRecurso.recurso = Recurso
+salSolRecurso.cantidad = Cantidad
+
+salSolRecurso.cantidad.requerido = La cantidad no puede ser mayor a {0}
+
+salSolRecurso.mensaje.exito.ingreso = - La asignaci&oacute;n de los recursos fue realizada exitosamente -
+salSolRecurso.mensaje.fallo = La solicitud de Recursos ya fue entregada totalmente
+salSolRecurso.mensaje.fallo.existencia = Debe haber existencias para al menos un recurso
+
+
+# Formulario de Ajuste de Inventario
+ajuste.titulo = :: SALDEI - Ajuste de Invetario -::
+ajuste.encabezado = Ajuste de Inventario
+
+ajuste.codigo = C&oacute;digo
+ajuste.nombre = Nombre
+ajuste.codCategoria = Categor&iacute;a
+ajuste.codSubCategoria = Sub categor&iacute;a
+ajuste.creadoPor = Creado por
+ajuste.fechaCreacion = Fecha creaci&oacute;n
+ajuste.codUnidadMedida = Unidad de Medida
+ajuste.minimo = M&iacute;nimo
+ajuste.serializable = Serializable
+ajuste.consumible = Suministro
+ajuste.tipoMovimiento = Tipo Movimiento
+ajuste.operacion = Operaci&oacute;n
+ajuste.justificacion = Justificaci&oacute;n
+ajuste.cantidad = Cantidad
+ajuste.series = Series
+ajuste.codBodega = C&oacute;digo Bodega
+ajuste.bodega = Bodega
+
+ajuste.tipoMov.requerido = Debe Seleccionar un tipo de movimiento
+ajuste.bodega.requerido = Debe Seleccionar una bodega
+ajuste.justificacion.requerido = Debe ingresar la justificacion del movimiento
+ajuste.cantidad.requerido = Debe ingresar una cantidad
+ajuste.series.requerido = Debe escribir las series
+ajuste.consumible.requerido = Debe indicar si el recurso es consumible o no
+
+
+ajuste.mensaje.exito.delete = - El recurso ha sido eliminado -
+ajuste.mensaje.exito.insert = - El ajuste fue realizado exitosamente -
+ajuste.mensaje.exito.update = - El recurso fue actualizado -
+ajuste.mensajeError.error.nodelete = - El recurso seleccionado no pudo eliminarse porque tiene registros asociados -
+
+#Agrego a la requisicion de recursos
+detReq.mensaje.exito.enviada = - La requisicion de recursos ha sido enviada -
+
+estadoAct.mensaje.exito.modi = - El estado del activo ha sido modificado -
+
+#Agrego a la solicitud de suministros#
+detSum.mensaje.exito.enviada = - La solicitud de suministros ha sido enviada -
+
+#Agrego al presupuesto#
+ppto.mensajeError.error.estado = Ya existe un presupuesto activo, para activar un presupuesto<br>desactive todos los demas y luego marque el presupuesto deseado como activo
+ppto.mensajeError.error.fechas = Las fechas del nuevo presupuesto se traslapan con las de otro,<br>favor verificar la fecha inicial y final
+ppto.mensajeError.error.preact = No puede borrarse el presupuesto marcado como activo
+
+#Agrego a asociar bodega a recurso#
+minixbod.mensajeError.error.nodesasoc =  - La bodega seleccionada no pudo desasociarse del recurso porque tiene existencias de estos ligados a ella -
+
+#Agrego a la pantalla para recibir traslado#
+rectras.titulo = :: SALDEI - Recibir Traslado  -::
+rectras.encabezado = Recibir Traslado 
+
+#Agrego al catalogo de recursos#
+recurso.marca = Marca
+recurso.modelo = Modelo
+
+#Agrego al detalle de solicitud de abastecimiento#
+detsolaba.bodegaDes = Bodega destino
+
+#Agrego a la solicitud de Suministros"
+suministro.descripcion.requerido = Debe introducir una descripción
+
+#Agrego al detalle de solicitud para recibir descarga#
+detrecdesca.titulo = :: SALDEI - Detalle de Recibir Traslado a Bodega -::
+detrecdesca.encabezado = Detalle de Recibir Traslado a Bodega
+<<<<<<< .mine
+
+#Agrego a la pantalla para recibir traslado a bodega#
+resojefe.mensaje = Resoluci&oacute;n del Jefe
+
+#Agrego al detalle para aceptar un traslado a bodega#
+detAprDesc.mensaje.exito.anulada = - La solicitud ha sido anulada -
+=======
+
+
+#contenido de EMAIL
+emial.encabezado = Buen dia. <br/> Se le informa que la {0} con código {1} ha sido {2}. 
+email.contenido = {0} <br/> Para ver más detalles consulte la opción {1} <br/> en el sistema SALDEI. <br/> <br/> 
+emial.detalle = {0} especificó los siguientes comentarios: <br/> {1} <br/>
+email.pie = <hr/> Este correo fue generado de manera automatica por el sistema SALDEI. <br/> Favor no responder a este correo. <br/> Gracias.>>>>>>> .r363

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select r.cod_recurso as recursoCode, r.nombre as recursoDesc,
+		nom_medida as medida, sub.nombre as subCategoria, cat.nombre as
+		categoria from inventario.inv_recurso r, registro.medida me,
+		inventario.inv_sub_categoria sub, inventario.inv_categoria cat
+		where r.cod_unidad_medida = me.id_medida and r.cod_sub_categoria
+		= sub.cod_sub_categoria and r.cod_categoria = sub.cod_categoria
+		and r.cod_categoria = cat.cod_categoria union select '%','Todos
+		los Recursos','','','';
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codRecurso" title="Código" select="recursoCode"
+			script="yes" />
+		<column id="recursoDesc" title="Nombre" select="recursoDesc"
+			script="yes" />
+		<column id="medida" title="UM" select="medida" script="no" />
+		<column id="subCategoria" title="Subcategoría"
+			select="subCategoria" script="no" />
+		<column id="categoria" title="Categoría" select="categoria"
+			script="no" />
+	</columns>
+	<messages>Recursos</messages>
+</lov>

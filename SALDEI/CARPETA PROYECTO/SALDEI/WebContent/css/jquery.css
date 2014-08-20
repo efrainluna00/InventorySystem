@@ -1,0 +1,12 @@
+#box {
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  background: #e459e9;
+}
+#box-outer {
+  overflow: hidden;
+  height: 120px;
+  margin: 20px;
+} 
+	

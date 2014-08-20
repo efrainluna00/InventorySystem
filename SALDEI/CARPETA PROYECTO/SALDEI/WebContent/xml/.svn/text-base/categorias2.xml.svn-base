@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select cod_categoria as codCategoria, nombre as nombre from
+		inventario.inv_categoria;
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codCategoria" title="Código" select="codCategoria"
+			script="yes" />
+		<column id="nombreCategoria" title="Nombre" select="nombre"
+			script="yes" />
+	</columns>
+	<messages>Categorías</messages>
+</lov>

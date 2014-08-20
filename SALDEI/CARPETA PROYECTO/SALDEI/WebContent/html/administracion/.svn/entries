@@ -1,0 +1,46 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/WebContent/html/administracion
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-08-26T05:08:31.530779Z
+290
+blanca.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+reportes
+dir
+
+login.jsp
+file
+
+
+
+
+2009-09-09T04:49:28.744866Z
+27599e543f903e7967d44cb62a31467b
+2009-05-25T18:21:24.519879Z
+22
+dario.saldei
+
+mantenimientos
+dir
+

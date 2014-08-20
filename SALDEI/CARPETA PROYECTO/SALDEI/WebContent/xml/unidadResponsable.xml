@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		Select u.id_usuario as codResponsable, ( u.primer_nom || ' ' ||
+		u.primer_ape) as responsableDescr from seguridad.usuario as u,
+		seguridad.usuario_dei as ud where
+		u.id_usuario=ud.codigo_empleado
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codResponsable" title="Código"
+			select="codResponsable" script="yes" />
+		<column id="responsableDescr" title="Nombre"
+			select="responsableDescr" script="yes">
+		</column>
+	</columns>
+	<messages>Personal DEI</messages>
+</lov>

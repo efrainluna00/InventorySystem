@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select cod_estado as codEstadoActivo, descripcion as
+		estadoFisico from activos.act_estado_activo
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codEstadoActivo" title="Código"
+			select="codEstadoActivo" script="yes" />
+		<column id="estadoFisico" title="Descripción"
+			select="estadoFisico" script="yes" />
+	</columns>
+	<messages>Estados de Activos</messages>
+</lov>

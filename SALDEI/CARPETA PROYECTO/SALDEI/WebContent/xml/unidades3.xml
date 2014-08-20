@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select cast(cod_unidad as character varying) as codUnidad,
+		descripcion as nombreUnidad from activos.act_unidad where
+		cod_responsable = ? union select '%','Todos las Unidades';
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codDirector" position="1" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codUnidad" title="Código" select="codUnidad"
+			script="yes" />
+		<column id="nombreUnidad" title="Unidad" select="nombreUnidad"
+			script="yes" />
+	</columns>
+	<messages>Unidades</messages>
+</lov>

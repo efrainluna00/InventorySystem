@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+
+		select ud.codigo_empleado as codPropietario, u.primer_nom || ' '
+		|| u.primer_ape as propietario, au.cod_unidad as
+		codUnidad,au.descripcion as descripcion from
+		seguridad.usuario_dei ud, seguridad.usuario u,
+		activos.act_unidad au where
+		au.cod_responsable=ud.codigo_empleado and ud.codigo_empleado =
+		u.id_usuario and au.estado='A' and ud.codigo_empleado not
+		in(select u.codigo_empleado from seguridad.usuario_dei u where
+		u.codigo_empleado = ?)
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codSolicitante" position="1" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codPropietario" title="Código Responsable"
+			select="codPropietario" script="yes" />
+		<column id="codUnidad" title="Código Unidad" select="codUnidad"
+			script="yes" />
+		<column id="descripcion" title="Unidad" select="descripcion"
+			script="no" />
+		<column id="propietario" title="Responsable"
+			select="propietario" script="yes" />
+	</columns>
+	<messages>Directores de Unidades</messages>
+</lov>

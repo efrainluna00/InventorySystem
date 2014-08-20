@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select cod_bodega as codBodega, nombre as bodegaDes, ubicacion
+		from inventario.inv_bodega where estado = 'A';
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codBodega" title="Código" select="codBodega"
+			script="yes" />
+		<column id="bodegaDes" title="Nombre" select="bodegaDes"
+			script="yes" />
+
+	</columns>
+	<messages>Bodegas</messages>
+</lov>

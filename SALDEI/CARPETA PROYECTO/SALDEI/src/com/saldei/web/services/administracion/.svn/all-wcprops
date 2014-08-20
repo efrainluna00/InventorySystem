@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/SALDEI/!svn/ver/161/SISTEMA/SALDEI/src/com/saldei/web/services/administracion
+END
+LaboratorioServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/administracion/LaboratorioServices.java
+END
+RptCommonServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/administracion/RptCommonServices.java
+END
+CarreraServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/administracion/CarreraServices.java
+END
+TipoMedidaServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/administracion/TipoMedidaServices.java
+END
+TipoMulticodeServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/administracion/TipoMulticodeServices.java
+END
+MateriaServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/administracion/MateriaServices.java
+END
+MedidaServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/administracion/MedidaServices.java
+END
+MulticodeServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/administracion/MulticodeServices.java
+END
+ParametroServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SALDEI/!svn/ver/161/SISTEMA/SALDEI/src/com/saldei/web/services/administracion/ParametroServices.java
+END

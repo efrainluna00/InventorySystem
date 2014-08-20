@@ -1,0 +1,202 @@
+TABLE.displaytag  {
+	border: 1px solid #666;
+	width: 95%;
+	margin: 20px 0 20px 0 !important;
+
+}
+
+caption {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #000000;
+	text-align: center;  
+	width: 80%;
+}
+
+#cap {
+	background-color: #01111d;
+	font-weight: bold;
+    color: #FFFFFF;
+    font-size: 18px;
+	text-align: center;  
+	width: 83%;
+	heigth: 15px;
+	vertical-align: middle;
+}
+
+th,td {
+	padding: 2px 4px 2px 4px !important;
+	text-align: left;
+	vertical-align: top;
+}
+
+thead tr {
+	background-color: #000000; 
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+th.sorted {
+	background-color: #000000;
+
+}
+
+th a,th a:visited {
+	color: #FFFFFF;
+}
+
+th a:hover {
+	color: #FFFFFF;
+	font-weight:bold
+	text-decoration: underline;
+}
+
+th.sorted a,th.sortable a {
+	background-position: right;
+	display: block;
+	width: 100%;
+	color:#FFFFFF;
+	font-weight:bold
+}
+
+th.sortable a {
+	background: url(../images/displaytag/arrow_off.png) no-repeat right;
+}
+
+th.order1 a {
+	background-image: url(../images/displaytag/arrow_up.png);
+}
+
+th.order2 a {
+	background-image: url(../images/displaytag/arrow_down.png);
+}
+
+tr.odd {
+	background-color: #E6E6FA;
+	color:#000000;
+}
+
+tr.odd a{
+	color:#000000;
+}
+
+tr.tableRowEven,tr.even {
+	background: url(../images/login/azul2.gif);
+	color: #FFFFFF;
+}
+
+tr.tableRowEven {
+	color: #FFFFFF;
+}
+
+tr.even.a {
+	color: #FFFFFF;
+}
+
+div.exportlinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: 2px 0 10px 0;
+	width: 79%;
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display: inline;
+	display: inline-block;
+	cursor: pointer;
+}
+
+span.excel {
+	background-image: url(../img/ico_file_excel.png);
+}
+
+span.csv {
+	background-image: url(../img/ico_file_csv.png);
+}
+
+span.xml {
+	background-image: url(../img/ico_file_xml.png);
+}
+
+span.pdf {
+	background-image: url(../img/ico_file_pdf.png);
+}
+
+span.rtf {
+	background-image: url(../img/ico_file_rtf.png);
+}
+
+span.pagebanner {
+	background-color: #01111d;
+	text-align: center;  
+	font-size: 14px;
+	font-weight:bold;
+	color: #FFFFFF;
+	padding: 2px 4px 2px 4px;
+	width: 80%;
+	margin-top: 10px;
+	display: block;
+	border-bottom: none;
+}
+
+span.pagelinks {
+	background-color: #01111d;
+	text-align: center;  
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 2px 4px 2px 4px;
+	width: 80%;
+	display: block;
+	border-top: none;
+	margin-bottom: -5px;
+}
+span.pagebanner-full {
+	color: #FFFFFF;
+    text-align: center;  
+    font-weight:bold;
+	font-size: 14px;
+	background-color: #01111d;
+	padding: 2px 4px 2px 4px;
+	width: 80%;
+	margin: 10px 1px 0px 1px;
+	display:block;
+}
+span.pagelinks a{
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.group-1 {
+    font-weight:bold;
+    padding-bottom:10px;
+    border-top:1px solid black;
+}
+.group-2 {
+    font-style:italic;
+    border-top: 1px solid black;
+
+}
+.subtotal-sum, .grandtotal-sum {
+    font-weight:bold;
+    text-align:right;
+}
+.subtotal-header {
+    padding-bottom: 0px;
+    border-top: 1px solid white;
+}
+.subtotal-label, .grandtotal-label {
+    border-top: 1px solid white;
+    font-weight: bold;
+}
+.grouped-table tr.even {
+    background-color: #fff;
+}
+.grouped-table tr.odd {
+    background-color: #fff;
+}
+.grandtotal-row {
+    border-top: 2px solid black;
+}
+

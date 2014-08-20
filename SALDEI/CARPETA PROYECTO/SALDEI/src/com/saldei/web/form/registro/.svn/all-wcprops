@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro
+END
+AsignarMateriaEstudianteForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/AsignarMateriaEstudianteForm.java
+END
+AsigMatCatForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/AsigMatCatForm.java
+END
+GestionUsuarioForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/GestionUsuarioForm.java
+END
+RptMateriaCicloForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/RptMateriaCicloForm.java
+END
+VigenciaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/VigenciaForm.java
+END
+RptMateriaCatedratico.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/RptMateriaCatedratico.java
+END
+RequerimientoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/RequerimientoForm.java
+END
+RptMateriaInscritaHistoricoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/RptMateriaInscritaHistoricoForm.java
+END
+CicloForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/CicloForm.java
+END
+CargarDatosForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/CargarDatosForm.java
+END
+RptSolicitudUsuarioForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/RptSolicitudUsuarioForm.java
+END
+RptEstudianteMateriaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/RptEstudianteMateriaForm.java
+END
+RptMateriaCatedraticoHistoricoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/RptMateriaCatedraticoHistoricoForm.java
+END
+AsignarMateriaCicloForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/AsignarMateriaCicloForm.java
+END
+EstudianteCarreraForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/EstudianteCarreraForm.java
+END
+RptMateriaCicloHistoricoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/RptMateriaCicloHistoricoForm.java
+END
+RptRequerimientoXMateriaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/RptRequerimientoXMateriaForm.java
+END
+AsigDirecLabForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/form/registro/AsigDirecLabForm.java
+END

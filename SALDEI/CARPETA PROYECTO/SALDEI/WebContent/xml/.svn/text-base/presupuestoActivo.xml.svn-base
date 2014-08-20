@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select pre.cod_presupuesto, cue.cod_cuenta, cue.descripcion ,
+		det.monto, coalesce(det.saldo_actual,0) as saldo_actual from
+		activos.act_presupuesto pre, activos.act_det_presupuesto det,
+		activos.act_cuenta cue where pre.cod_presupuesto =
+		det.cod_presupuesto and det.cuenta = cue.cod_cuenta and
+		pre.estado = 'A'
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codPresupuesto" title="Presupuesto"
+			select="cod_presupuesto" script="yes" visible="false" />
+		<column id="codCuenta" title="Código Cuenta" select="cod_cuenta"
+			script="yes" />
+		<column id="descripcion" title="Cuenta" select="descripcion"
+			script="yes" />
+		<column id="monto" title="Monto" select="monto" script="yes" />
+		<column id="saldoActual" title="Saldo Actual"
+			select="saldo_actual" script="yes" />
+	</columns>
+	<messages>Cuentas</messages>
+</lov>

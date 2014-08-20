@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SALDEI/!svn/ver/376/SISTEMA/SALDEI/WebContent/html/inventario/reportes
+END
+repExistencias.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/376/SISTEMA/SALDEI/WebContent/html/inventario/reportes/repExistencias.jsp
+END
+repConsumoPorSol.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/376/SISTEMA/SALDEI/WebContent/html/inventario/reportes/repConsumoPorSol.jsp
+END
+repSalPorBodega.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/376/SISTEMA/SALDEI/WebContent/html/inventario/reportes/repSalPorBodega.jsp
+END
+repMovRecurso.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/376/SISTEMA/SALDEI/WebContent/html/inventario/reportes/repMovRecurso.jsp
+END
+repSolAbas.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/376/SISTEMA/SALDEI/WebContent/html/inventario/reportes/repSolAbas.jsp
+END
+repSugAbasSum.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/376/SISTEMA/SALDEI/WebContent/html/inventario/reportes/repSugAbasSum.jsp
+END

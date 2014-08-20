@@ -1,0 +1,91 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/src/com/saldei/web/action
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-09-15T10:21:02.290693Z
+390
+dario.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+LdvAction.java
+file
+
+
+
+
+2009-09-15T10:25:16.195469Z
+74bc1eefaa82651ad1606486bf27e95a
+2009-09-15T10:21:02.290693Z
+390
+dario.saldei
+
+administracion
+dir
+
+CommonAction.java
+file
+
+
+
+
+2009-09-15T10:25:16.207469Z
+0ae8ac60c474d4838c84873886884de2
+2009-09-15T10:21:02.290693Z
+390
+dario.saldei
+
+seguridad
+dir
+
+activos
+dir
+
+BaseAction.java
+file
+
+
+
+
+2009-09-15T10:25:16.219469Z
+014d39effc89a17ac89276ff8d988c07
+2009-09-15T10:21:02.290693Z
+390
+dario.saldei
+
+ActionGeneral.java
+file
+
+
+
+
+2009-09-09T04:49:23.202866Z
+09081370656da12ee3dbc06c59ab0f33
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+inventario
+dir
+
+registro
+dir
+

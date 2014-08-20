@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select cast(a.cod_bodega as character varying) as codBodega,
+		a.nombre as bodegaDes, a.ubicacion from inventario.inv_bodega as
+		a inner join activos.act_unidad as b on(a.cod_bodega =
+		b.cod_unidad) where b.cod_responsable = CASE WHEN
+		activos.f_es_jefe(?)='S' THEN b.cod_responsable else ? end
+
+		union
+
+		select '%','Todas las Bodegas',null;
+
+
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codigoUser" position="1" />
+		<sql-param id="codigoUser" position="2" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="bodega" title="Código" select="codBodega"
+			script="yes" />
+		<column id="bodegaDesc" title="Nombre" select="bodegaDes"
+			script="yes" />
+
+	</columns>
+	<messages>Bodegas</messages>
+</lov>

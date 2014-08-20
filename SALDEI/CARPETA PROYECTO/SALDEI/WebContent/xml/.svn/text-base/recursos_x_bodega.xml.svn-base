@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+
+		select a.cod_recurso as codRecurso,a.nombre as nombre, count (*)
+		as existencia from inventario.inv_recurso a inner join
+		activos.act_activo ac on (a.cod_recurso = ac.cod_recurso and
+		ac.cod_unidad = ?) where a.consumible != 'S' and ac.estado = 'N'
+		group by a.cod_recurso,a.nombre
+
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codBodega" position="1" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codRecurso" title="Código" select="codRecurso"
+			script="yes" />
+		<column id="nombreRecurso" title="Nombre" select="nombre"
+			script="yes" />
+		<column id="existencia" title="Existencia" select="existencia"
+			script="no" />
+	</columns>
+	<messages>Recursos</messages>
+</lov>

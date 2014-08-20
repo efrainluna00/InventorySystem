@@ -1,0 +1,22 @@
+#
+#Wed Sep 09 17:15:53 CST 2009
+genBasicCompId=false
+sessionFactoryName=com.saldei.util.hibernate.dao.HibernateSessionFactory
+profile=
+daoSFId=
+version=3.1
+jndiPath=
+detectM2M=true
+reStrategyClass=
+springDaoFile=
+useJavaTypes=false
+keyGenerator=
+libInstallFolder=WebContent/WEB-INF/lib
+addLibs2Project=false
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=/SALDEI/src/hibernate.reveng.xml
+configFile=/SALDEI/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=false

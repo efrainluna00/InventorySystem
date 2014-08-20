@@ -1,0 +1,142 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/WebContent/js
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-09-15T10:03:24.065749Z
+373
+dario.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+jquery
+dir
+
+ajaxtags
+dir
+
+nicejforms-interfaceViejo.js
+file
+
+
+
+
+2009-09-09T04:54:38.247866Z
+458fe35d097b51ec2e5ba653348036ee
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+struts-menu
+dir
+
+nicejformsViejo.js
+file
+
+
+
+
+2009-09-09T04:54:38.263866Z
+d597da099fd43ae4a476cdbc94a69c5a
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+common
+dir
+
+nicejforms-interface.js
+file
+
+
+
+
+2009-09-09T04:54:38.278866Z
+458fe35d097b51ec2e5ba653348036ee
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+calendar
+dir
+
+jquery-1.1.4.js
+file
+
+
+
+
+2009-09-09T04:54:38.297866Z
+45cfc448c82f5c16b8cf15aeb5af20b3
+2009-06-03T01:56:49.807476Z
+51
+dario.saldei
+
+extremecomponents.js
+file
+
+
+
+
+2009-09-09T04:54:38.320866Z
+c5ddcf3b4f83c05fb9b6bb7e3dfbcf9c
+2009-05-30T02:58:06.004369Z
+38
+dario.saldei
+
+jquery.js
+file
+
+
+
+
+2009-09-09T04:54:38.332866Z
+90369daf863a3184e5bb4150f2e567f7
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+nicejforms.js
+file
+
+
+
+
+2009-09-09T04:54:38.345866Z
+09da55fc8dd62bae483fa9118014d66a
+2009-08-24T00:39:26.978170Z
+282
+dario.saldei
+
+dojo
+dir
+
+interface.js
+file
+
+
+
+
+2009-09-09T04:54:38.362866Z
+b2c874f2fbc32f79827c967d0d28f868
+2009-05-30T08:20:01.355142Z
+43
+dario.saldei
+

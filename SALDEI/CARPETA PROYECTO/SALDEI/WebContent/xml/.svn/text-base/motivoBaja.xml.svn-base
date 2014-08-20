@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		Select cod_baja as codBaja, descripcion as motivoBajaDesc from
+		activos.act_motivo_baja
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codBaja" title="Código de baja" select="codBaja"
+			script="yes" />
+		<column id="motivoBajaDesc" title="Motivo de baja"
+			select="motivoBajaDesc" script="yes" />
+	</columns>
+	<messages>Motivos de Baja</messages>
+</lov>

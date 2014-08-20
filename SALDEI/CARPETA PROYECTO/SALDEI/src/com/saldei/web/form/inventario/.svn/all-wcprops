@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SALDEI/!svn/ver/361/SISTEMA/SALDEI/src/com/saldei/web/form/inventario
+END
+RepMovRecursoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/324/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/RepMovRecursoForm.java
+END
+RepSugAbasSumForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/361/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/RepSugAbasSumForm.java
+END
+BodegaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/BodegaForm.java
+END
+MinimoxBodegaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/342/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/MinimoxBodegaForm.java
+END
+RecursoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/288/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/RecursoForm.java
+END
+RepExistenciasForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/361/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/RepExistenciasForm.java
+END
+RepConsumoPorSolForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/324/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/RepConsumoPorSolForm.java
+END
+SalSolSuministroForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/328/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/SalSolSuministroForm.java
+END
+ConsultaBodegaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/ConsultaBodegaForm.java
+END
+MovAjusteInvForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/345/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/MovAjusteInvForm.java
+END
+RepSolAbasForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/218/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/RepSolAbasForm.java
+END
+DetalleSolAbaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/302/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/DetalleSolAbaForm.java
+END
+TipoMovForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/TipoMovForm.java
+END
+CategoriaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/CategoriaForm.java
+END
+SalSolRecursoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/326/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/SalSolRecursoForm.java
+END
+IngAbasSuministroForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/337/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/IngAbasSuministroForm.java
+END
+DetAprSolAbaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/327/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/DetAprSolAbaForm.java
+END
+AprSolicitudAbaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/AprSolicitudAbaForm.java
+END
+IngOrdenCompraForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/337/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/IngOrdenCompraForm.java
+END
+SolicitudAbastecimientoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SALDEI/!svn/ver/342/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/SolicitudAbastecimientoForm.java
+END
+SubcategoriaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/SubcategoriaForm.java
+END
+RepSalPorBodegaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/361/SISTEMA/SALDEI/src/com/saldei/web/form/inventario/RepSalPorBodegaForm.java
+END

@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+
+<struts-config>   
+ <form-beans>
+    <!-- Nuevos -->
+	<form-bean name="LoginForm"      type="com.saldei.web.form.seguridad.LoginForm"/>
+	<form-bean name="cambiarPwdForm" type="com.saldei.web.form.seguridad.CambiarPwdForm"/>
+	<form-bean name="asgPerfilForm"  type="com.saldei.web.form.seguridad.AsignarPerfilForm"/>
+	<form-bean name="ModDatosForm"   type="com.saldei.web.form.seguridad.ModificarDatosForm"/>
+	<form-bean name="opcPerfilForm"  type="com.saldei.web.form.seguridad.OpcionesPerfilForm"/>
+	<form-bean name="opcionForm"	 type="com.saldei.web.form.seguridad.OpcionForm"/>
+	<form-bean name="orgDeiForm"	 type="com.saldei.web.form.seguridad.OrganizacionDEIForm"/>
+	<form-bean name="perfilForm"	 type="com.saldei.web.form.seguridad.PerfilForm"/>
+	<form-bean name="solUsrForm"	 type="com.saldei.web.form.seguridad.SolicitarUsrForm"/>
+	<form-bean name="usuarioForm"	 type="com.saldei.web.form.seguridad.UsuarioForm"/>
+	<form-bean name="rptUsrForm"	 type="com.saldei.web.form.seguridad.RptUsuariosForm"/>
+	<form-bean name="rptOrgDeiForm"	 type="com.saldei.web.form.seguridad.RptOrgDeiForm"/>    
+  	
+  	<form-bean name="materiaForm"      type="com.saldei.web.form.administracion.MateriaForm"/>
+  	<form-bean name="tipoMedidaForm"   type="com.saldei.web.form.administracion.TipoMedidaForm"/>
+  	<form-bean name="medidaForm"   type="com.saldei.web.form.administracion.MedidaForm"/>
+  	<form-bean name="MtoTipoMulticodeForm" type="com.saldei.web.form.administracion.TipoMulticodeForm"/>
+  	<form-bean name="MtoMulticodeForm" type="com.saldei.web.form.administracion.MulticodeForm"/>
+  	<form-bean name="LaboratorioForm" type="com.saldei.web.form.administracion.LaboratorioForm"/>
+  	
+	<form-bean name="rptMatForm"	 type="com.saldei.web.form.administracion.RptMateriasForm"/>    
+  	<form-bean name="rptMedForm"	 type="com.saldei.web.form.administracion.RptMedidasForm"/>    
+  	<form-bean name="rptMultForm"	 type="com.saldei.web.form.administracion.RptMulticodeForm"/>    
+  	<form-bean name="rptTipMedForm"	 type="com.saldei.web.form.administracion.RptTipoMedida"/>    
+  	<form-bean name="rptTipMulForm"	 type="com.saldei.web.form.administracion.RptTipoMulticodeForm"/>    
+  	<form-bean name="rptLabForm"	 type="com.saldei.web.form.administracion.RptLaboratorioForm"/>
+  	<form-bean name="rptPerfilForm"	 type="com.saldei.web.form.seguridad.RptPerfilForm"/>
+  	
+  	<form-bean name="ParametroForm" type="com.saldei.web.form.administracion.ParametroForm"/>
+  	
+  	<form-bean name="asigDirecForm" type="com.saldei.web.form.registro.AsigDirecLabForm"/>
+  	<form-bean name="cdForm" type="com.saldei.web.form.registro.CargarDatosForm"/>
+  	<form-bean name="gufForm" type="com.saldei.web.form.registro.GestionUsuarioForm"/>
+  	<form-bean name="asigMatCicloForm" type="com.saldei.web.form.registro.AsignarMateriaCicloForm"/>
+  	<form-bean name="asigMatCatForm" type="com.saldei.web.form.registro.AsigMatCatForm"/>
+  	
+  	<form-bean name="rptParForm"	 type="com.saldei.web.form.administracion.RptParametroForm"/>  	
+  	<form-bean name="cicloForm"     type="com.saldei.web.form.registro.CicloForm"/>  	
+ 	<form-bean name="reqForm"       type="com.saldei.web.form.registro.RequerimientoForm"/>  	  	
+ 	<form-bean name="carForm"       type="com.saldei.web.form.administracion.CarreraForm"/>  	  	
+ 	<form-bean name="asigMatEstForm" type="com.saldei.web.form.registro.AsignarMateriaEstudianteForm"/>
+ 	
+ 	
+ 	<form-bean name="rptEstMatForm"	 type="com.saldei.web.form.registro.RptEstudianteMateriaForm"/>
+  	<form-bean name="rptMatCatForm"	 type="com.saldei.web.form.registro.RptMateriaCatedratico"/>
+  	<form-bean name="rptSolUsuForm"	 type="com.saldei.web.form.registro.RptSolicitudUsuarioForm"/>
+  	<form-bean name="rptMatCicForm"	 type="com.saldei.web.form.registro.RptMateriaCicloForm"/>
+  	<form-bean name="rptMatEstHistForm"	 type="com.saldei.web.form.registro.RptMateriaCatedraticoHistoricoForm"/>
+  	<form-bean name="rptMatCicHistForm"	 type="com.saldei.web.form.registro.RptMateriaCicloHistoricoForm"/>
+  	<form-bean name="rptMatInscHistForm"	 type="com.saldei.web.form.registro.RptMateriaInscritaHistoricoForm"/>
+  	<form-bean name="rptReqMatForm"	 type="com.saldei.web.form.registro.RptRequerimientoXMateriaForm"/>
+  	<form-bean name="VigenciaForm"	 type="com.saldei.web.form.registro.VigenciaForm"/>
+  	<form-bean name="AuditoriaForm"	 type="com.saldei.web.form.seguridad.RptAuditoriaForm"/>  	
+  	<form-bean name="PerfilUsuarioForm"	 type="com.saldei.web.form.seguridad.RptPerfilUsuarioForm"/>  
+ 	
+ 	<form-bean name="EstCarForm"	 type="com.saldei.web.form.registro.EstudianteCarreraForm"/>
+    <form-bean name="presupuestoForm" type="com.saldei.web.form.activos.PresupuestoForm" />
+    <form-bean name="tipoUnidadForm" type="com.saldei.web.form.activos.TipoUnidadForm" />
+    <form-bean name="bodegaForm" type="com.saldei.web.form.inventario.BodegaForm" />
+    <form-bean name="unidadForm" type="com.saldei.web.form.activos.UnidadForm" />
+    <form-bean name="tipoMovForm" type="com.saldei.web.form.inventario.TipoMovForm" />
+    <form-bean name="recursoForm" type="com.saldei.web.form.inventario.RecursoForm" />
+    <form-bean name="categoriaForm" type="com.saldei.web.form.inventario.CategoriaForm" />
+    <form-bean name="subcategoriaForm" type="com.saldei.web.form.inventario.SubcategoriaForm" />
+    <form-bean name="catalogoCuentaForm" type="com.saldei.web.form.activos.CatalogoCuentaForm" />
+    <form-bean name="motivoBajaForm" type="com.saldei.web.form.activos.MotivoBajaForm" />
+    <form-bean name="proveedorForm" type="com.saldei.web.form.activos.ProveedorForm" />
+    
+    <form-bean name="detallePptoForm" type="com.saldei.web.form.activos.DetallePptoForm" />
+    <form-bean name="solPrestamoForm" type="com.saldei.web.form.activos.SolPrestamoForm" />
+    <form-bean name="activoForm" type="com.saldei.web.form.activos.ActivoForm" />
+
+
+    <form-bean name="detalleSolPrestamoForm" type="com.saldei.web.form.activos.DetalleSolPrestamoForm" />
+    <form-bean name="aprSolPrestamoForm" type="com.saldei.web.form.activos.AprSolPrestamoForm" />
+    <form-bean name="reqRecursoForm" type="com.saldei.web.form.activos.ReqRecursoForm" />
+    <form-bean name="detAprSolPrestamoForm" type="com.saldei.web.form.activos.DetAprSolPrestamoForm" />
+    <form-bean name="solicitudCompraForm" type="com.saldei.web.form.activos.SolicitudCompraForm" />
+ 	
+    <form-bean name="detalleSolDescActForm" type="com.saldei.web.form.activos.DetalleSolDescActForm" />
+ 	<form-bean name="solDescActForm" type="com.saldei.web.form.activos.SolDescActForm" />
+    <form-bean name="detReqRecursoForm" type="com.saldei.web.form.activos.DetReqRecursoForm" />
+    <form-bean name="repAsigActualesForm" type="com.saldei.web.form.activos.RepAsigActualesForm" />
+    <form-bean name="solicitudCompraDetForm" type="com.saldei.web.form.activos.SolicitudCompraDetForm" />
+    <form-bean name="cotizacionForm" type="com.saldei.web.form.activos.CotizacionForm" />
+    <form-bean name="cotizacionDetForm" type="com.saldei.web.form.activos.CotizacionDetForm" />
+    <form-bean name="aprSolDescActForm" type="com.saldei.web.form.activos.AprSolDescActForm" />
+    <form-bean name="detAprSolDescActForm" type="com.saldei.web.form.activos.DetAprSolDescActForm" />
+    <form-bean name="movTrasActivoForm" type="com.saldei.web.form.activos.MovTrasActivoForm" />
+    <form-bean name="repHistAsigForm" type="com.saldei.web.form.activos.RepHistAsigForm" />
+    <form-bean name="bajaActivoForm" type="com.saldei.web.form.activos.BajaActivoForm" />
+
+    <form-bean name="aprReqRecursoForm" type="com.saldei.web.form.activos.AprReqRecursoForm" />
+    <form-bean name="aprDetReqRecursoForm" type="com.saldei.web.form.activos.AprDetReqRecursoForm" />
+    <form-bean name="solSuministroForm" type="com.saldei.web.form.activos.SolSuministroForm" />
+    <form-bean name="detSolSuministroForm" type="com.saldei.web.form.activos.DetSolSuministroForm" />
+    <form-bean name="solicitudAbastecimientoForm" type="com.saldei.web.form.inventario.SolicitudAbastecimientoForm" />
+    <form-bean name="detalleSolAbaForm" type="com.saldei.web.form.inventario.DetalleSolAbaForm" />
+    
+    <form-bean name="movSolSuministroForm" type="com.saldei.web.form.activos.MovSolSuministroForm" />
+    <form-bean name="aprSolSuministroForm" type="com.saldei.web.form.activos.AprSolSuministroForm" />
+    <form-bean name="detAprSolSuministroForm" type="com.saldei.web.form.activos.DetAprSolSuministroForm" />
+    <form-bean name="usuarioTituloForm" type="com.saldei.web.form.seguridad.UsuarioTituloForm" />
+    <form-bean name="repMovRecursoForm" type="com.saldei.web.form.inventario.RepMovRecursoForm" />
+    <form-bean name="minimoxBodegaForm" type="com.saldei.web.form.inventario.MinimoxBodegaForm" />
+    <form-bean name="repExistenciasForm" type="com.saldei.web.form.inventario.RepExistenciasForm" />
+    <form-bean name="estadoActivoForm" type="com.saldei.web.form.activos.EstadoActivoForm" />
+    <form-bean name="aprSolCompraForm" type="com.saldei.web.form.activos.AprSolCompraForm" />
+    <form-bean name="repSugAbasSumForm" type="com.saldei.web.form.inventario.RepSugAbasSumForm" />
+    <form-bean name="repSalPorBodegaForm" type="com.saldei.web.form.inventario.RepSalPorBodegaForm" />
+    <form-bean name="repConsumoPorSolForm" type="com.saldei.web.form.inventario.RepConsumoPorSolForm" />
+    <form-bean name="repHisAsigForm" type="com.saldei.web.form.activos.RepHisAsigForm" />
+      <form-bean name="detAprSolAbaForm" type="com.saldei.web.form.inventario.DetAprSolAbaForm" />
+       <form-bean name="aprSolicitudAbaForm" type="com.saldei.web.form.inventario.AprSolicitudAbaForm" />
+    <form-bean name="ingOrdenCompraForm" type="com.saldei.web.form.inventario.IngOrdenCompraForm" />
+    <form-bean name="ingAbasSuministroForm" type="com.saldei.web.form.inventario.IngAbasSuministroForm" />
+    <form-bean name="recibirDescargaActivoForm" type="com.saldei.web.form.activos.RecibirDescargaActivoForm" />
+    <form-bean name="detRecibirDescargaActivoForm" type="com.saldei.web.form.activos.DetRecibirDescargaActivoForm" />
+    <form-bean name="repSolAbasForm" type="com.saldei.web.form.inventario.RepSolAbasForm" />
+    <form-bean name="mtoOpcionForm" type="com.saldei.web.form.seguridad.MtoOpcionForm" />
+    <form-bean name="repSolicitudCompraForm" type="com.saldei.web.form.activos.RepSolicitudCompraForm" />
+    <form-bean name="salSolSuministroForm" type="com.saldei.web.form.inventario.SalSolSuministroForm" />
+    <form-bean name="salSolRecursoForm" type="com.saldei.web.form.inventario.SalSolRecursoForm" />
+    <form-bean name="movAjusteInvForm" type="com.saldei.web.form.inventario.MovAjusteInvForm" />
+ </form-beans>  
+  
+   <global-forwards>
+	<forward name="failOption" path="/html/commons/failOption.jsp" />
+	<forward name="login" path="/html/login/login.jsp"/>
+ 	<forward name="ioError" path="/html/login/errors.jsp"/>
+ 	<forward name="logoutExn" path="/common.do?cmd=inicio" />
+ </global-forwards>
+  
+ <action-mappings>
+ 
+ 	<action path="/ldvAction" type="com.saldei.web.action.LdvAction"
+            scope="request" unknown="false">
+      <forward name="success" path="/html/LOV/ldv.jsp"/>
+    </action>
+ 
+	 <action path="/common" type="com.saldei.web.action.CommonAction" name="LoginForm" parameter="cmd">
+ 		<forward name="logout" path="/html/login/login.jsp"/>
+		<forward name="bienvenida" path="/html/commons/inicio.jsp"/>
+	</action>	
+	<action path="/login" type="com.saldei.web.action.seguridad.LoginAction" name="LoginForm" parameter="cmd">
+ 		<forward name="success" path="/html/commons/inicio.jsp"/>
+ 		<forward name="failure" path="/html/login/login.jsp"/>
+	</action>	
+	<action path="/asgPerfil" type="com.saldei.web.action.seguridad.AsignarPerfilAction" name="asgPerfilForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/procesos/asignarPerfil.jsp"/>
+	</action>
+	<action path="/cambiarPwd" type="com.saldei.web.action.seguridad.CambiarPwdAction" name="cambiarPwdForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/procesos/cambiarPwd.jsp"/> 		
+	</action>
+	<action path="/modDatos" type="com.saldei.web.action.seguridad.ModificarDatosAction" name="ModDatosForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/procesos/modificarDatos.jsp"/> 		
+	</action>
+	<action path="/opcPerfil" type="com.saldei.web.action.seguridad.OpcionesPerfilAction" name="opcPerfilForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/procesos/opcionesPerfil.jsp"/> 		
+	</action>
+	<action path="/opcion" type="com.saldei.web.action.seguridad.OpcionAction" name="opcionForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/mantenimientos/opcion.jsp"/> 		
+	</action>
+	<action path="/orgDEI" type="com.saldei.web.action.seguridad.OrganizacionDEIAction" name="orgDeiForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/mantenimientos/organizacionDEI.jsp"/> 		
+	</action>
+	<action path="/perfil" type="com.saldei.web.action.seguridad.PerfilAction" name="perfilForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/mantenimientos/perfil.jsp"/> 		
+	</action>
+	<action path="/solUsr" type="com.saldei.web.action.seguridad.SolicitarUsrAction" name="solUsrForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/procesos/solicitarUsr.jsp"/> 		
+	</action>
+	<action path="/usuario" type="com.saldei.web.action.seguridad.UsuarioAction" name="usuarioForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/mantenimientos/usuario.jsp"/> 		
+	</action>
+  <action path="/rptUsuarios" type="com.saldei.web.action.seguridad.RptUsuariosAction" name="rptUsrForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/reportes/rptUsuarios.jsp"/> 		
+	</action>
+	<action path="/rptOrgDei" type="com.saldei.web.action.seguridad.RptOrgDeiAction" name="rptOrgDeiForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/reportes/rptOrganizacionDEI.jsp"/> 		
+	</action>  	
+  	
+  	<action path="/mtoMat" type="com.saldei.web.action.administracion.MateriaAction" name="materiaForm" parameter="cmd">
+		<forward name="success" path="/html/administracion/mantenimientos/materias.jsp"/>
+		<forward name="reporte" path="/html/administracion/reportes/rptMaterias.jsp"/> 		
+	</action>
+	
+  	<action path="/mtoTipMed" type="com.saldei.web.action.administracion.TipoMedidaAction" name="tipoMedidaForm" parameter="cmd">
+		<forward name="success" path="/html/administracion/mantenimientos/tipoMedida.jsp"/>
+		<forward name="reporte" path="/html/administracion/reportes/rptTipoMedida.jsp"/>
+	</action>
+	
+	<action path="/mtoMed" type="com.saldei.web.action.administracion.MedidaAction" name="medidaForm" parameter="cmd">
+		<forward name="success" path="/html/administracion/mantenimientos/medida.jsp"/>
+		<forward name="reporte" path="/html/administracion/reportes/rptMedida.jsp"/> 		
+	</action>
+	
+	<action path="/tipoMulticodeMto" type="com.saldei.web.action.administracion.TipoMulticodeAction" name="MtoTipoMulticodeForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/mantenimientos/tipoMulticode.jsp"/>
+ 		<forward name="reporte" path="/html/administracion/reportes/rptTipoMulticode.jsp"/>
+	</action>
+	
+	<action path="/multicodeMto" type="com.saldei.web.action.administracion.MulticodeAction" name="MtoMulticodeForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/mantenimientos/multicode.jsp"/> 		
+ 		<forward name="reporte" path="/html/administracion/reportes/rptMulticode.jsp"/> 		
+	</action>
+	
+	<action path="/rptMaterias" type="com.saldei.web.action.administracion.RptMateriasAction" name="rptMatForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/reportes/rptMaterias.jsp"/> 		
+	</action>
+	
+	<action path="/rptMedida" type="com.saldei.web.action.administracion.RptMedidasAction" name="rptMedForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/reportes/rptMedida.jsp"/> 		
+	</action>
+	
+	<action path="/rptMulticode" type="com.saldei.web.action.administracion.RptMulticodeAction" name="rptMultForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/reportes/rptMulticode.jsp"/> 		
+	</action>
+	
+	<action path="/rptTipoMedida" type="com.saldei.web.action.administracion.RptTipoMedidaAction" name="rptTipMedForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/reportes/rptTipoMedida.jsp"/> 		
+	</action>
+	
+	<action path="/rptTipoMulticode" type="com.saldei.web.action.administracion.RptTipoMulticodeAction" name="rptTipMulForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/reportes/rptTipoMulticode.jsp"/> 		
+	</action>
+	
+	<action path="/rptLaboratorio" type="com.saldei.web.action.administracion.RptLaboratorioAction" name="rptLabForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/reportes/rptLaboratorios.jsp"/> 		
+	</action>		
+	<action path="/rptPerfil" type="com.saldei.web.action.seguridad.RptPerflAction" name="rptPerfilForm" parameter="cmd">
+ 		<forward name="success" path="/html/seguridad/reportes/rptPerfiles.jsp"/> 		
+	</action> 
+ 	<action path="/mtoLab" type="com.saldei.web.action.administracion.LaboratorioAction" name="LaboratorioForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/mantenimientos/laboratorios.jsp"/>
+ 		<forward name="reporte" path="/html/administracion/reportes/rptLaboratorios.jsp"/> 		
+	</action>	
+	<action path="/mtoParam" type="com.saldei.web.action.administracion.ParametroAction" name="ParametroForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/mantenimientos/parametro.jsp"/>
+ 		<forward name="reporte" path="/html/administracion/reportes/rptParametros.jsp"/> 		
+	</action>
+	<action path="/asigDirecLab" type="com.saldei.web.action.registro.AsigDirecLabAction" name="asigDirecForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/procesos/asigDirecLab.jsp"/> 		
+	</action>
+	<action path="/cdatos" type="com.saldei.web.action.registro.CargaDatosAction" name="cdForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/procesos/cargaDatos.jsp"/>
+ 		<forward name="correctos" path="/html/registro/procesos/presentCargaDatos.jsp"/>
+	</action>
+	<action path="/gestUser" type="com.saldei.web.action.registro.GestionUsuarioAction" name="gufForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/procesos/gestionUsuario.jsp"/> 		
+	</action>
+	<action path="/asigMatCiclo" type="com.saldei.web.action.registro.AsignarMateriaCicloAction" name="asigMatCicloForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/procesos/asigMatCiclo.jsp"/> 		
+	</action>
+	<action path="/asigMatCat" type="com.saldei.web.action.registro.AsigMatCatAction" name="asigMatCatForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/procesos/asigMatCat.jsp"/> 		
+	</action>
+	<action path="/rptParametro" type="com.saldei.web.action.administracion.RptParametroAction" name="rptParForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/reportes/rptParametros.jsp"/> 		
+	</action>	
+	<action path="/mtoCarr" type="com.saldei.web.action.administracion.CarreraAction" name="carForm" parameter="cmd">
+ 		<forward name="success" path="/html/administracion/mantenimientos/carrera.jsp"/> 		
+ 		<forward name="reporte" path="/html/administracion/mantenimientos/carrera.jsp"/> 		
+	</action>	
+	<action path="/asignarMateriaEstudiante" type="com.saldei.web.action.registro.AsignarMateriaEstudianteAction" name="asigMatEstForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/procesos/asignarMateriaEstudiante.jsp"/> 		
+	</action>
+	<action path="/ciclo" type="com.saldei.web.action.registro.CicloAction" name="cicloForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/mantenimientos/ciclo.jsp"/> 		
+	</action>	
+	<action path="/req" type="com.saldei.web.action.registro.RequerimientoAction" name="reqForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/mantenimientos/requerimientoMateria.jsp"/> 		
+	</action>
+	
+	<action path="/rptEstudianteMateria" type="com.saldei.web.action.registro.RptEstudianteMateriaAction" name="rptEstMatForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/reportes/RptEstudianteMateria.jsp"/> 		
+	</action>
+	
+	<action path="/rptMateriaCatedratico" type="com.saldei.web.action.registro.RptMateriaCatedraticoAction" name="rptMatCatForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/reportes/RptMateriaCatedratico.jsp"/> 		
+	</action>
+	
+	<action path="/rptSolicitudesUsuario" type="com.saldei.web.action.registro.RptSolicitudUsuarioAction" name="rptSolUsuForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/reportes/RptSolicitudesUsuario.jsp"/> 		
+	</action>	
+ 
+	<action path="/rptMateriaCiclo" type="com.saldei.web.action.registro.RptMateriaCicloAction" name="rptMatCicForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/reportes/RptMateriaCiclo.jsp"/> 		
+	</action>	
+	
+ 	<action path="/rptMateriaCatedraticoHistorico" type="com.saldei.web.action.registro.RptMateriaCatedraticoHistoricoAction" name="rptMatEstHistForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/reportes/RptMateriaCatedraticoHistorico.jsp"/> 		
+	</action>
+	
+	<action path="/rptMateriaCicloHistorico" type="com.saldei.web.action.registro.RptMateriaCicloHistoricoAction" name="rptMatCicHistForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/reportes/RptMateriaCicloHistorico.jsp"/> 		
+	</action>		
+	
+	<action path="/rptMateriaInscritaHistorico" type="com.saldei.web.action.registro.RptMateriaInscritaHistoricoAction" name="rptMatInscHistForm" parameter="cmd">
+ 		<forward name="success" path="/html/registro/reportes/RptMateriaInscritaHistorico.jsp"/> 		
+	</action>
+	
+	<action path="/rptRequerimientoMateria" type="com.saldei.web.action.registro.RptRequerimientoXMateriaAction" name="rptReqMatForm" parameter="cmd">
+		<forward name="success" path="/html/registro/reportes/RptRequerimientoXMateria.jsp"/> 		
+	</action>	
+	<action path="/Vigencia" type="com.saldei.web.action.registro.VigenciaAction" name="VigenciaForm" parameter="cmd">
+		<forward name="success" path="/html/registro/procesos/vigencia.jsp"/> 		
+	</action>	
+	
+	<action path="/rptAuditoria" type="com.saldei.web.action.seguridad.RptAuditoriaAction" name="AuditoriaForm" parameter="cmd">
+		<forward name="success" path="/html/seguridad/reportes/rptAuditoria.jsp"/> 		
+	</action>	
+	
+	<action path="/rptPerfilUsuario" type="com.saldei.web.action.seguridad.RptPerfilUsuarioAction" name="PerfilUsuarioForm" parameter="cmd">
+		<forward name="success" path="/html/seguridad/reportes/rptPerfilUsuario.jsp"/> 		
+	</action>	
+	
+	<action path="/EstCar" type="com.saldei.web.action.registro.EstudianteCarreraAction" name="EstCarForm" parameter="cmd">
+		<forward name="success" path="/html/registro/procesos/estudianteCarrera.jsp"/> 		
+	</action>	
+	
+	  <action path="/rptOpcionPerfil" type="com.saldei.web.action.seguridad.RptPerfilUsuarioAction" name="PerfilUsuarioForm" parameter="cmd">
+        <forward name="success" path="/html/seguridad/reportes/rptOpcionesPerfil.jsp"/>        
+    </action>       
+   
+    <action path="/rptInformacionPersonal" type="com.saldei.web.action.seguridad.RptInformacionPersonal" name="PerfilUsuarioForm" parameter="cmd">
+        <forward name="success" path="/html/seguridad/reportes/rptInformacionPersonal.jsp"/>        
+    </action>        
+	
+	<action path="/rptOpcion" type="com.saldei.web.action.seguridad.RptPerfilUsuarioAction" name="PerfilUsuarioForm" parameter="cmd">
+		<forward name="success" path="/html/seguridad/reportes/rptOpcion.jsp"/> 		
+	</action>
+	<action path="/rptDireLab" type="com.saldei.web.action.seguridad.RptPerfilUsuarioAction" name="PerfilUsuarioForm" parameter="cmd">
+		<forward name="success" path="/html/registro/reportes/RptDirectoresLaboratorio.jsp"/> 		
+	</action>
+    <action
+      attribute="presupuestoForm"
+      input="/html/activos/presupuesto.jsp"
+      name="presupuestoForm"
+      parameter="accion"
+      path="/presupuestoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.PresupuestoAction"
+      validate="false"
+      unknown="false">      
+      <forward name="back" path="/presupuestoAction.do?accion=Find" />      
+      <forward name="updateFail" path="/html/activos/presupuesto.jsp" />
+      <forward name="success" path="/html/activos/presupuesto.jsp?accion=" />      
+      <forward name="byPass" path="/detallePptoAction.do?accion=Find" />
+    </action>
+    <action
+      attribute="tipoUnidadForm"
+      input="/html/activos/tipoUnidad.jsp"
+      name="tipoUnidadForm"
+      parameter="accion"
+      path="/tipoUnidadAction"
+      scope="request"
+      type="com.saldei.web.action.activos.TipoUnidadAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/tipoUnidad.jsp" />
+      <forward name="back" path="/tipoUnidadAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/tipoUnidad.jsp?accion=" />
+    </action>
+    <action
+      attribute="bodegaForm"
+      input="/html/inventario/bodega.jsp"
+      name="bodegaForm"
+      parameter="accion"
+      path="/bodegaAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.BodegaAction"
+      validate="false">
+      <forward name="back" path="/bodegaAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/inventario/bodega.jsp" />
+      <forward name="success" path="/html/inventario/bodega.jsp?accion=" />
+    </action>
+    <action
+      attribute="unidadForm"
+      input="/html/activos/unidad.jsp"
+      name="unidadForm"
+      parameter="accion"
+      path="/unidadAction"
+      scope="request"
+      type="com.saldei.web.action.activos.UnidadAction">
+      <forward name="updateFail" path="/html/activos/unidad.jsp" />
+      <forward name="back" path="/unidadAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/unidad.jsp?accion=" />
+    </action>
+    <action
+      attribute="tipoMovForm"
+      input="/html/inventario/tipoMov.jsp"
+      name="tipoMovForm"
+      parameter="accion"
+      path="/tipoMovAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.TipoMovAction"
+      validate="false">
+      <forward name="back" path="/tipoMovAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/inventario/tipoMov.jsp" />
+      <forward name="success" path="/html/inventario/tipoMov.jsp?accion=" />
+    </action>
+    <action
+      attribute="recursoForm"
+      input="/html/inventario/recurso.jsp"
+      name="recursoForm"
+      parameter="accion"
+      path="/recursoAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.RecursoAction"
+      validate="false">
+      <forward name="back" path="/recursoAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/inventario/recurso.jsp" />
+      <forward name="success" path="/html/inventario/recurso.jsp?accion=" />
+    </action>
+    <action
+      attribute="categoriaForm"
+      input="/html/inventario/categoria.jsp"
+      name="categoriaForm"
+      parameter="accion"
+      path="/categoriaAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.CategoriaAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/categoria.jsp" />
+      <forward name="back" path="/categoriaAction.do?accion=Find" />
+      <forward name="success" path="/html/inventario/categoria.jsp?accion=" />
+    </action>
+    <action
+      attribute="subcategoriaForm"
+      input="/html/inventario/subcategoria.jsp"
+      name="subcategoriaForm"
+      parameter="accion"
+      path="/subcategoriaAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.SubcategoriaAction"
+      validate="false">
+      <forward name="back" path="/subcategoriaAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/inventario/subcategoria.jsp" />
+      <forward name="success" path="/html/inventario/subcategoria.jsp?accion=" />
+    </action>
+    <action
+      attribute="catalogoCuentaForm"
+      input="/html/activos/catalogoCuenta.jsp"
+      name="catalogoCuentaForm"
+      parameter="accion"
+      path="/catalogoCuentaAction"
+      scope="request"
+      type="com.saldei.web.action.activos.CatalogoCuentaAction"
+      validate="false">
+      <forward name="back" path="/catalogoCuentaAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/catalogoCuenta.jsp" />
+      <forward name="success" path="/html/activos/catalogoCuenta.jsp?accion=" />
+    </action>
+    <action
+      attribute="motivoBajaForm"
+      input="/html/activos/motivoBaja.jsp"
+      name="motivoBajaForm"
+      parameter="accion"
+      path="/motivoBajaAction"
+      scope="request"
+      type="com.saldei.web.action.activos.MotivoBajaAction"
+      validate="false">
+      <forward name="back" path="/motivoBajaAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/motivoBaja.jsp" />
+      <forward name="success" path="/html/activos/motivoBaja.jsp?accion=" />
+    </action>
+    <action
+      attribute="proveedorForm"
+      input="/html/activos/proveedor.jsp"
+      name="proveedorForm"
+      parameter="accion"
+      path="/proveedorAction"
+      scope="request"
+      type="com.saldei.web.action.activos.ProveedorAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/proveedor.jsp" />
+      <forward name="back" path="/proveedorAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/proveedor.jsp?accion=" />
+    </action>
+    	
+
+    <action
+      attribute="detallePptoForm"
+      input="/html/activos/detallePpto.jsp"
+      name="detallePptoForm"
+      parameter="accion"
+      path="/detallePptoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.DetallePptoAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/detallePpto.jsp" />
+      <forward name="back" path="/presupuestoAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/detallePpto.jsp?accion=" />
+      <forward name="cancel" path="/detallePptoAction.do?accion=Find" />
+    </action>
+    <action
+      attribute="solPrestamoForm"
+      input="/html/activos/solPrestamo.jsp"
+      name="solPrestamoForm"
+      parameter="accion"
+      path="/solPrestamoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.SolPrestamoAction"
+      validate="false">
+      <forward name="back" path="/solPrestamoAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/solPrestamo.jsp" />
+      <forward name="success" path="/html/activos/solPrestamo.jsp?accion=" />
+    </action>
+    <action
+      attribute="solDescActForm"
+      input="/html/activos/solDescAct.jsp"
+      name="solDescActForm"
+      parameter="accion"
+      path="/solDescActAction"
+      scope="request"
+      type="com.saldei.web.action.activos.SolDescActAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/solDescAct.jsp" />
+      <forward name="back" path="/solDescActAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/solDescAct.jsp?accion=" />
+    </action>
+    <action
+      attribute="detalleSolDescActForm"
+      input="/html/activos/detalleSolDescAct.jsp"
+      name="detalleSolDescActForm"
+      parameter="accion"
+      path="/detalleSolDescActAction"
+      scope="request"
+      type="com.saldei.web.action.activos.DetalleSolDescActAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/detalleSolDescAct.jsp" />
+      <forward name="back" path="/solDescActAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/detalleSolDescAct.jsp?accion=" />
+    </action>
+ 
+    <action
+      attribute="activoForm"
+      input="/html/activos/activo.jsp"
+      name="activoForm"
+      parameter="accion"
+      path="/activoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.ActivoAction"
+      validate="false">
+      <forward name="back" path="/activoAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/activo.jsp" />
+      <forward name="success" path="/html/activos/activo.jsp?accion=" />
+    </action>
+    <action
+      attribute="detalleSolPrestamoForm"
+      input="/html/activos/detalleSolPrestamo.jsp"
+      name="detalleSolPrestamoForm"
+      parameter="accion"
+      path="/detalleSolPrestamoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.DetalleSolPrestamoAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/detalleSolPrestamo.jsp" />
+      
+      <forward name="success" path="/html/activos/detalleSolPrestamo.jsp?accion=" />
+      <forward name="cancel" path="/detallleSolPrestamoAction?accion=Find" />
+      <forward name="back" path="/solPrestamoAction.do" />
+    </action>
+    
+    <action
+      attribute="aprSolPrestamoForm"
+      input="/html/activos/aprSolPrestamo.jsp"
+      name="aprSolPrestamoForm"
+      parameter="accion"
+      path="/aprSolPrestamoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.AprSolPrestamoAction"
+      validate="false">
+      <forward name="back" path="/aprSolPrestamoAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/aprSolPrestamo.jsp" />
+      <forward name="success" path="/html/activos/aprSolPrestamo.jsp?accion=" />
+    </action>
+    <action
+      attribute="reqRecursoForm"
+      input="/html/activos/reqRecurso.jsp"
+      name="reqRecursoForm"
+      parameter="accion"
+      path="/reqRecursoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.ReqRecursoAction"
+      validate="false">
+      <forward name="back" path="/reqRecursoAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/reqRecurso.jsp" />
+      <forward name="success" path="/html/activos/reqRecurso.jsp?accion=" />
+    </action>
+    <action
+      attribute="solicitudCompraForm"
+      input="/html/activos/solicitudCompra.jsp"
+      name="solicitudCompraForm"
+      parameter="accion"
+      path="/solicitudCompraAction"
+      scope="request"
+      type="com.saldei.web.action.activos.SolicitudCompraAction"
+      validate="false">      
+      <forward name="back" path="/solicitudCompraAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/solicitudCompra.jsp" />
+      <forward name="success" path="/html/activos/solicitudCompra.jsp?accion=" />
+    </action>
+    <action
+    attribute="detAprSolPrestamoForm"
+      input="/html/activos/detAprSolPrestamo.jsp"
+      name="detAprSolPrestamoForm"
+      parameter="accion"
+      path="/detAprSolPrestamoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.DetAprSolPrestamoAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/detAprSolPrestamo.jsp" />
+      <forward name="back" path="/aprSolPrestamoAction.do" />
+      <forward name="success" path="/html/activos/detAprSolPrestamo.jsp?accion=" />
+      <forward name="cancel" path="/detAprSolPrestamoAction?accion=Find" />
+    </action>
+    <action
+      attribute="detReqRecursoForm"
+      input="/html/activos/detReqRecurso.jsp"
+      name="detReqRecursoForm"
+      parameter="accion"
+      path="/detReqRecursoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.DetReqRecursoAction">
+      <forward name="updateFail" path="/html/activos/detReqRecurso.jsp" />
+      <forward name="back" path="/reqRecursoAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/detReqRecurso.jsp?accion=" />
+      <forward name="cancel" path="/html/activos/detReqRecurso.jsp?accion=Find" />
+    </action>
+    <action
+      attribute="repAsigActualesForm"
+      input="/html/activos/repAsigActuales.jsp"
+      name="repAsigActualesForm"
+      parameter="accion"
+      path="/repAsigActualesAction"
+      scope="request"
+      type="com.saldei.web.action.activos.RepAsigActualesAction">
+      <forward name="success" path="/html/activos/repAsigActuales.jsp?accion=" />
+    </action>	
+   
+    <action
+      attribute="solicitudCompraDetForm"
+      input="/html/activos/solicitudCompraDet.jsp"
+      name="solicitudCompraDetForm"
+      parameter="accion"
+      path="/solicitudCompraDetAction"
+      scope="request"
+      type="com.saldei.web.action.activos.SolicitudCompraDetAction"
+      validate="false">
+      <forward name="back" path="/solicitudCompraDet.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/solicitudCompraDet.jsp" />
+      <forward name="success" path="/html/activos/solicitudCompraDet.jsp?accion=" />
+    </action>
+    <action
+      attribute="cotizacionForm"
+      input="/html/activos/cotizacion.jsp"
+      name="cotizacionForm"
+      parameter="accion"
+      path="/cotizacionAction"
+      scope="request"
+      type="com.saldei.web.action.activos.CotizacionAction"
+      validate="false">
+      <forward name="back" path="/solicitudCompraAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/cotizacion.jsp" />
+      <forward name="success" path="/html/activos/cotizacion.jsp?accion=" />
+      <forward name="cancel" path="/cotizacionAction.do?accion=Find" />
+    </action>
+    <action
+      attribute="cotizacionDetForm"
+      input="/html/activos/cotizacionDet.jsp"
+      name="cotizacionDetForm"
+      parameter="accion"
+      path="/cotizacionDetAction"
+      scope="request"
+      type="com.saldei.web.action.activos.CotizacionDetAction"
+      validate="false">
+      <forward name="back" path="/cotizacionAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/cotizacionDet.jsp" />
+      <forward name="success" path="/html/activos/cotizacionDet.jsp?accion=" />
+      <forward name="cancel" path="/cotizacionDetAction.do?accion=Find" />
+    </action>	
+    
+    <action
+      attribute="aprSolDescActForm"
+      input="/html/activos/aprSolDescAct.jsp"
+      name="aprSolDescActForm"
+      parameter="accion"
+      path="/aprSolDescActAction"
+      scope="request"
+      type="com.saldei.web.action.activos.AprSolDescActAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/aprSolDescAct.jsp" />
+      <forward name="back" path="/aprSolDescActAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/aprSolDescAct.jsp?accion=" />
+    </action>
+    <action
+      attribute="detAprSolDescActForm"
+      input="/html/activos/detAprSolDescAct.jsp"
+      name="detAprSolDescActForm"
+      parameter="accion"
+      path="/detAprSolDescActAction"
+      scope="request"
+      type="com.saldei.web.action.activos.DetAprSolDescActAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/detAprSolDescAct.jsp" />
+      <forward name="back" path="/aprSolDescActAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/detAprSolDescAct.jsp?accion=" />
+    </action>
+    <action
+      attribute="movTrasActivoForm"
+      input="/html/activos/movTrasActivo.jsp"
+      name="movTrasActivoForm"
+      parameter="accion"
+      path="/movTrasActivoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.MovTrasActivoAction">
+      <forward name="back" path="/movTrasActivoAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/movTrasActivo.jsp" />
+      <forward name="success" path="/html/activos/movTrasActivo.jsp?accion=" />
+    </action>
+    <action
+      attribute="repHistAsigForm"
+      input="/html/activos/reportes/repHistAsig.jsp"
+      name="repHistAsigForm"
+      parameter="accion"
+      path="/repHistAsigAction"
+      scope="request"
+      type="com.saldei.web.action.activos.RepHistAsigAction"
+      validate="false">
+      <forward name="success" path="/html/activos/reportes/repHistAsig.jsp?accion=" />
+    </action>
+    <action
+      attribute="aprReqRecursoForm"
+      input="/html/activos/aprReqRecurso.jsp"
+      name="aprReqRecursoForm"
+      parameter="accion"
+      path="/aprReqRecursoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.AprReqRecursoAction"
+      validate="false">
+      <forward name="back" path="/aprReqRecursoAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/aprReqRecurso.jsp" />
+      <forward name="success" path="/html/activos/aprReqRecurso.jsp?accion=" />
+    </action>
+    <action
+      attribute="aprDetReqRecursoForm"
+      input="/html/activos/aprDetReqRecurso.jsp"
+      name="aprDetReqRecursoForm"
+      parameter="accion"
+      path="/aprDetReqRecursoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.AprDetReqRecursoAction"
+      validate="false">
+      <forward name="back" path="/aprReqRecursoAction.do" />
+      <forward name="updateFail" path="/html/activos/aprDetReqRecurso.jsp" />
+      <forward name="success" path="/html/activos/aprDetReqRecurso.jsp?accion=" />
+      <forward name="cancel" path="/aprDetReqRecursoAction?accion=Find" />
+    </action>
+    <action
+      attribute="bajaActivoForm"
+      input="/html/activos/bajaActivo.jsp"
+      name="bajaActivoForm"
+      parameter="accion"
+      path="/bajaActivoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.BajaActivoAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/bajaActivo.jsp" />
+      <forward name="back" path="/bajaActivoAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/bajaActivo.jsp?accion=" />
+    </action>	
+    <action
+      attribute="solSuministroForm"
+      input="/html/activos/solSuministro.jsp"
+      name="solSuministroForm"
+      parameter="accion"
+      path="/solSuministroAction"
+      scope="request"
+      type="com.saldei.web.action.activos.SolSuministroAction"
+      validate="false">
+      <forward name="back" path="/solSuministroAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/solSuministro.jsp" />
+      <forward name="success" path="/html/activos/solSuministro.jsp?accion=" />
+    </action>
+    <action
+      attribute="detSolSuministroForm"
+      input="/html/activos/detSolSuministro.jsp"
+      name="detSolSuministroForm"
+      parameter="accion"
+      path="/detSolSuministroAction"
+      scope="request"
+      type="com.saldei.web.action.activos.DetSolSuministroAction">
+      <forward name="updateFail" path="/html/activos/detSolSuministro.jsp" />
+      <forward name="back" path="/solSuministroAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/detSolSuministro.jsp?accion=" />
+      <forward name="cancel" path="/html/activos/detSolSuministro.jsp?accion=Find" />
+    </action>
+    <action
+      attribute="movSolSuministroForm"
+      input="/html/activos/movSolSuministro.jsp"
+      name="movSolSuministroForm"
+      parameter="accion"
+      path="/movSolSuministroAction"
+      scope="request"
+      type="com.saldei.web.action.activos.MovSolSuministroAction"
+      validate="false">
+      <forward name="back" path="/movSolSuministroAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/movSolSuministro.jsp" />
+      <forward name="success" path="/html/activos/movSolSuministro.jsp?accion=" />
+    </action>
+    <action
+      attribute="aprSolSuministroForm"
+      input="/html/activos/aprSolSuministro.jsp"
+      name="aprSolSuministroForm"
+      parameter="accion"
+      path="/aprSolSuministroAction"
+      scope="request"
+      type="com.saldei.web.action.activos.AprSolSuministroAction"
+      validate="false">
+      <forward name="success" path="/html/activos/aprSolSuministro.jsp?accion=" />
+      <forward name="back" path="/aprSolSuministroAction.do?accion=Find" />
+      <forward name="updateFail" path="/html/activos/aprSolSuministro.jsp" />
+    </action>
+    <action
+      attribute="detAprSolSuministroForm"
+      input="/html/activos/detAprSolSuministro.jsp"
+      name="detAprSolSuministroForm"
+      parameter="accion"
+      path="/detAprSolSuministroAction"
+      scope="request"
+      type="com.saldei.web.action.activos.DetAprSolSuministroAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/detAprSolSuministro.jsp" />
+      <forward name="back" path="/aprSolSuministroAction.do" />
+      <forward name="success" path="/html/activos/detAprSolSuministro.jsp?accion=" />
+      <forward name="cancel" path="/detAprSolSumnistroAction?accion=Find" />
+    </action>
+    <action
+      attribute="solicitudAbastecimientoForm"
+      input="/html/inventario/solicitudAbastecimiento.jsp"
+      name="solicitudAbastecimientoForm"
+      parameter="accion"
+      path="/solicitudAbastecimientoAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.SolicitudAbastecimientoAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/solicitudAbastecimiento.jsp" />
+      <forward name="back" path="/solicitudAbastecimientoAction.do?accion=Find" />
+      <forward name="success" path="/html/inventario/solicitudAbastecimiento.jsp?accion=" />
+    </action>
+    <action
+      attribute="detalleSolAbaForm"
+      input="/html/inventario/detalleSolAba.jsp"
+      name="detalleSolAbaForm"
+      parameter="accion"
+      path="/detalleSolAbaAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.DetalleSolAbaAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/detalleSolAba.jsp" />
+      <forward name="back" path="/solicitudAbastecimientoAction.do?accion=Find" />
+      <forward name="success" path="/html/inventario/detalleSolAba.jsp?accion=" />
+      <forward name="cancel" path="/html/inventario/detalleSolAbaAction.do?accion=Find" />
+    </action>
+    <action
+      attribute="aprSolicitudAbaForm"
+      input="/html/inventario/aprSolicitudAba.jsp"
+      name="aprSolicitudAbaForm"
+      parameter="accion"
+      path="/aprSolicitudAbaAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.AprSolicitudAbaAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/aprSolicitud.jsp" />
+      <forward name="back" path="/aprSolicitudAbaAction.do?accion=Find" />
+      <forward name="success" path="/html/inventario/aprSolicitudAba.jsp?accion=" />
+    </action>
+    <action
+      attribute="detAprSolAbaForm"
+      input="/html/inventario/detAprSolAba.jsp"
+      name="detAprSolAbaForm"
+      parameter="accion"
+      path="/detAprSolAbaAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.DetAprSolAbaAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/detAprSolAba.jsp" />
+      <forward name="back" path="/aprSolicitudAbaAction.do?accion=Find" />
+      <forward name="success" path="/html/inventario/detAprSolAba.jsp?accion=" />
+      <forward name="cancel" path="/html/inventario/detAprSolAbaAction.do?accion=Find" />
+    </action>
+    <action
+      attribute="consultaBodegaForm"
+      input="/html/inventario/consultaBodega.jsp"
+      name="consultaBodegaForm"
+      parameter="accion"
+      path="/consultaBodegaAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.ConsultaBodegaAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/consultaBodega.jsp" />
+      <forward name="back" path="/consultaBodegaAction.do?accion=Find" />
+      <forward name="success" path="/html/inventario/consultaBodega.jsp?accion=" />
+    </action>
+    <action
+      attribute="estadoActivoForm"
+      input="/html/activos/estadoActivo.jsp"
+      name="estadoActivoForm"
+      parameter="accion"
+      path="/estadoActivoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.EstadoActivoAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/estadoActivo.jsp" />
+      <forward name="back" path="/estadoActivoAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/estadoActivo.jsp?accion=" />
+    </action>
+    <action
+      attribute="aprSolCompraForm"
+      input="/html/activos/aprSolCompra.jsp"
+      name="aprSolCompraForm"
+      parameter="accion"
+      path="/aprSolCompraAction"
+      scope="request"
+      type="com.saldei.web.action.activos.AprSolCompraAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/aprSolCompra.jsp" />
+      <forward name="success" path="/html/activos/aprSolCompra.jsp?accion=" />
+      <forward name="back" path="/aprSolCompraAction.do?accion=Find" />
+      <forward name="aprobar" path="/html/activos/aprSolCompraList.jsp?accion=" />
+    </action>
+    <action
+      attribute="usuarioTituloForm"
+      input="/html/seguridad/mantenimientos/usuarioTitulo.jsp"
+      name="usuarioTituloForm"
+      parameter="accion"
+      path="/usuarioTituloAction"
+      scope="request"
+      type="com.saldei.web.action.seguridad.UsuarioTituloAction"
+      validate="false">
+      <forward name="updateFail" path="/html/seguridad/mantenimientos/usuarioTitulo.jsp" />
+      <forward name="back" path="/usuarioTituloAction.do?accion=Find" />
+      <forward name="success" path="/html/seguridad/mantenimientos/usuarioTitulo.jsp?accion=" />
+    </action>
+    
+    <action
+      attribute="repMovRecursoForm"
+      input="/html/inventario/reportes/repMovRecurso.jsp"
+      name="repMovRecursoForm"
+      parameter="accion"
+      path="/repMovRecursoAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.RepMovRecursoAction">
+      <forward name="updateFail" path="/html/inventario/reportes/repMovRecurso.jsp" />
+      <forward name="success" path="/html/inventario/reportes/repMovRecurso.jsp?accion=" />
+    </action>
+    <action
+      attribute="minimoxBodegaForm"
+      input="/html/inventario/minimoxBodega.jsp"
+      name="minimoxBodegaForm"
+      parameter="accion"
+      path="/minimoxBodegaAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.MinimoxBodegaAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/minimoxBodega.jsp" />
+      <forward name="back" path="/recursoAction.do?accion=Find" />
+      <forward name="success" path="/html/inventario/minimoxBodega.jsp?accion=" />
+      
+    </action>	
+    <action
+      attribute="repExistenciasForm"
+      input="/html/inventario/reportes/repExistencias.jsp"
+      name="repExistenciasForm"
+      parameter="accion"
+      path="/repExistenciasAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.RepExistenciasAction">
+      <forward name="updateFail" path="/html/inventario/reportes/repExistencias.jsp" />
+      <forward name="success" path="/html/inventario/reportes/repExistencias.jsp?accion=" />
+    </action>	
+    <action
+      attribute="repSugAbasSumForm"
+      input="/html/inventario/reportes/repSugAbasSum.jsp"
+      name="repSugAbasSumForm"
+      parameter="accion"
+      path="/repSugAbasSumAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.RepSugAbasSumAction">
+      <forward name="updateFail" path="/html/inventario/reportes/repSugAbasSum.jsp" />
+      <forward name="success" path="/html/inventario/reportes/repSugAbasSum.jsp?accion=" />
+    </action>		
+    		
+    <action
+      attribute="repSalPorBodegaForm"
+      input="/html/inventario/reportes/repSalPorBodega.jsp"
+      name="repSalPorBodegaForm"
+      parameter="accion"
+      path="/repSalPorBodegaAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.RepSalPorBodegaAction">
+      <forward name="updateFail" path="/html/inventario/reportes/repSalPorBodega.jsp" />
+      <forward name="success" path="/html/inventario/reportes/repSalPorBodega.jsp?accion=" />
+    </action>
+    <action
+      attribute="repConsumoPorSolForm"
+      input="/html/inventario/reportes/repConsumoPorSol.jsp"
+      name="repConsumoPorSolForm"
+      parameter="accion"
+      path="/repConsumoPorSolAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.RepConsumoPorSolAction">
+      <forward name="updateFail" path="/html/inventario/reportes/repConsumoPorSol.jsp" />
+      <forward name="success" path="/html/inventario/reportes/repConsumoPorSol.jsp?accion=" />
+    </action>
+    <action
+      attribute="ingOrdenCompraForm"
+      input="/html/inventario/ingOrdenCompra.jsp"
+      name="ingOrdenCompraForm"
+      parameter="accion"
+      path="/ingOrdenCompraAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.IngOrdenCompraAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/ingOrdenCompra.jsp" />
+      <forward name="success" path="/html/inventario/ingOrdenCompra.jsp?accion=" />            
+      <forward name="back" path="/ingOrdenCompraAction.do?accion=Find" />
+      <forward name="ingresar" path="/html/inventario/ingOrdenCompraList.jsp?accion=" />
+    </action>
+    <action
+      attribute="repHisAsigForm"
+      input="/html/activos/reportes/repHisAsig.jsp"
+      name="repHisAsigForm"
+      parameter="accion"
+      path="/repHisAsigAction"
+      scope="request"
+      type="com.saldei.web.action.activos.RepHisAsigAction">
+      <forward name="updateFail" path="/html/activos/reportes/repHisAsig.jsp" />
+      <forward name="success" path="/html/activos/reportes/repHisAsig.jsp?accion=" />
+    </action>
+    <action
+      attribute="ingAbasSuministroForm"
+      input="/html/inventario/ingAbasSuministro.jsp"
+      name="ingAbasSuministroForm"
+      parameter="accion"
+      path="/ingAbasSuministroAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.IngAbasSuministroAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/ingAbasSuministro.jsp" />
+      <forward name="success" path="/html/inventario/ingAbasSuministro.jsp?accion=" />
+      <forward name="back" path="/ingAbasSuministroAction.do?accion=Find" />
+      <forward name="ingresar" path="/html/inventario/ingAbasSuministroList.jsp?accion=" />
+    </action>
+    <action
+      attribute="recibirDescargaActivoForm"
+      input="/html/activos/recibirDescargaActivo.jsp"
+      name="recibirDescargaActivoForm"
+      parameter="accion"
+      path="/recibirDescargaActivoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.RecibirDescargaActivoAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/recibirDescargaActivo.jsp" />
+      <forward name="back" path="/recibirDescargaActivoAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/recibirDescargaActivo.jsp?accion=" />
+    </action>
+    <action
+      attribute="detRecibirDescargaActivoForm"
+      input="/html/activos/detRecibirDescargaActivo.jsp"
+      name="detRecibirDescargaActivoForm"
+      parameter="accion"
+      path="/detRecibirDescargaActivoAction"
+      scope="request"
+      type="com.saldei.web.action.activos.DetRecibirDescargaActivoAction"
+      validate="false">
+      <forward name="updateFail" path="/html/activos/detRecibirDescargaActivo.jsp" />
+      <forward name="back" path="/recibirDescargaActivoAction.do?accion=Find" />
+      <forward name="success" path="/html/activos/detRecibirDescargaActivo.jsp?accion=" />
+    </action>
+    <action
+      attribute="repSolAbasForm"
+      input="/html/inventario/reportes/repSolAbas.jsp"
+      name="repSolAbasForm"
+      parameter="accion"
+      path="/repSolAbasAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.RepSolAbasAction">
+      <forward name="updateFail" path="/html/inventario/reportes/repSolAbas.jsp" />
+      <forward name="success" path="/html/inventario/reportes/repSolAbas.jsp?accion=" />
+    </action>
+    <action
+      attribute="mtoOpcionForm"
+      input="/html/seguridad/mantenimientos/mtoOpcion.jsp"
+      name="mtoOpcionForm"
+      parameter="accion"
+      path="/mtoOpcionAction"
+      scope="request"
+      type="com.saldei.web.action.seguridad.MtoOpcionAction"
+      validate="false">
+      <forward name="updateFail" path="/html/seguridad/mantenimientos/mtoOpcion.jsp" />
+      <forward name="back" path="/mtoOpcionAction.do?accion=Find" />
+      <forward name="success" path="/html/seguridad/mantenimientos/mtoOpcion.jsp?accion=" />
+    </action>
+    <action
+      attribute="repSolicitudCompraForm"
+      input="/html/activos/reportes/repSolicitudCompra.jsp"
+      name="repSolicitudCompraForm"
+      parameter="accion"
+      path="/repSolicitudCompraAction"
+      scope="request"
+      type="com.saldei.web.action.activos.RepSolicitudCompraAction">
+      <forward name="updateFail" path="/html/activos/reportes/repSolicitudCompra.jsp" />
+      <forward name="success" path="/html/activos/reportes/repSolicitudCompra.jsp?accion=" />
+    </action>
+    <action
+      attribute="salSolSuministroForm"
+      input="/html/inventario/salSolSuministro.jsp"
+      name="salSolSuministroForm"
+      parameter="accion"
+      path="/salSolSuministroAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.SalSolSuministroAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/salSolSuministro.jsp" />
+      <forward name="success" path="/html/inventario/salSolSuministro.jsp?accion=" />
+      <forward name="ingresar" path="/html/inventario/salSolSuministroList.jsp?accion=" />
+    </action>
+    <action
+      attribute="salSolRecursoForm"
+      input="/html/inventario/salSolRecurso.jsp"
+      name="salSolRecursoForm"
+      parameter="accion"
+      path="/salSolRecursoAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.SalSolRecursoAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/salSolRecurso.jsp" />
+      <forward name="ingresar" path="/html/inventario/salSolRecursoList.jsp?accion=" />
+      <forward name="success" path="/html/inventario/salSolRecurso.jsp?accion=" />
+    </action>
+    <action
+      attribute="movAjusteInvForm"
+      input="/html/inventario/movAjusteInv.jsp"
+      name="movAjusteInvForm"
+      parameter="accion"
+      path="/movAjusteInvAction"
+      scope="request"
+      type="com.saldei.web.action.inventario.MovAjusteInvAction"
+      validate="false">
+      <forward name="updateFail" path="/html/inventario/movAjusteInv.jsp" />
+      <forward name="success" path="/html/inventario/movAjusteInv.jsp?accion=" />
+      <forward name="back" path="/movAjusteInvAction.do?accion=Find" />
+    </action>
+ </action-mappings> 
+ 
+   <controller>
+    <set-property  property="processorClass"
+    value="com.saldei.util.commons.Security"/>
+  </controller>
+    
+ <message-resources parameter="com.saldei.web.ApplicationResources" /> 
+
+<plug-in className="org.apache.struts.tiles.TilesPlugin" >
+  	<set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml"/>
+    <set-property property="moduleAware" value="true"/>
+    <set-property property="definitions-parse-validate" value="true"/>    
+  </plug-in>
+
+</struts-config>
+

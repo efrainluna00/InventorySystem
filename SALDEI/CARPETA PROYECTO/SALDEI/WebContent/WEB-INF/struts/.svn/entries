@@ -1,0 +1,40 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/WebContent/WEB-INF/struts
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-09-15T10:09:00.020012Z
+380
+dario.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+struts-config-regEst.xml
+file
+
+
+
+
+2009-09-15T10:25:23.069469Z
+d66eba8a9ec4d346640626f872a67e7d
+2009-09-15T10:09:00.020012Z
+380
+dario.saldei
+

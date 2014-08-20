@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+
+		Select o.id_opcion as idOpcionPadre, o.nom_opcion as
+		opcionPadre, o.desc_opcion, o2.nom_opcion as nomPadre,
+		o.url_opcion, o.orden, o.metodo, case when o.is_separador='S'
+		then 'Si' else 'No' end as sepa, case when o.est_opcion='A' then
+		'Activo' else 'Inactivo' end as estopc, case when os.visible='S'
+		then 'Si' else 'No' end from seguridad.opcion as o left outer
+		join seguridad.opcion_seguridad as os on
+		(o.id_opcion=os.id_opcion) left outer join seguridad.opcion as
+		o2 on (o.id_opcion_padre=o2.id_opcion)
+
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="idOpcionPadre" title="Id Opción"
+			select="idOpcionPadre" script="yes" />
+		<column id="opcionPadre" title="Opción" select="opcionPadre"
+			script="yes" />
+		<column id="desc_opcion" title="Descripción"
+			select="desc_opcion" script="no" />
+		<column id="url_opcion" title="URL" select="url_opcion"
+			script="no" />
+		<column id="orden" title="Orden" select="orden" script="no" />
+		<column id="metodo" title="Método" select="metodo" script="no" />
+		<column id="sepa" title="Separador" select="sepa" script="no" />
+		<column id="estopc" title="Estado" select="estopc" script="no" />
+		<column id="nomPadre" title="Opción padre" select="nomPadre"
+			script="no" />
+	</columns>
+	<messages>Opciones</messages>
+</lov>

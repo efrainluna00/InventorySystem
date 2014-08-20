@@ -1,0 +1,52 @@
+/* This css file serves as a template for styling your kwicks.  Feel free to modify, but please make note of the comments - some of them are important. */
+
+body {
+	background-color: #1d1e21;
+	padding: 50px;
+}
+
+.kwicks {
+	/* recommended styles for kwicks ul container */
+	vertical-align:middle;
+	list-style: none;
+	 margin-left: auto; margin-right: auto; 
+}
+.kwicks li{
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 190px;
+	height: 768px;
+
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-right: 5px; /*Set to same as spacing option. */
+	
+	/*do not change these */
+	display: block;
+	float: left;
+	overflow: hidden;
+	padding: 0;  /*if you need padding, do so with an inner div */
+}
+
+/* background images are entirely optional */
+#kwick_meet { 
+	background-color: #000000;
+	background-image: url('../images/login/DEI.png');
+}
+#kwick_kwicks {
+	background-color: #000000;
+	background-image: url('../images/login/Seguridad.PNG');
+}
+#kwick_for {
+	background-color: #000000;
+	background-image: url('../images/login/Administracion.png');
+}
+#kwick_jquery { 
+	background-color: #000000;
+	background-image: url('../images/login/Registro.png');
+	margin-right: none; /* cancel margin on last kiwck (if you set a margin above) */
+}
+
+#kwick_jquery1 { 
+	background-color: #000000;
+	background-image: url('../images/login/inventario.gif');
+	margin-right: none; /* cancel margin on last kiwck (if you set a margin above) */
+}

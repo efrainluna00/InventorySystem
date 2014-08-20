@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/seguridad
+END
+OrgDeiDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/seguridad/OrgDeiDto.java
+END
+UserPerfilDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/seguridad/UserPerfilDto.java
+END
+OpcionesPerfilDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/seguridad/OpcionesPerfilDto.java
+END
+PerfilDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/seguridad/PerfilDto.java
+END
+OrganizacionDeiDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/seguridad/OrganizacionDeiDto.java
+END
+OpcionDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/seguridad/OpcionDto.java
+END
+UsuarioDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/seguridad/UsuarioDto.java
+END

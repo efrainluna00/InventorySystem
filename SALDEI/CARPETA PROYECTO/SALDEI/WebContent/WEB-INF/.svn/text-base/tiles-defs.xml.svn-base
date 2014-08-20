@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/tiles-config.dtd">
+
+<tiles-definitions>
+	<!-- Plantilla basica para los formularios -->
+	<definition name="plantillaStandar"
+		path="/plantillas/paginaBase.jsp">
+		<put name="base" value="[base de la pagina]" type="string" />
+		<put name="title" value="In-Fac" />
+		<put name="css" value="" type="string" />
+		<put name="scripts" value="" type="string" />
+		<put name="encabezado" type="string" />
+		<put name="contenido" type="string" />
+		<put name="menuAplicacion" value="" />
+	</definition>
+
+	<definition name="plantillaStandarSinMenu"
+		path="/plantillas/paginaBaseSinMenu.jsp">
+		<put name="base" value="[base de la pagina]" type="string" />
+		<put name="title" value="In-Fac" />
+		<put name="css" value="" type="string" />
+		<put name="scripts" value="" type="string" />
+		<put name="encabezado" type="string" />
+		<put name="contenido" type="string" />
+	</definition>
+
+	<definition name="plantilla2" path="/plantillas/plantilla2.jsp">
+		<put name="contenido2" type="string" />
+		<put name="menuAplicacion" value="/plantillas/menuApp.jsp" />
+	</definition>
+
+	<definition name="plantillaBase" extends="plantillaStandar">
+		<put name="base" value="[base de la pagina]" type="string" />
+		<put name="title" value="In-Fac" />
+		<put name="css" value="" type="string" />
+		<put name="scripts" value="" type="string" />
+		<put name="encabezado" type="string" />
+		<put name="contenido" type="string" />
+		<put name="menuAplicacion" value="/plantillas/menuApp.jsp" />
+	</definition>
+
+	<definition name="listaDeValores"
+		path="/plantillas/listaDeValores.jsp">
+		<put name="base" value="[base de la pagina]" />
+		<put name="title" value="E-Procurement" />
+		<put name="css" value="" />
+		<put name="scripts" value="" />
+		<put name="banner" value="" />
+		<put name="contenido" value="fff" />
+	</definition>
+
+</tiles-definitions>

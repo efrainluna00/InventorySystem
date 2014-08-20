@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select cod_unidad as codUnidad, descripcion as descripcion from
+		activos.act_unidad where cod_responsable = ? and estado = 'A';
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codSolicitante" position="1" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codUnidad" title="Código Unidad" select="codUnidad"
+			script="yes" />
+		<column id="unidadDes" title="Descripción" select="descripcion"
+			script="yes" />
+	</columns>
+	<messages>Unidades</messages>
+</lov>

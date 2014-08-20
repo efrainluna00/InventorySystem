@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select act.cod_activo, act.cod_recurso, num_serie, cod_unidad as
+		codUnidad from activos.act_activo act, inventario.inv_recurso
+		inv where act.cod_recurso = inv.cod_recurso and act.estado = 'N'
+		and act.cod_unidad = ? and act.cod_recurso = ?
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codBodega" position="1" />
+		<sql-param id="codRecurso" position="2" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="numSerie" title="Series" select="num_serie"
+			script="yes" />
+		<column id="codigoRecurso" title="Recurso" select="cod_recurso"
+			script="yes" />
+		<column id="codActivo" title="Codigo Activo" select="cod_activo"
+			script="yes" />
+	</columns>
+	<messages>Series no entregadas</messages>
+</lov>

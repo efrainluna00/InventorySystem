@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/SALDEI/!svn/ver/259/SISTEMA/SALDEI/src/com/saldei/util/mail
+END
+Autenticacion.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/mail/Autenticacion.java
+END
+Email.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SALDEI/!svn/ver/259/SISTEMA/SALDEI/src/com/saldei/util/mail/Email.java
+END
+ConfigEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/mail/ConfigEmail.java
+END
+SMTPAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/mail/SMTPAuthenticator.java
+END

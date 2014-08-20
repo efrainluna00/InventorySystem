@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/SALDEI/!svn/ver/390/SISTEMA/SALDEI/src
+END
+hibernate.reveng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/SALDEI/!svn/ver/209/SISTEMA/SALDEI/src/hibernate.reveng.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/log4j.properties
+END
+displaytag.properties
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/displaytag.properties
+END
+displaytag2.properties
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/displaytag2.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/SALDEI/!svn/ver/357/SISTEMA/SALDEI/src/hibernate.cfg.xml
+END

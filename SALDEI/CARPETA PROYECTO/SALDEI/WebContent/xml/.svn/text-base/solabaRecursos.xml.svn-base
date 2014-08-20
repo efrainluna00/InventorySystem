@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select r.cod_recurso as codRecurso, r.nombre as nombreRecurso,
+		c.nombre as categoria, s.nombre as subcategoria, m.nom_medida as
+		medida, e.existencia, e.minimo, case when e.minimo >
+		e.existencia then e.minimo-e.existencia else 0 end as cantidad
+		from inventario.inv_recurso as r, inventario.inv_categoria as c,
+		inventario.inv_sub_categoria as s, registro.medida as m,
+		inventario.inv_existencia as e where
+		r.cod_categoria=c.cod_categoria and
+		c.cod_categoria=s.cod_categoria and
+		r.cod_sub_categoria=s.cod_sub_categoria and
+		r.cod_unidad_medida=m.id_medida and r.cod_recurso=e.cod_recurso
+		and e.cod_bodega=? and r.consumible='S' and r.cod_recurso not in
+		(Select cod_recurso from activos.act_det_solicitud where
+		tipo_solicitud='A' and cod_solicitud= ?)
+	</sql>
+
+	<sql-params scope="request">
+		<sql-param id="codBodega" position="1" />
+		<sql-param id="codSolicitud" position="2" />
+	</sql-params>
+
+
+	<columns id="idColumns">
+		<column id="codRecurso" title="Código de Recurso"
+			select="codRecurso" script="yes" />
+		<column id="nombreRecurso" title="Nombre de recurso"
+			select="nombreRecurso" script="yes" />
+		<column id="categoria" title="Categoría" select="categoria"
+			script="no" />
+		<column id="subcategoria" title="Sub categoría"
+			select="subcategoria" script="no" />
+		<column id="existencia" title="Existencia" select="existencia"
+			script="no" />
+		<column id="minimo" title="Mínimo" select="minimo" script="no" />
+		<column id="cantidad" title="Cantidad sugerida"
+			select="cantidad" script="yes" />
+	</columns>
+	<messages>Suministros</messages>
+</lov>

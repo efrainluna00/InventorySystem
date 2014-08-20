@@ -1,0 +1,52 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/WebContent/images
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-08-24T03:48:56.254054Z
+284
+dario.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+displaytag
+dir
+
+theme
+dir
+
+menu
+dir
+
+struts-menu
+dir
+
+table
+dir
+
+login
+dir
+
+uca
+dir
+
+icons
+dir
+

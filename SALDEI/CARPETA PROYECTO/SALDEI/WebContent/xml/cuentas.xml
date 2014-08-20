@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select cod_cuenta as codigo, descripcion as cuenta from
+		activos.act_cuenta where cod_cuenta not in (select cuenta from
+		activos.act_det_presupuesto where cod_presupuesto = ?);
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codPresupuesto" position="1" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codCuenta" title="Código" select="codigo"
+			script="yes" />
+		<column id="descripcion" title="Cuenta" select="cuenta"
+			script="yes" />
+	</columns>
+	<messages>Cuentas</messages>
+</lov>

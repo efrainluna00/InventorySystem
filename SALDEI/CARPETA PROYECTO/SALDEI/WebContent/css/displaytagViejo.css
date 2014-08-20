@@ -1,0 +1,163 @@
+TABLE.displaytag {
+	border: 1px solid #FFCC66;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 99%;
+}
+
+TABLE.displaytag TH {
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFCC66;
+
+}
+
+TABLE.displaytag TD {
+	
+}
+
+TABLE.displaytag TD img {
+
+}
+
+TABLE.displaytag TD.rightalign {
+	text-align: right;
+}
+
+TABLE.displaytag TD.centeralign {
+	text-align: center;
+}
+
+TABLE.displaytag TR.odd TD {
+	background-color: #fff;
+}
+
+TABLE.displaytag TR.odd:hover TD {
+	background-color: #FFFFCC;
+}
+TABLE.displaytag TR.total TD {
+	font-weight: bold;
+	text-align: right;
+	background-color: #FFCC66;
+}
+
+
+TABLE.displaytag TR.even TD {
+	background-color: #eee;
+	
+}
+
+TABLE.displaytag TR.even:hover TD {
+	background-color:  #FFFFCC;
+}
+
+TABLE.displaytag TH.sorted {
+	background-color: #f9e375;
+}
+
+TABLE.displaytag TH.sorted a,
+TABLE.displaytag TH.sortable a {
+	display: block;
+	background: url(../images/displaytag/arrow_off.png) no-repeat right;
+	color: #000;
+	text-decoration: none;
+}
+
+TABLE.displaytag TH.sorted a:hover,
+TABLE.displaytag TH.sortable a:hover {
+	color: #4986ff;
+}
+
+TABLE.displaytag TH.order1 a {
+	background-image: url(../images/displaytag/arrow_up.png);
+}
+
+TABLE.displaytag TH.order2 a {
+	background-image: url(../images/displaytag/arrow_down.png);
+}
+
+span.pagebanner {
+	color: #000;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: 10px 1px 0px 1px;
+	display:block;
+	width: 99%;
+	border-bottom: none;
+}
+
+span.pagebanner-full {
+	color: #000;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 99%;
+	margin: 10px 1px 0px 1px;
+	display:block;
+}
+
+span.pagelinks {
+	color: #000;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 99%;
+	display:block;
+	border-top: none;
+	margin: 0px 1px 5px 1px;
+}
+
+span.pagelinks a {
+	color: #00f;
+}
+
+span.pagelinks a:hover {
+	color: #4986ff;
+}
+
+div.exportlinks {
+	font-size: 0.8em;
+	padding: 2px 4px 2px 4px;
+	margin: 0 0 10px 0;
+	width: 99%;
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display: inline;
+	cursor: pointer;
+}
+
+
+.group-1 {
+    font-weight:bold;
+    padding-bottom:10px;
+    border-top:1px solid black;
+}
+.group-2 {
+    font-style:italic;
+    border-top: 1px solid black;
+
+}
+.subtotal-sum, .grandtotal-sum {
+    font-weight:bold;
+    text-align:right;
+}
+.subtotal-header {
+    padding-bottom: 0px;
+    border-top: 1px solid white;
+}
+.subtotal-label, .grandtotal-label {
+    border-top: 1px solid white;
+    font-weight: bold;
+}
+.grouped-table tr.even {
+    background-color: #fff;
+}
+.grouped-table tr.odd {
+    background-color: #fff;
+}
+.grandtotal-row {
+    border-top: 2px solid black;
+}

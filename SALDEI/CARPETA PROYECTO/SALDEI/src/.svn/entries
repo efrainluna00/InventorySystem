@@ -1,0 +1,94 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/src
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-09-15T10:21:02.290693Z
+390
+dario.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+hibernate.reveng.xml
+file
+
+
+
+
+2009-09-09T04:49:23.319866Z
+8987929e178f2b8185519caf92a49814
+2009-08-05T17:54:04.015058Z
+209
+dario.saldei
+
+org
+dir
+
+log4j.properties
+file
+
+
+
+
+2009-09-09T04:49:23.324866Z
+b8228529ceb4ca229b095036852fd584
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+displaytag.properties
+file
+
+
+
+
+2009-09-09T04:49:23.331866Z
+f0fd22433907f0738b9199ecebc6075a
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+com
+dir
+
+displaytag2.properties
+file
+
+
+
+
+2009-09-09T04:49:23.337866Z
+7b699c0d1c8491ec14d2a73f7b01206e
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+hibernate.cfg.xml
+file
+
+
+
+
+2009-09-10T04:16:34.400259Z
+eb65d2ebf0a300e46cbee0268aa99c83
+2009-09-09T23:35:14.153700Z
+357
+dario.saldei
+

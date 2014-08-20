@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select cod_proveedor as codProveedor, nombre as nombreProveedor,
+		giro, direccion from activos.act_proveedor where estado='A';
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codProveedor" title="Código" select="codProveedor"
+			script="yes" />
+		<column id="nombreProveedor" title="Nombre"
+			select="nombreProveedor" script="yes" />
+		<column id="giro" title="Giro" select="giro" script="no" />
+		<column id="direccion" title="Dirección" select="direccion"
+			script="no" />
+	</columns>
+	<messages>Proveedores</messages>
+</lov>

@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/SALDEI/!svn/ver/389/SISTEMA/SALDEI/src/com/saldei/web/action/activos
+END
+MovTrasActivoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/387/SISTEMA/SALDEI/src/com/saldei/web/action/activos/MovTrasActivoAction.java
+END
+SolicitudCompraAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/389/SISTEMA/SALDEI/src/com/saldei/web/action/activos/SolicitudCompraAction.java
+END
+AprSolCompraAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/384/SISTEMA/SALDEI/src/com/saldei/web/action/activos/AprSolCompraAction.java
+END
+CotizacionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/385/SISTEMA/SALDEI/src/com/saldei/web/action/activos/CotizacionAction.java
+END
+UnidadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/389/SISTEMA/SALDEI/src/com/saldei/web/action/activos/UnidadAction.java
+END
+RepSolicitudCompraAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SALDEI/!svn/ver/388/SISTEMA/SALDEI/src/com/saldei/web/action/activos/RepSolicitudCompraAction.java
+END
+AprSolPrestamoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/384/SISTEMA/SALDEI/src/com/saldei/web/action/activos/AprSolPrestamoAction.java
+END
+MovSolSuministroAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/387/SISTEMA/SALDEI/src/com/saldei/web/action/activos/MovSolSuministroAction.java
+END
+DetRecibirDescargaActivoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/SALDEI/!svn/ver/386/SISTEMA/SALDEI/src/com/saldei/web/action/activos/DetRecibirDescargaActivoAction.java
+END
+DetallePptoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/385/SISTEMA/SALDEI/src/com/saldei/web/action/activos/DetallePptoAction.java
+END
+RecibirDescargaActivoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/SALDEI/!svn/ver/388/SISTEMA/SALDEI/src/com/saldei/web/action/activos/RecibirDescargaActivoAction.java
+END
+SolDescActAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/388/SISTEMA/SALDEI/src/com/saldei/web/action/activos/SolDescActAction.java
+END
+DetAprSolDescActAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/386/SISTEMA/SALDEI/src/com/saldei/web/action/activos/DetAprSolDescActAction.java
+END
+AprSolDescActAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/384/SISTEMA/SALDEI/src/com/saldei/web/action/activos/AprSolDescActAction.java
+END
+AprDetReqRecursoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/384/SISTEMA/SALDEI/src/com/saldei/web/action/activos/AprDetReqRecursoAction.java
+END
+ReqRecursoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/388/SISTEMA/SALDEI/src/com/saldei/web/action/activos/ReqRecursoAction.java
+END
+AprSolSuministroAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/384/SISTEMA/SALDEI/src/com/saldei/web/action/activos/AprSolSuministroAction.java
+END
+AprReqRecursoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/384/SISTEMA/SALDEI/src/com/saldei/web/action/activos/AprReqRecursoAction.java
+END
+SolicitudCompraDetAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SALDEI/!svn/ver/389/SISTEMA/SALDEI/src/com/saldei/web/action/activos/SolicitudCompraDetAction.java
+END
+TipoUnidadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/389/SISTEMA/SALDEI/src/com/saldei/web/action/activos/TipoUnidadAction.java
+END
+BajaActivoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/384/SISTEMA/SALDEI/src/com/saldei/web/action/activos/BajaActivoAction.java
+END
+DetalleSolPrestamoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SALDEI/!svn/ver/385/SISTEMA/SALDEI/src/com/saldei/web/action/activos/DetalleSolPrestamoAction.java
+END
+ProveedorAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/387/SISTEMA/SALDEI/src/com/saldei/web/action/activos/ProveedorAction.java
+END
+SolPrestamoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/389/SISTEMA/SALDEI/src/com/saldei/web/action/activos/SolPrestamoAction.java
+END
+DetAprSolPrestamoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/SALDEI/!svn/ver/386/SISTEMA/SALDEI/src/com/saldei/web/action/activos/DetAprSolPrestamoAction.java
+END
+RepAsigActualesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/388/SISTEMA/SALDEI/src/com/saldei/web/action/activos/RepAsigActualesAction.java
+END
+DetalleSolDescActAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/SALDEI/!svn/ver/385/SISTEMA/SALDEI/src/com/saldei/web/action/activos/DetalleSolDescActAction.java
+END
+ActivoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/384/SISTEMA/SALDEI/src/com/saldei/web/action/activos/ActivoAction.java
+END
+EstadoActivoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/387/SISTEMA/SALDEI/src/com/saldei/web/action/activos/EstadoActivoAction.java
+END
+DetReqRecursoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/386/SISTEMA/SALDEI/src/com/saldei/web/action/activos/DetReqRecursoAction.java
+END
+DetSolSuministroAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/386/SISTEMA/SALDEI/src/com/saldei/web/action/activos/DetSolSuministroAction.java
+END
+CatalogoCuentaAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/385/SISTEMA/SALDEI/src/com/saldei/web/action/activos/CatalogoCuentaAction.java
+END
+DetAprSolSuministroAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SALDEI/!svn/ver/386/SISTEMA/SALDEI/src/com/saldei/web/action/activos/DetAprSolSuministroAction.java
+END
+SolSuministroAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/389/SISTEMA/SALDEI/src/com/saldei/web/action/activos/SolSuministroAction.java
+END
+MotivoBajaAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/387/SISTEMA/SALDEI/src/com/saldei/web/action/activos/MotivoBajaAction.java
+END
+RepHisAsigAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/388/SISTEMA/SALDEI/src/com/saldei/web/action/activos/RepHisAsigAction.java
+END
+PresupuestoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/387/SISTEMA/SALDEI/src/com/saldei/web/action/activos/PresupuestoAction.java
+END
+CotizacionDetAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/385/SISTEMA/SALDEI/src/com/saldei/web/action/activos/CotizacionDetAction.java
+END

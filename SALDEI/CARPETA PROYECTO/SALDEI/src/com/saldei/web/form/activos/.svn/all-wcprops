@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/SALDEI/!svn/ver/364/SISTEMA/SALDEI/src/com/saldei/web/form/activos
+END
+AprSolPrestamoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/364/SISTEMA/SALDEI/src/com/saldei/web/form/activos/AprSolPrestamoForm.java
+END
+MovSolSuministroForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/MovSolSuministroForm.java
+END
+DetRecibirDescargaActivoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SALDEI/!svn/ver/364/SISTEMA/SALDEI/src/com/saldei/web/form/activos/DetRecibirDescargaActivoForm.java
+END
+DetallePptoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/302/SISTEMA/SALDEI/src/com/saldei/web/form/activos/DetallePptoForm.java
+END
+RecibirDescargaActivoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/SALDEI/!svn/ver/364/SISTEMA/SALDEI/src/com/saldei/web/form/activos/RecibirDescargaActivoForm.java
+END
+SolDescActForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/307/SISTEMA/SALDEI/src/com/saldei/web/form/activos/SolDescActForm.java
+END
+DetAprSolDescActForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/DetAprSolDescActForm.java
+END
+AprSolDescActForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/AprSolDescActForm.java
+END
+ReqRecursoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/303/SISTEMA/SALDEI/src/com/saldei/web/form/activos/ReqRecursoForm.java
+END
+AprDetReqRecursoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/351/SISTEMA/SALDEI/src/com/saldei/web/form/activos/AprDetReqRecursoForm.java
+END
+AprReqRecursoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/364/SISTEMA/SALDEI/src/com/saldei/web/form/activos/AprReqRecursoForm.java
+END
+AprSolSuministroForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/351/SISTEMA/SALDEI/src/com/saldei/web/form/activos/AprSolSuministroForm.java
+END
+SolicitudCompraDetForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/SolicitudCompraDetForm.java
+END
+TipoUnidadForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/TipoUnidadForm.java
+END
+DetalleSolPrestamoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/290/SISTEMA/SALDEI/src/com/saldei/web/form/activos/DetalleSolPrestamoForm.java
+END
+BajaActivoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/BajaActivoForm.java
+END
+ProveedorForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/ProveedorForm.java
+END
+DetAprSolPrestamoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/290/SISTEMA/SALDEI/src/com/saldei/web/form/activos/DetAprSolPrestamoForm.java
+END
+SolPrestamoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/329/SISTEMA/SALDEI/src/com/saldei/web/form/activos/SolPrestamoForm.java
+END
+RepAsigActualesForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/126/SISTEMA/SALDEI/src/com/saldei/web/form/activos/RepAsigActualesForm.java
+END
+DetalleSolDescActForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/DetalleSolDescActForm.java
+END
+EstadoActivoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/EstadoActivoForm.java
+END
+ActivoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/ActivoForm.java
+END
+DetSolSuministroForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/DetSolSuministroForm.java
+END
+DetReqRecursoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/DetReqRecursoForm.java
+END
+CatalogoCuentaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/CatalogoCuentaForm.java
+END
+DetAprSolSuministroForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/364/SISTEMA/SALDEI/src/com/saldei/web/form/activos/DetAprSolSuministroForm.java
+END
+SolSuministroForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/303/SISTEMA/SALDEI/src/com/saldei/web/form/activos/SolSuministroForm.java
+END
+MotivoBajaForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/MotivoBajaForm.java
+END
+RepHisAsigForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/324/SISTEMA/SALDEI/src/com/saldei/web/form/activos/RepHisAsigForm.java
+END
+PresupuestoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/PresupuestoForm.java
+END
+CotizacionDetForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/362/SISTEMA/SALDEI/src/com/saldei/web/form/activos/CotizacionDetForm.java
+END
+MovTrasActivoForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/355/SISTEMA/SALDEI/src/com/saldei/web/form/activos/MovTrasActivoForm.java
+END
+SolicitudCompraForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/350/SISTEMA/SALDEI/src/com/saldei/web/form/activos/SolicitudCompraForm.java
+END
+AprSolCompraForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/350/SISTEMA/SALDEI/src/com/saldei/web/form/activos/AprSolCompraForm.java
+END
+CotizacionForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/362/SISTEMA/SALDEI/src/com/saldei/web/form/activos/CotizacionForm.java
+END
+UnidadForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SALDEI/!svn/ver/280/SISTEMA/SALDEI/src/com/saldei/web/form/activos/UnidadForm.java
+END
+RepSolicitudCompraForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/229/SISTEMA/SALDEI/src/com/saldei/web/form/activos/RepSolicitudCompraForm.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/administracion
+END
+ParametroDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/administracion/ParametroDto.java
+END
+LaboratorioDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/administracion/LaboratorioDto.java
+END
+CarreraDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/administracion/CarreraDto.java
+END
+TipoMedidaDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/administracion/TipoMedidaDto.java
+END
+TipoMulticodeDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/administracion/TipoMulticodeDto.java
+END
+MateriaDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/administracion/MateriaDto.java
+END
+MedidaDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/administracion/MedidaDto.java
+END
+MulticodeDTO.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/bean/administracion/MulticodeDTO.java
+END

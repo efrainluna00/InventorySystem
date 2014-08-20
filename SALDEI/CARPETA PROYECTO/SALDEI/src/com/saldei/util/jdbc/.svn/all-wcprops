@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/SALDEI/!svn/ver/282/SISTEMA/SALDEI/src/com/saldei/util/jdbc
+END
+ConnectJdbcDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/jdbc/ConnectJdbcDao.java
+END
+JdbcHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/SALDEI/!svn/ver/282/SISTEMA/SALDEI/src/com/saldei/util/jdbc/JdbcHelper.java
+END
+XmlResultSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/jdbc/XmlResultSet.java
+END

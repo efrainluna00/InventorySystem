@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro
+END
+RptMateriaCicloService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/RptMateriaCicloService.java
+END
+CargaDatosUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/CargaDatosUtilities.java
+END
+AsignarMateriaCicloServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/AsignarMateriaCicloServices.java
+END
+RptMateriaInscritaHistoricoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/RptMateriaInscritaHistoricoService.java
+END
+ErroresCargaDatos.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/ErroresCargaDatos.java
+END
+AsigDirecLabServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/AsigDirecLabServices.java
+END
+RptSolicitudUsuarioService.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/RptSolicitudUsuarioService.java
+END
+RptEstudianteMateriaService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/RptEstudianteMateriaService.java
+END
+RptMateriaCatedraticoHistoricoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/RptMateriaCatedraticoHistoricoService.java
+END
+AsigMatCatServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/AsigMatCatServices.java
+END
+GestionUsuarioServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/GestionUsuarioServices.java
+END
+RptMateriaCicloHistoricoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/RptMateriaCicloHistoricoService.java
+END
+VigenciaServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/VigenciaServices.java
+END
+RptRequerimientoXMateriaService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/RptRequerimientoXMateriaService.java
+END
+RptMateriaCatedraticoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/RptMateriaCatedraticoService.java
+END
+RequerimientoServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/RequerimientoServices.java
+END
+CicloServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/CicloServices.java
+END
+CargarDatosServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/CargarDatosServices.java
+END
+AsignarMateriaEstudianteService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/services/registro/AsignarMateriaEstudianteService.java
+END

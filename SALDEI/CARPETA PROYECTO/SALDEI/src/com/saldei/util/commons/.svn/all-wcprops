@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/SALDEI/!svn/ver/282/SISTEMA/SALDEI/src/com/saldei/util/commons
+END
+ElementDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/ElementDto.java
+END
+Pruebas.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/Pruebas.java
+END
+Menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/Menu.java
+END
+Shared.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/Shared.java
+END
+Security.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/SALDEI/!svn/ver/282/SISTEMA/SALDEI/src/com/saldei/util/commons/Security.java
+END
+SecurityEncrypt.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/SecurityEncrypt.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/SALDEI/!svn/ver/161/SISTEMA/SALDEI/src/com/saldei/util/commons/Constants.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/Util.java
+END
+MenuBeans.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/MenuBeans.java
+END
+Base64InputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/Base64InputStream.java
+END
+Base64OutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/Base64OutputStream.java
+END
+Auditoria.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/Auditoria.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/Base64.java
+END
+Querys.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/Querys.java
+END
+SecurityDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/util/commons/SecurityDAO.java
+END

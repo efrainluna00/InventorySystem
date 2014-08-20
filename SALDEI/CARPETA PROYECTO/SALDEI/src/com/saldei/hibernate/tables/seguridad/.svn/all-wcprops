@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/SALDEI/!svn/ver/209/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/seguridad
+END
+OpcionSeguridad.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/SALDEI/!svn/ver/209/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/seguridad/OpcionSeguridad.java
+END
+AbstractOpcionSeguridad.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/SALDEI/!svn/ver/209/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/seguridad/AbstractOpcionSeguridad.java
+END
+OpcionSeguridad.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SALDEI/!svn/ver/209/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/seguridad/OpcionSeguridad.hbm.xml
+END
+OpcionSeguridadDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SALDEI/!svn/ver/208/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/seguridad/OpcionSeguridadDAO.java
+END

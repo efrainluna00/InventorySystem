@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select tu.cod_tipo_unidad as codTipoUnidad, tu.descripcion as
+		tipoUnidadDesc from activos.act_tipo_unidad as tu
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codTipoUnidad" title="Código de unidad"
+			select="codTipoUnidad" script="yes" />
+		<column id="tipoUnidadDesc" title="Descripción"
+			select="tipoUnidadDesc" script="yes" />
+	</columns>
+	<messages>Tipo de Unidades</messages>
+</lov>

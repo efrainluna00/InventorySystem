@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SALDEI/!svn/ver/382/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad
+END
+OrganizacionDEIAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/OrganizacionDEIAction.java
+END
+GenerarReportesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/GenerarReportesAction.java
+END
+MtoOpcionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/242/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/MtoOpcionAction.java
+END
+RptAuditoriaAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/RptAuditoriaAction.java
+END
+LoginAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/382/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/LoginAction.java
+END
+CambiarPwdAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/CambiarPwdAction.java
+END
+RptPerfilUsuarioAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/RptPerfilUsuarioAction.java
+END
+OpcionesPerfilAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/OpcionesPerfilAction.java
+END
+PerfilAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/PerfilAction.java
+END
+SolicitarUsrAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/SolicitarUsrAction.java
+END
+AsignarPerfilAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/AsignarPerfilAction.java
+END
+UsuarioAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/UsuarioAction.java
+END
+OpcionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/OpcionAction.java
+END
+UsuarioTituloAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/187/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/UsuarioTituloAction.java
+END
+ModificarDatosAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/ModificarDatosAction.java
+END
+RptPerflAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/RptPerflAction.java
+END
+RptOrgDeiAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/RptOrgDeiAction.java
+END
+RptUsuariosAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/RptUsuariosAction.java
+END
+RptInformacionPersonal.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/seguridad/RptInformacionPersonal.java
+END

@@ -1,0 +1,52 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/src/org/extremecomponents/controller
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-06-03T01:56:49.807476Z
+51
+dario.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+MarkerInterceptor.java
+file
+
+
+
+
+2009-09-09T04:48:57.921866Z
+4c38db285927aec7ee86aab261b66204
+2009-06-03T01:56:49.807476Z
+51
+dario.saldei
+
+AutoGenerateColumnsImpl.java
+file
+
+
+
+
+2009-09-09T04:48:57.932866Z
+cc0e6fb3c9d6e8b47e3934aaa72781dc
+2009-06-03T01:56:49.807476Z
+51
+dario.saldei
+

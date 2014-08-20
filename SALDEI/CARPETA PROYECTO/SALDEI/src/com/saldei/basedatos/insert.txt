@@ -1,0 +1,96 @@
+--********************************** OPCION **************************************************
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (1,0, 'Login', 'Login del sistema', '',10, '', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (2,0, 'Registro academico', 'Registro Academico', '',30, '', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (3,0, 'Seguridad', 'Modulo de seguridad', '',20, '', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (4,3, 'Mantenimiento', 'Separador de Mantenimiento', '',10, '', 'S', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (5,3, 'Asignación', 'Separador de Asignacion', '',60, '', 'S', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (6,3, 'Usuario', 'Mantenimiento de usuarios', '/SALDEI/usuario.do?cmd',40, 'inicio', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (7,3, 'Perfil', 'Mantenimiento de perfil', '/SALDEI/perfil.do?cmd',30, 'inicio', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (8,3, 'Opcion', 'Mantenimiento de opciones', '/SALDEI/opcion.do?cmd',20, 'inicio', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (9,3, 'Organizacion DEI', 'Mantenimiento de Organizacion DEI', '/SALDEI/orgDEI.do?cmd',50, 'inicio', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (10,3, 'Opciones a Perfil', 'Asignar las opciones a un perfil', '/SALDEI/opcPerfil.do?cmd',70, 'inicio', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (11,3, 'Perfil a Usuario', 'Asignar los perfiles a un Usuario', '/SALDEI/asgPerfil.do?cmd',80, 'inicio', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (12,3, 'Reportes', 'Reportes de SALDEI - Seguridad', '',90, '', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (13,12, 'Usuario', 'Reporte de usuarios activos/inactivos', '/SALDEI/html/seguridad/reportes/rptUsuarios.jsp',10, '', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (14,12, 'Organización DEI', 'Pagina de reporte con la organizacion DEI', '/SALDEI/html/seguridad/reportes/rptOrganizacionDEI.jsp',20, '', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (15,1, 'cambiar Contrasena', 'Cambiar contraseña personal', '/SALDEI/cambiarPwd.do?cmd',10, 'inicio', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (16,1, 'Modificar Datos', 'Modificacion de los datos personales', '/SALDEI/modDatos.do?cmd',20, 'inicio', 'N', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (17,2, 'Mantenimiento', '', '',10, '', 'S', 'A');
+
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (18,2, 'Laboratorio', 'Mantenimiento de Laboratorio', '/SALDEI/mtoLab.do?cmd',20, 'inicio', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (19,2, 'Materia', 'Mantenimiento de Materia', '/SALDEI/mtoMat.do?cmd',30, 'inicio', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (20,2, 'Parametro', 'Mantenimiento de Parametro', '/SALDEI/mtoParam.do?cmd',40, 'inicio', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (21,2, 'Multicode', '', '',50, '', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (22,21, 'Tipo Multicode', 'Mantenimiento Tipo de Multicode', '/SALDEI/tipoMulticodeMto.do?cmd',10, 'inicio', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (23,21, 'Mantenimiento Multicode', 'Mantenimiento Multicode', '/SALDEI/multicodeMto.do?cmd',20, 'inicio', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (24,2, 'Medida', '', '',60, '', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (25,24, 'Tipo Medida', 'Mantenimiento Tipo de Medida', '/SALDEI/mtoTipMed.do?cmd',10, 'inicio', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (26,24, 'Mantenimiento Medida', 'Mantenimiento de Medida', '/SALDEI/mtoMed.do?cmd',20, 'inicio', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (27,2, 'Reportes', '', '',70, '', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (28,27, 'Laboratorio', 'Reporte de Laboratorio', '',10, '', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (29,27, 'Materia', 'Reporte de Materia', '',20, '', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (30,27, 'Multicode', '', '',30, '', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (31,30, 'Tipo Multicode', 'Reporte de Tipo Multicode', '',10, '', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (32,30, 'Multicode', 'Reporte de Multicode', '',20, '', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (33,27, 'Medida', '', '',40, '', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (34,33, 'Tipo Medida', 'Reporte de Tipo Medida', '',10, '', 'N', 'A');
+INSERT INTO seguridad.opcion(id_opcion, id_opcion_padre,nom_opcion,desc_opcion, url_opcion, orden, metodo, is_separador, est_opcion) 
+VALUES (35,33, 'Medida', 'Reporte de Medida', '',20, '', 'N', 'A');
+
+--***************************************** PARAMETROS ************************************************
+
+INSERT INTO registro.parametro(nom_parametro,descripcion,valor) 
+VALUES ( 'LOGIN', 'Identificador que posee en la tabla del menu', '1');
+INSERT INTO registro.parametro(nom_parametro,descripcion,valor) 
+VALUES ( 'ESTADO_CIVIL', 'Id en la tabla de Tipo Multicode', '1');
+

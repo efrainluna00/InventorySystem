@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select estado as estado, fecha_inicial as fechaInicial from
+		activos.act_presupuesto;
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="estado" title="Estado" select="estado" script="yes" />
+	</columns>
+	<messages>com.saldei.web</messages>
+</lov>

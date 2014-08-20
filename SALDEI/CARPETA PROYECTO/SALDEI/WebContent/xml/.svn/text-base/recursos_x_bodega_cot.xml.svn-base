@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+
+		select a.cod_recurso as codRecurso,a.nombre as nombre ,
+		coalesce(b.existencia,0) as existencia from
+		inventario.inv_recurso a INNER JOIN inventario.inv_existencia b
+		on (a.cod_recurso = b.cod_recurso and b.cod_bodega = ?) where
+		a.consumible != 'S' and b.existencia = 0
+
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codBodega" position="1" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codRecurso" title="Código" select="codRecurso"
+			script="yes" />
+		<column id="nombreRecurso" title="Nombre" select="nombre"
+			script="yes" />
+		<column id="existencia" title="Existencia" select="existencia"
+			script="no" />
+	</columns>
+	<messages>Recursos</messages>
+</lov>

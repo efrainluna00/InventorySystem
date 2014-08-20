@@ -1,0 +1,469 @@
+/* Global */
+a {
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	background-color: #FFFFFF;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Tahoma, Arial;
+	font-size: 76%;
+}
+
+body * {
+	font-size: 1em;
+}
+
+.font-xx-small {
+	font-size: 0.7em;
+}
+
+.font-x-small {
+	font-size: 0.8em;
+}
+
+.font-small {
+	font-size: 0.9em;
+}
+
+.font-large {
+	font-size: 1.1em;
+}
+
+.font-x-large {
+	font-size: 1.2em;
+}
+
+.font-xx-large {
+	font-size: 1.3em;
+}
+
+fieldset {
+	border: 1px solid #439FD7;
+	text-align: center;
+	vertical-align: top;
+}
+
+
+
+legend {
+	padding: 4px;
+	font-weight: bold;
+	border-color: #ccc #999 #999 #ccc;
+	border-style: solid;
+	border-width: 1px;
+	
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+select {
+	border-color: #CCCCCC;
+	border-style: solid;
+	border-width: 1px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 5px 0 10px 20px;
+	padding: 0;
+}
+
+
+img {
+	border: 0;
+	margin: 0;
+	padding: 0
+}
+
+input,button,select,password{
+	font-size: 0.8em;
+	
+}
+
+
+
+
+
+textarea {
+	font-family: Arial;
+	font-size: 1em;
+}
+
+#layout-outer-side-decoration {
+	padding: 1px;
+	padding-bottom: 5px;
+	min-height: 530px;
+	min-width: 615px;
+}
+#layout-inner-side-decoration {	
+	background-color: white;
+	padding: 1px;
+	min-height: 520;
+}
+#layout-box {	
+	text-align: center;
+	width: 100%;
+	min-height: 520;
+}
+#layout-top {	
+}
+#layout-top-banner {
+	background: url(../images/theme/middle_blue.jpg) scroll repeat-x;	
+}
+#layout-top-banner-left {
+	background: url(../images/theme/left_blue.jpg) scroll no-repeat top left;
+}
+#layout-top-banner-right {
+	background: url(../images/theme/right_blue.jpg) scroll no-repeat top right;
+}
+
+#layout-top-banner-ligth {
+	background: url(../images/theme/middle_blue_ligth.jpg) scroll repeat-x;	
+}
+#layout-top-banner-left-ligth {
+	background: url(../images/theme/left_blue_ligth.jpg) scroll no-repeat top left;
+}
+#layout-top-banner-right-ligth {
+	background: url(../images/theme/right_blue_ligth.jpg) scroll no-repeat top right;
+}
+
+#layout-content {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	min-height: 200;
+	text-align: center;
+}
+#layout-content-menu {
+	height: 98%;
+	width: 100%;
+ 	text-align:left;
+	float: left;
+}
+.menu-left {
+	background: url(../images/theme/left_blue_ligth.jpg) scroll no-repeat top left;
+	padding-left: 9px;
+}.menu-middle {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: url(../images/theme/middle_blue_ligth.jpg) scroll repeat-x;
+}
+.menu-right {
+	background: url(../images/theme/right_blue_ligth.jpg) scroll no-repeat top right;
+	min-height: 20px;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+#layout-content-body {
+	margin: 4px;
+	min-height: 330px;
+	font-family: sans-serif;
+	font-size: xx-small;
+}
+#layout-content *{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+}
+#layout-bottom {
+	vertical-align: bottom;
+}
+
+.tab-module {
+	background: url(../images/theme/tab_middle.gif) scroll repeat-x;
+}
+.tab-module A {	
+	color: #666666;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size: 9px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;	
+	line-height: normal;
+	text-decoration: none;
+}
+.tab-module A:hover {
+	color: #4986ff;
+}
+.tab-module-left {
+	background: url(../images/theme/tab_left.gif) 
+}
+
+.tab-module-bottom {
+	background: url(../images/theme/tab_bottom.gif);
+}
+
+.tab-module-right {
+	background: url(../images/theme/tab_right.gif) 
+}
+.tabsel-module {
+	background: url(../images/theme/tabsel_middle.gif) 
+}
+.tabsel-module-left {
+	background: url(../images/theme/tabsel_left.gif) 
+}
+.tabsel-module-right {
+	background: url(../images/theme/tabsel_right.gif) 
+}
+
+.tabsel-module A {
+	color: #666666;
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size: 9px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;	
+	line-height: normal;
+	text-decoration: none;	
+}
+
+.hiddenDiv{
+	position:absolute; 
+	z-index:1;
+	visibility:hidden;
+}
+.showDiv{
+	position:absolute; 
+	z-index:1;
+	visibility:default;
+}
+
+ul.Bullets li{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 5px 0px 5px 15px;
+  background: url(../images/theme/status-in-progress.gif) no-repeat 0em 0.2em;
+  font-size: 9px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;	
+  color: #666666;
+}
+
+.Blue_Border {
+	background: url(../images/theme/blue_border.gif) 
+}
+
+.LabelTextUpperCase {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.LabelTextNormalCase {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.EditField {
+	font-family: Verdana, Arial, Helvetica, 'sans-serif';
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 1px solid #6ca6cd;
+}
+
+.EditField:focus {
+	border-color: #000;
+}
+
+.TextAreaField {
+	font-family: Verdana, Arial, Helvetica, 'sans-serif';
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+}
+
+.TextAreaField:focus {
+	border-color: #000;
+}
+
+.ButtonText{
+	border: 1px solid  #6699CC;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Arial;
+	font-size: 11px;
+	font-style: normal;
+	background: url(../images/theme/button_gradient_blue.gif);
+	background-repeat: repeat-x;
+}
+.ButtonTextGray{
+	border: 1px solid  #6699CC;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Arial;
+	font-size: 11px;
+	font-style: normal;
+	background: url(../images/theme/button_gradient_gray.gif);
+	background-repeat: repeat-x;
+}
+
+.HeaderBar{
+	position: relative;
+	border: 1px solid #6699CC;
+	font-family: Arial;
+	font-size: 11px;
+	background: url(../images/theme/button_gradient_blue.gif);
+	background-repeat: repeat-x;
+}
+
+.DivBox{
+	border: 1px solid #6699CC;
+	margin-top: 1px;
+}
+
+.selected{
+	background-color: #CCCCCC;
+	color: navy;	
+}
+
+
+.warning{
+	background-color:#FFFF99;
+	color:black;
+	font-size:10px;
+	font-family:arial
+}
+
+.error{
+		background-color:#006699;
+		color:white;
+		font-size:10px;
+		font-family:arial
+}
+
+
+.fwdButton{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 8pt; 
+	color: red;
+	font-weight: bold;
+	background-image: url(../images/icons/forward_nav.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: white;
+	border-top: 1px solid navy;
+	border-right: 1px solid navy;
+	border-bottom: 1px solid navy;
+	border-left: 1px solid navy;
+}
+
+.backButton{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 8pt; 
+	color: red;
+	font-weight: bold;
+	background-image: url(../images/icons/backward_nav.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-color: white;
+	border-top: 1px solid navy;
+	border-right: 1px solid navy;
+	border-bottom: 1px solid navy;
+	border-left: 1px solid navy;
+}
+
+.saveButton{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 8pt; 
+	color: #778899;
+	font-weight: bold;
+	background-image: url(../images/icons/save.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: white;
+	border-top: 1px solid navy;
+	border-right: 1px solid navy;
+	border-bottom: 1px solid navy;
+	border-left: 1px solid navy;
+}
+
+
+.removeButton{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 8pt; 
+	color: #778899;
+	font-weight: bold;
+	background-image: url(../images/icons/trash.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: white;
+	border-top: 1px solid navy;
+	border-right: 1px solid navy;
+	border-bottom: 1px solid navy;
+	border-left: 1px solid navy;
+}
+
+
+.editButton{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 8pt; 
+	color: #778899;
+	font-weight: bold;
+	background-image: url(../images/icons/edit.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: white;
+	border-top: 1px solid navy;
+	border-right: 1px solid navy;
+	border-bottom: 1px solid navy;
+	border-left: 1px solid navy;
+}
+
+.findButton{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 8pt; 
+	color: #778899;
+	font-weight: bold;
+	background-image: url(../images/icons/search.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: white;
+	border-top: 1px solid navy;
+	border-right: 1px solid navy;
+	border-bottom: 1px solid navy;
+	border-left: 1px solid navy;
+}
+
+.cleanButton{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 8pt; 
+	color: #778899;
+	font-weight: bold;
+	background-image: url(../images/icons/flag_blue.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: white;
+	border-top: 1px solid navy;
+	border-right: 1px solid navy;
+	border-bottom: 1px solid navy;
+	border-left: 1px solid navy;
+}
+
+.smallSelect{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10;
+	color:navy;
+}

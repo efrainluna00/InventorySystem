@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select b.cod_bodega as codBodega, b.nombre as bodegaDes,
+		b.ubicacion from inventario.inv_bodega as b where b.estado = 'A'
+		and b.cod_bodega not in (select cod_bodega from
+		inventario.inv_existencia where cod_recurso= ? )
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codRecurso" position="1" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codBodega" title="Código" select="codBodega"
+			script="yes" />
+		<column id="bodegaDes" title="Nombre" select="bodegaDes"
+			script="yes" />
+
+	</columns>
+	<messages>Bodegas</messages>
+</lov>

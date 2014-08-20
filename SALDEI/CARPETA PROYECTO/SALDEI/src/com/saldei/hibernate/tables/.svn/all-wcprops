@@ -1,0 +1,467 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/SALDEI/!svn/ver/372/SISTEMA/SALDEI/src/com/saldei/hibernate/tables
+END
+CatedraticoMateriaId.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/CatedraticoMateriaId.java
+END
+Perfil.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Perfil.hbm.xml
+END
+TipoMulticode.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/TipoMulticode.hbm.xml
+END
+UsuarioPerfilId.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioPerfilId.java
+END
+OpcionPerfilId.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/OpcionPerfilId.java
+END
+UsuarioDei.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioDei.java
+END
+CatedraticoMateria.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/CatedraticoMateria.hbm.xml
+END
+SolicitudReqMat.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/SolicitudReqMat.java
+END
+OpcionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/SALDEI/!svn/ver/326/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/OpcionDAO.java
+END
+UsuarioTitulo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/170/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioTitulo.hbm.xml
+END
+UsuarioPerfil.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioPerfil.hbm.xml
+END
+OpcionPerfil.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/OpcionPerfil.hbm.xml
+END
+ReqMat.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/ReqMat.hbm.xml
+END
+Parametro.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Parametro.hbm.xml
+END
+TipoMedida.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/TipoMedida.java
+END
+UsuarioExterno.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioExterno.hbm.xml
+END
+TipoMulticode.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/TipoMulticode.java
+END
+Perfil.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Perfil.java
+END
+Materia.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Materia.java
+END
+CatedraticoMateria.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/CatedraticoMateria.java
+END
+DirectorLaboratorioId.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/DirectorLaboratorioId.java
+END
+Usuario.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Usuario.java
+END
+Opcion.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/SALDEI/!svn/ver/282/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Opcion.java
+END
+ReqMat.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/ReqMat.java
+END
+OpcionPerfil.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/OpcionPerfil.java
+END
+Estudiante.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Estudiante.hbm.xml
+END
+UsuarioPerfil.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioPerfil.java
+END
+MateriaInscritaId.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/MateriaInscritaId.java
+END
+DirectorLaboratorio.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/DirectorLaboratorio.hbm.xml
+END
+AuditoriaId.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/AuditoriaId.java
+END
+SeccionXMateria.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/SeccionXMateria.hbm.xml
+END
+CargoUsuarioDeiId.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/CargoUsuarioDeiId.java
+END
+Carrera.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Carrera.hbm.xml
+END
+Estudiante.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Estudiante.java
+END
+Auditoria.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Auditoria.hbm.xml
+END
+DirectorLaboratorio.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/DirectorLaboratorio.java
+END
+CargoUsuarioDei.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/CargoUsuarioDei.hbm.xml
+END
+Multicode.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Multicode.hbm.xml
+END
+MateriaInscrita.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/MateriaInscrita.java
+END
+Auditoria.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Auditoria.java
+END
+EstudianteCarreraId.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/EstudianteCarreraId.java
+END
+Medida.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Medida.java
+END
+CargoUsuarioDei.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/CargoUsuarioDei.java
+END
+Multicode.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Multicode.java
+END
+EstudianteCarrera.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/EstudianteCarrera.hbm.xml
+END
+Parametro.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Parametro.java
+END
+MateriaCiclo.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/MateriaCiclo.java
+END
+CarreraVigenciaId.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/CarreraVigenciaId.java
+END
+TipoMedida.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/TipoMedida.hbm.xml
+END
+EstudianteCarrera.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/EstudianteCarrera.java
+END
+CarreraVigencia.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/CarreraVigencia.hbm.xml
+END
+Opcion.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Opcion.hbm.xml
+END
+Usuario.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Usuario.hbm.xml
+END
+UsuarioTituloDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/170/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioTituloDAO.java
+END
+AbstractUsuarioTitulo.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/170/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/AbstractUsuarioTitulo.java
+END
+Ciclo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Ciclo.hbm.xml
+END
+SeccionXMateria.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/SeccionXMateria.java
+END
+MateriaCiclo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/MateriaCiclo.hbm.xml
+END
+CarreraVigencia.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/CarreraVigencia.java
+END
+Ciclo.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Ciclo.java
+END
+CarreraId.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/CarreraId.java
+END
+Laboratorio.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Laboratorio.hbm.xml
+END
+MateriaInscrita.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/MateriaInscrita.hbm.xml
+END
+Materia.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Materia.hbm.xml
+END
+Medida.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Medida.hbm.xml
+END
+MateriaCicloId.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/MateriaCicloId.java
+END
+UsuarioVigenciaId.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioVigenciaId.java
+END
+Laboratorio.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Laboratorio.java
+END
+Carrera.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/Carrera.java
+END
+UsuarioVigencia.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioVigencia.hbm.xml
+END
+UsuarioTitulo.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/170/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioTitulo.java
+END
+AbstractUsuarioTituloId.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SALDEI/!svn/ver/163/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/AbstractUsuarioTituloId.java
+END
+SeccionXMateriaId.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/SeccionXMateriaId.java
+END
+UsuarioExterno.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioExterno.java
+END
+SolicitudReqMat.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/SolicitudReqMat.hbm.xml
+END
+UsuarioDei.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioDei.hbm.xml
+END
+UsuarioVigencia.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/hibernate/tables/UsuarioVigencia.java
+END

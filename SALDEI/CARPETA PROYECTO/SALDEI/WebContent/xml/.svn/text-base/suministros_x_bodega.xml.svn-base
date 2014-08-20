@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+
+		select a.cod_recurso as codRecurso,a.nombre as
+		nombre,a.cod_unidad_medida,m.nom_medida as
+		medida,coalesce(b.existencia,0) as existencia from
+		inventario.inv_recurso a inner JOIN inventario.inv_existencia b
+		on (a.cod_recurso = b.cod_recurso and b.cod_bodega = ?),
+		registro.medida m where a.consumible = 'S' and
+		a.cod_unidad_medida = m.id_medida and a.cod_recurso not in
+		(Select cod_recurso from activos.act_det_solicitud where
+		tipo_solicitud = 'S' and cod_solicitud = ? )
+
+
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codBodega" position="1" />
+		<sql-param id="codSol" position="2" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codRecurso" title="Código" select="codRecurso"
+			script="yes" />
+		<column id="nombreRecurso" title="Nombre" select="nombre"
+			script="yes" />
+		<column id="existencia" title="Existencia" select="existencia"
+			script="no" />
+		<column id="medida" title="Medida" select="medida" script="yes" />
+	</columns>
+	<messages>Suministros</messages>
+</lov>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+
+		select u.cod_unidad as codUnidad,u.descripcion, us.primer_nom ||
+		' ' || us.primer_ape as responsable, u.cod_responsable as
+		codResponsable from activos.act_unidad u, seguridad.usuario us
+		where u.cod_responsable = us.id_usuario and u.estado = 'A' and
+		u.cod_unidad not in (select cod_unidad from activos.act_unidad
+		where cod_unidad = ?) order by u.cod_unidad asc
+
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="unidadActual" position="1" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codUnidad" title="Código Unidad" select="codUnidad"
+			script="yes" />
+		<column id="descripcion" title="Unidad" select="descripcion"
+			script="yes" />
+		<column id="responsable" title="Responsable"
+			select="responsable" script="yes" />
+		<column id="codResponsable" title="Código Responsable"
+			select="codResponsable" script="yes" />
+	</columns>
+	<messages>Unidades</messages>
+</lov>

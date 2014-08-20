@@ -1,0 +1,70 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/WebContent/WEB-INF
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-09-15T10:09:00.020012Z
+380
+dario.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+extremecomponents.tld
+file
+
+
+
+
+2009-09-15T10:25:23.139469Z
+4e2e1c09da0399f06cfb60693f210412
+2009-09-15T10:09:00.020012Z
+380
+dario.saldei
+
+struts
+dir
+
+lib
+dir
+
+web.xml
+file
+
+
+
+
+2009-09-15T10:25:23.146469Z
+dad4bc1f3befffbb42c1d0aa6ebca97d
+2009-09-15T10:09:00.020012Z
+380
+dario.saldei
+
+tiles-defs.xml
+file
+
+
+
+
+2009-09-15T10:25:23.154469Z
+b00c6130c27718afa3e8e71f20ae208d
+2009-09-15T10:09:00.020012Z
+380
+dario.saldei
+

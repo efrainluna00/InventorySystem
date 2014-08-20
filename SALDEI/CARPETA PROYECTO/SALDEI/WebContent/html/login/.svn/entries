@@ -1,0 +1,52 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/WebContent/html/login
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+login.jsp
+file
+
+
+
+
+2009-09-09T04:49:31.252866Z
+aeb15aa839dac3d51307219c083160c0
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+
+errors.jsp
+file
+
+
+
+
+2009-09-09T04:49:31.261866Z
+1121cbc2977abffb09541c8f9b755aa0
+2009-04-15T16:46:09.731632Z
+3
+SALDEI
+

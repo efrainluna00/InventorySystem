@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select cot.cod_cotizacion, pro.cod_proveedor, pro.nombre,
+		cot.comentario from activos.act_cotizacion cot,
+		activos.act_proveedor pro where cot.cod_proveedor =
+		pro.cod_proveedor and cot.tipo_solicitud = ? and
+		cot.cod_solicitud = ?
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="tipoSolicitud" position="1" />
+		<sql-param id="codSolicitud" position="2" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codCotizacion" title="Cotización"
+			select="cod_cotizacion" script="yes" />
+		<column id="codProveedor" title="Código Proveedor"
+			select="cod_proveedor" script="yes" />
+		<column id="nombreProveedor" title="Proveedor" select="nombre"
+			script="yes" />
+		<column id="comentario" title="Comentario" select="comentario"
+			script="yes" />
+
+	</columns>
+	<messages>Cotizaciones por Proveedores</messages>
+</lov>

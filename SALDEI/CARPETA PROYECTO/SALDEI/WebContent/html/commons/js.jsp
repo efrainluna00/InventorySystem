@@ -1,0 +1,12 @@
+<%@ page language="java"%>
+<script type="text/javascript" src="${ctx}/js/dojo/util.js"></script>
+<script type="text/javascript" src="${ctx}/js/dojo/prototype.js"></script>
+<script type="text/javascript" src="${ctx}/js/dojo/effects.js"></script>
+<script type="text/javascript" src="${ctx}/js/dojo/xp_progress.js"></script>
+<script type="text/javascript" src="${ctx}/js/common/commonFunctions.js"></script>
+<script type="text/javascript" src="${ctx}/js/common/utilsAjax.js"></script>
+<script type="text/javascript" src="${ctx}/js/common/select.js"></script>
+<script type="text/javascript" src="${ctx}/js/jquery.js"></script>
+<script type="text/javascript" src="${ctx}/js/nicejforms.js"></script>
+<script type="text/javascript" src="${ctx}/js/common/util.js"></script>
+<script type="text/javascript" src="${ctx}/js/common/form.js"></script>

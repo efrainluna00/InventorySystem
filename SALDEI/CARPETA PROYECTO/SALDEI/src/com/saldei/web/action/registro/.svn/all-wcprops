@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro
+END
+AsignarMateriaCicloAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/AsignarMateriaCicloAction.java
+END
+EstudianteCarreraAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/EstudianteCarreraAction.java
+END
+RptMateriaCicloHistoricoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/RptMateriaCicloHistoricoAction.java
+END
+CargaDatosAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/CargaDatosAction.java
+END
+RptRequerimientoXMateriaAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/RptRequerimientoXMateriaAction.java
+END
+AsigDirecLabAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/AsigDirecLabAction.java
+END
+RptMateriaCatedraticoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/RptMateriaCatedraticoAction.java
+END
+AsignarMateriaEstudianteAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/AsignarMateriaEstudianteAction.java
+END
+AsigMatCatAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/AsigMatCatAction.java
+END
+GestionUsuarioAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/GestionUsuarioAction.java
+END
+RptMateriaCicloAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/RptMateriaCicloAction.java
+END
+VigenciaAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/VigenciaAction.java
+END
+RequerimientoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/RequerimientoAction.java
+END
+RptMateriaInscritaHistoricoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/RptMateriaInscritaHistoricoAction.java
+END
+CicloAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/CicloAction.java
+END
+RptSolicitudUsuarioAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/RptSolicitudUsuarioAction.java
+END
+RptEstudianteMateriaAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/RptEstudianteMateriaAction.java
+END
+RptMateriaCatedraticoHistoricoAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/SALDEI/!svn/ver/3/SISTEMA/SALDEI/src/com/saldei/web/action/registro/RptMateriaCatedraticoHistoricoAction.java
+END

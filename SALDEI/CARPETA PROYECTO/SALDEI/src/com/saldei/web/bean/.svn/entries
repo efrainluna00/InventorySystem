@@ -1,0 +1,61 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/src/com/saldei/web/bean
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-09-14T03:58:05.387384Z
+364
+efrain.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+administracion
+dir
+
+seguridad
+dir
+
+LdvBean.java
+file
+
+
+
+
+2009-09-09T04:49:17.461866Z
+8189319176fb718733542381093b0aa2
+2009-08-27T03:53:19.071786Z
+293
+dario.saldei
+
+Util.java
+file
+
+
+
+
+2009-09-13T01:05:26.108259Z
+5f148fd907c94d7f2c6c95b88321f0b8
+2009-09-14T03:58:05.387384Z
+364
+efrain.saldei
+
+registro
+dir
+

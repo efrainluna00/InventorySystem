@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select au.cod_unidad as codUnidad, au.cod_responsable as
+		codSolicitante, su.primer_nom || ' ' || su.primer_ape as
+		solicitante from seguridad.usuario su, activos.act_unidad au
+		where au.cod_responsable = su.id_usuario
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codUnidad" title="Código Unidad" select="codUnidad"
+			script="yes" />
+		<column id="codSolicitante" title="Código Solicitante"
+			select="codSolicitante" script="yes" />
+		<column id="solicitante" title="Solicitante"
+			select="solicitante" script="yes" />
+
+	</columns>
+	<messages>Solicitantes</messages>
+</lov>

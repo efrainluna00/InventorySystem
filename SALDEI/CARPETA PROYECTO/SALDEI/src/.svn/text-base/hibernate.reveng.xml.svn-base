@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+
+
+
+
+	<table name="act_presupuesto" schema="activos">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="act_tipo_unidad" schema="activos">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="inv_tipo_mov" schema="inventario"></table>
+	<table name="act_tipo_unidad" schema="activos">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="inv_bodega" schema="inventario"></table>
+	<table name="act_unidad" schema="activos">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="act_motivo_baja" schema="activos">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="act_det_cotizacion" schema="activos"></table>
+	<table name="act_hist_unidad_activo" schema="activos"></table>
+	<table name="act_estado_activo" schema="activos">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+
+
+	<table name="usuario_titulo" schema="seguridad">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="act_det_presupuesto" schema="activos"></table>
+</hibernate-reverse-engineering>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select id_medida as idMedida, abv_medida as abvMedida,
+		nom_medida as nomMedida from registro.medida;
+	</sql>
+	<sql-params scope="request" />
+	<columns id="idColumns">
+		<column id="codUnidadMedida" title="Código" select="idMedida"
+			script="yes" />
+		<column id="abvMedida" title="Abreviatura" select="abvMedida"
+			script="yes" />
+		<column id="nomMedida" title="Nombre" select="nomMedida"
+			script="yes" />
+	</columns>
+	<messages>Unidades de Medida</messages>
+</lov>

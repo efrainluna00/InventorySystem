@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lov>
+	<sql type-sql="preparedstatement">
+		select distinct b.cod_bodega as codBodega, b.nombre as
+		bodegaDes, ubicacion from inventario.inv_existencia ex,
+		inventario.inv_bodega b where ex.cod_bodega = b.cod_bodega and
+		ex.cod_recurso = ?
+	</sql>
+	<sql-params scope="request">
+		<sql-param id="codRecurso" position="1" />
+	</sql-params>
+	<columns id="idColumns">
+		<column id="codBodega" title="Código" select="codBodega"
+			script="yes" />
+		<column id="bodegaDes" title="Nombre" select="bodegaDes"
+			script="yes" />
+		<column id="ubicacion" title="Ubicación" select="ubicacion"
+			script="no" />
+	</columns>
+	<messages>com.saldei.web</messages>
+</lov>

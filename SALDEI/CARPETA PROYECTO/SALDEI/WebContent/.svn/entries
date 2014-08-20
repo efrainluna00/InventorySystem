@@ -1,0 +1,55 @@
+8
+
+dir
+391
+http://subversion.assembla.com/svn/SALDEI/SISTEMA/SALDEI/WebContent
+http://subversion.assembla.com/svn/SALDEI
+
+
+
+2009-09-16T04:08:10.371623Z
+391
+boris.saldei
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+080cfd25-d5d9-4c59-82ea-70d02a200d8b
+
+META-INF
+dir
+
+xml
+dir
+
+plantillas
+dir
+
+html
+dir
+
+images
+dir
+
+WEB-INF
+dir
+
+css
+dir
+
+reportesJasper
+dir
+
+js
+dir
+
